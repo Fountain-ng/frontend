@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+.services{
+    padding: 10% 10%;
+    background-color: #111111;
+    min-height: 700px;
+}
+
+.services__container{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    /* border: 5px solid #fff; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #fff;
+    gap: 100px;
+    font-family: 'sora';
+}
+
+.services__container-1{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 25px;
+}
+.services__container-1-1{
+    display: flex;
+    align-items: center;
+    filter: invert(84%) sepia(39%) saturate(548%) hue-rotate(35deg) brightness(103%) contrast(92%);
+}
+.services__container-1-img{
+    color: #D7FC70;
+}
+.services__title{
+    font-size: 19px;
+}
+.services__container-1-description{
+    font-size: 30px;
+    font-family: 'sora';
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 1.5px;
+}
+.services__container-1-text{
+    font-size: 15px;
+    font-family: 'sora';
+    font-weight: 300;
+    line-height: 24px;
+}
+.services__container-1-cta{
+    font-size: 15px;
+    font-family: 'sora';
+    font-weight: 300;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #D7FC70;
+}
+.services__container-1-cta-img{
+    filter: invert(84%) sepia(39%) saturate(548%) hue-rotate(35deg) brightness(103%) contrast(92%);
+}
+
+.services__container-4{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 25px;
+}
+.services__container-4-4{
+    display: flex;
+    align-items: center;
+    filter: invert(84%) sepia(39%) saturate(548%) hue-rotate(35deg) brightness(103%) contrast(92%);
+}
+.services__container-4-img{
+    color: #D7FC70;
+}
+.services__container-1-cta:hover{
+    border: 1px solid #D7FC70;
+}

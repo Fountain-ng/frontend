@@ -1,0 +1,67 @@
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.footer{
+    background-color: #111111;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__container{
+    width: 900px;
+    height: 250px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* border: 2px solid #ddd; */
+}
+.footer__content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+.footer__content p{
+    color: #fff;
+    font-family: 'sora';
+    font-size: 15px;
+}
+.footer__content-2{
+    display: flex;
+    gap: 60px;
+}
+.footer__text{
+    color: #D7FC70;
+    font-family: 'sora';
+    font-size: 16px;
+}
+.footer__blog{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+.footer__blog a {
+    font-size: 14px;
+    font-family: 'sora';
+}
+.footer__jobs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+.footer__jobs a {
+    font-size: 14px;
+    font-family: 'sora';
+}
+.footer__socials{
+    display: flex;
+    margin-top: 60px;
+    gap: 20px;
+}
