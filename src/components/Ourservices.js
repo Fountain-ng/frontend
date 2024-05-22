@@ -32,14 +32,16 @@ const Services = () => {
           <Image 
             src="/01.png"
             alt="Fountain Beverages"
+            className="services__container-2-img"
             width={400}
             height={500}
           />
         </div>
         <div className="services__container-3">
           <Image 
-            src="/01 (1).png"
+            src="/man.png"
             alt="Love for Nature"
+            className="services__container-3-img"
             width={400}
             height={500}
           />
@@ -61,8 +63,8 @@ const Services = () => {
           <Image
             src="/bx-right-arrow-alt.svg"
             className="services__container-1-cta-img"
-            width={30}
-            height={30}
+            width={25}
+            height={25}
           />
           </a>
         </div>

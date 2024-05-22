@@ -25,6 +25,7 @@ const brands = () => {
                     <Image
                         src="/water2.png"
                         alt="brand3"
+                        className="water-bg"
                         width={300}
                         height={300}
                     />
@@ -38,6 +39,7 @@ const brands = () => {
                     <Image
                         src="/pack.png"
                         alt="brand3"
+                        className="brand-content-img-2"
                         width={385}
                         height={300}
                     />
