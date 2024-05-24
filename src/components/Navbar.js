@@ -23,22 +23,22 @@ const Navbar = () => {
           width={200}
           height={40}
         />
-      <ul className={`navbar__menu ${isMenuOpen ? 'navbar__menu--open' : ''}`}>
+      <ul className={`navbar__menu-normal ${isMenuOpen ? 'navbar__menu--open' : ''}`}>
         <li className="navbar__item">
-          <Link href="/" className="navbar__link">HOME</Link>
+          <Link href="/" className="navbar__link-normal">HOME</Link>
         </li>
         <li className="navbar__item">
-          <Link href="#" className="navbar__link">SHOP</Link>
+          <Link href="/carabao" className="navbar__link-normal">SHOP</Link>
         </li>
         <li className="navbar__item">
-          <Link href="#" className="navbar__link">STORES</Link>
+          <Link href="#" className="navbar__link-normal">STORES</Link>
         </li>
         {user ? (
-          <Link href="/profile" className="navbar__link log-in">
+          <Link href="/profile" className="navbar__link-normal log-in">
             PROFILE
           </Link>
         ) : (
-          <Link href="/sign-in" className="navbar__link log-in">
+          <Link href="/sign-in" className="navbar__link-normal log-in">
             LOG IN
           </Link>
         )}
@@ -48,7 +48,7 @@ const Navbar = () => {
         <a href="#" className="navbar__cta-btn">
           <Image 
             src="/bx-cart.svg"
-            className="navbar__cta-img"
+            className="navbar__cta-img-normal"
             width={30}
             height={30}
           />
@@ -56,7 +56,7 @@ const Navbar = () => {
         <Link href={user ? "/profile" : "/sign-in"} className="navbar__cta-btn">
           <Image 
             src="/bx-user.svg"
-            className="navbar__cta-img"
+            className="navbar__cta-img-normal"
             width={30}
             height={30}
           />

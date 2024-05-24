@@ -19,21 +19,21 @@
 
 .element-1{
     position: absolute;
-    left: 6.5%;
-    top: 17%;
+    left: 8%;
+    top: 18.5%;
 
 }
 .element-2{
     position: absolute;
     /* top: 200px; */
-    top: 25%;
-    left: 6.5%;
+    top: 27.5%;
+    left: 8%;
     
 }
 .element-3{
     position: absolute;
     top: 25%;
-    right: 36%;
+    right: 37.5%;
     z-index: 0;
 }
 .brands__content{
@@ -50,6 +50,22 @@
 .brands__content p{
     font-size: 15px;
     font-family: 'sora';
+}
+.brands__content-btn{
+    width: 180px;
+    height: 55px;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    background: #146B38;
+}
+.brands__content-btn:hover{
+    background-color: transparent;
+    border: 1px solid #000;
 }
 
 @media (max-width: 1199px){
@@ -113,7 +129,8 @@
         align-items: center;
         justify-content: center;
         gap: 50px;
-        height: 400px;
+        max-width: 550px;
+        height: 500px;
         padding: 30px 20px;
     }
     .element-1{
@@ -129,7 +146,6 @@
     .brands__content{
         display: flex;
         flex-direction: column;
-        /*  */
         gap: 20px;
         width: 250px;
         color: #000000;
@@ -141,5 +157,19 @@
     .brands__content p{
         font-size: 12px;
         font-family: 'sora';
+    }
+    .brands__content-btn{
+        width: 160px;
+        height: 45px;
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 380px){
+    .brands__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 200px;
     }
 }

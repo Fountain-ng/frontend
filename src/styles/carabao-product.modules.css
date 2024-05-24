@@ -8,7 +8,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 20px 5%;
-    background-color: #146B38;
+    background-color: #00945E;
 }
 .navbar__menu-logout{
     display: flex;
@@ -16,9 +16,10 @@ header{
 }
 .navbar__link-logout{
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 700;
     padding: 10px 20px;
+    font-family: 'CustomFont', sans-serif;
     color: #ffffff;
     transition: all .42s ease;
 }
@@ -50,89 +51,91 @@ header{
     transform: scale(1.1);
 }
 
-.profile{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: "Nanum Gothic", sans-serif;
-    justify-content: center;
-    margin-top: 60px;
-}
-.profile-header{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-    gap: 25px;
-}
-.profile-header h1{
-    color: #146B38;
-    font-family: "Nanum Gothic", sans-serif;
-    font-weight: 800;
-}
-.logout-btn{
-    /* color: #ffffff; */
-    border: none;
-    background-color: transparent;
-    border-bottom: 3px solid #000000;
-    cursor: pointer;
-    padding-bottom: 5px;
-    font-size: 20px;
-    transition: all .42s ease;
-    font-family: "Nanum Gothic", sans-serif;
-}
-.profile-content{
+.carabao-real__container{
     display: flex;
     align-items: flex-start;
-    justify-content: space-around;
-    gap: 200px;
-    margin-top: 30px;
-    
-    
+    justify-content: space-between;
+    padding: 80px 5%;
 }
-.profile-orders, .profile-details{
+
+.carabao-real__content{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    align-items: flex-start;
+    max-width: 400px;
+    gap: 15px;
+}
+.carabao-real__title{
+    font-size: 40px;
+    color: #00945E;
+}
+.carabao-real__price, .carabao-real__size{
+    font-size: 17px;
+    color: #000000;
+}
+.price-span{
+    text-decoration: line-through;
+    padding-right: 10px;
+}
+.carabao-real__select{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000000;
+    padding-bottom:7px;
+}
+.carabao-real__cta{
+    width: 100%;
+}
+.carabao-real__cta-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: #00945E;
+    border: none;
+}
+.carabao-real__cta-btn:hover{
+    transition: all .42s ease;
+    background-color: #00603d;
+}
+#quantity{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000000;
+    font-size: 17px;
 }
 
-
-@media(max-width: 770px){
-    .profile-content{
-        max-width: 600px;
-        margin-right: 0px;
-    }
-}
-@media(max-width: 595px){
-    .navbar__menu-logout, .navbar__cta-btn{
-        display: none;
-    }
-    .profile-content{
-        max-width: 400px;
-        margin-right: 0px;
-    }
-}
-@media(max-width: 480px){
-    .profile-content{
-        display: flex;
+@media (max-width: 768px){
+    .carabao-real__container{
         flex-direction: column;
-        gap: 40px;
-        align-items: flex-start;
-        justify-content: center;
+        align-items: center;
+        gap: 50px;
     }
-    .profile-orders, .profile-details{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
+    .carabao-real__title {
+        font-size: 40px;
+        color: #00945E;
+        width: 100%;
     }
-    .profile-orders h2, .profile-details h2{
-        font-size: 20px;
-    }
-    .profile-orders p, .profile-details p{
-        font-size: 16px;
-    }
+}
 
+@media(max-width:595px){
+    .drink-pack-2{
+        max-width: 350px;
+        max-height: 350px;
+    }
+    .carabao-real__title {
+        font-size: 35px;
+    }
     .navbar__cta-btn-menu-logout{
         display: flex;
     }
@@ -154,16 +157,13 @@ header{
         top: 95%;
         right: 0.0%;
         padding-top: 30px;
-        background-color: #146B38;
+        background-color: #00945E;
         color: #fff;
         width: 50%;
         height: 66vh;
         overflow-y: auto;
         opacity: 1;
       }
-    .navbar__link{  
-        color: #fff;
-    }
     .navbar__cta-btn {
       display: none;
     }
@@ -176,5 +176,18 @@ header{
   
     .navbar__cta-menu {
       display: block;
+    }
+    .navbar__menu-logout, .navbar__cta-btn{
+        display: none;
+    }
+}
+
+@media(max-width:595px){
+    .carabao-real__title {
+        font-size: 28px;
+    }
+    .drink-pack-2{
+        max-width: 300px;
+        max-height: 300px;
     }
 }

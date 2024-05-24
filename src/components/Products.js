@@ -47,7 +47,7 @@ const Products = () => {
         </div>
         <p className="product__name">Carabao Energy Drink</p>
       </div>
-        <a href="#" className="product__cta">SHOP NOW</a>
+        <a href="/carabao" className="product__cta">SHOP NOW</a>
       </div>
       </div>
     </section>

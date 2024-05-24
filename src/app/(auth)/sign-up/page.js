@@ -84,14 +84,14 @@ const SignUp = () => {
           height={30}
           />
         </Link>
-        <a href="" className="navbar__cta-btn">
+        <button className="navbar__cta-btn menu">
           <Image 
           src="/bx-menu.svg"
           className="navbar__cta-menu"
           width={30}
           height={30}
           />
-        </a>
+        </button>
       </div>
     </header>
     <section className="SignUp">

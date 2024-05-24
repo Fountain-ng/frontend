@@ -12,6 +12,7 @@ header{
 .navbar__menu{
     display: flex;
     align-items: center;
+    gap: 35px;
 }
 .navbar__link{
     text-decoration: none;
@@ -57,25 +58,14 @@ header{
 
 
 
-
-
-
-/* @media (max-width: 1199px){
-
-}
-
-@media (max-width: 991px){
-
-} */
-
 @media (max-width: 768px){
     .navbar__cta-menu{
         display: flex;
         filter: brightness(0) invert(1);
     }
-    .navbar__cta-img, .navbar__menu{
+    /* .navbar__cta-img, .navbar__menu{
         display: none;
-    }
+    } */
     .SignIn__container{
         width: 100%;
         
@@ -87,6 +77,9 @@ header{
     .fountain-logo{
         width: 150px;
         height: 30px;
+    }
+    .navbar__cta-img, .navbar__menu{
+        display: none;
     }
 }
 

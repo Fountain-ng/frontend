@@ -100,7 +100,7 @@
         font-size: 1rem;
     }
     .hero__cta{
-        top: 67%;
+        visibility: hidden;
     }
     .hero__content{
         width: 350px;

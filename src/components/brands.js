@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/brands.modules.css";
 import Image from 'next/image';
+import Link from 'next/link';
 
 const brands = () => {
     return (
@@ -35,6 +36,7 @@ const brands = () => {
                     <h2>Explore our Brands</h2>
                     <p>Take your time to go through our products to see and make informed decision.</p>
                 </div>
+                <a href= "/carabao" className="brands__content-btn">See all</a> 
                 <div className="brand-content-img">
                     <Image
                         src="/pack.png"

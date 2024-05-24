@@ -61,6 +61,7 @@ header{
 }
 .input-btn{
     font-family: "Nanum Gothic", sans-serif;
+    border: none;
 }
 
 .form{
@@ -86,9 +87,6 @@ header{
         display: flex;
         filter: brightness(0) invert(1);
     }
-    .navbar__cta-img, .navbar__menu{
-        display: none;
-    }
     .SignUp__container{
         width: 100%;
         
@@ -100,6 +98,9 @@ header{
     .fountain-logo{
         width: 150px;
         height: 30px;
+    }
+    .navbar__cta-img, .navbar__menu{
+        display: none;
     }
 }
 
