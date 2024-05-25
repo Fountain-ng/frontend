@@ -2,7 +2,6 @@
 import React from "react";
 import "../styles/Navbar.modules.css";
 import { useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { useAuth } from '../context/Authcontext';
 
@@ -17,9 +16,10 @@ const Navbar = () => {
 
   return (
     <header className="land-navbar">
-        <Image
+        <img
           src="/Fountain official logo dark txtAsset 4@4x-8 (1).png"
           alt="Fountain FMCG Logo"
+          className="land-navbar-img"
           width={200}
           height={40}
         />
@@ -46,7 +46,7 @@ const Navbar = () => {
 
       <div className="navbar__cta">
         <a href="#" className="navbar__cta-btn">
-          <Image 
+          <img 
             src="/bx-cart.svg"
             className="navbar__cta-img-normal"
             alt="cart icon"
@@ -55,7 +55,7 @@ const Navbar = () => {
           />
         </a>
         <Link href={user ? "/profile" : "/sign-in"} className="navbar__cta-btn">
-          <Image 
+          <img
             src="/bx-user.svg"
             className="navbar__cta-img-normal"
             alt="user icon"
@@ -65,14 +65,14 @@ const Navbar = () => {
         </Link>
         <button className="navbar__cta-btn-menu" onClick={handleMenuToggle}>  
         {isMenuOpen ? (
-          <Image
+          <img
             src="/bx-x.svg"
             alt="Menu close button"
             width={30}
             height={30}
           />
         ) : (
-          <Image
+          <img
             src="/bx-menu.svg"
             alt="Menu toggle button"
             width={30}

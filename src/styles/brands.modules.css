@@ -42,6 +42,7 @@
     gap: 20px;
     width: 400px;
     color: #000000;
+    position: relative;
 }
 .brands__content h2{
     font-size: 50px;
@@ -62,10 +63,14 @@
     border: none;
     border-radius: 5px;
     background: #146B38;
+    position: absolute;
+    bottom: -40%;
+    transition: all 0.42s ease;
 }
 .brands__content-btn:hover{
     background-color: transparent;
-    border: 1px solid #000;
+    border: 2px solid #146B38;
+    color: #000;
 }
 
 @media (max-width: 1199px){

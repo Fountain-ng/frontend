@@ -72,6 +72,8 @@
   @media (max-width: 479px) {
     .navbar__cta-btn-menu{
         display: flex;
+        background-color: transparent;
+        border: none;
     }
     .navbar__menu-normal {
         display: none; 
@@ -121,6 +123,10 @@
 @media (max-width: 379px){
     .navbar__menu.navbar__menu--open {
         width: 230px;
+    }
+    .land-navbar-img{
+      width: 160px;
+      height: 30px;
     }
 }
 @media (max-width: 325px){

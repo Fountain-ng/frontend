@@ -1,13 +1,12 @@
 import React from "react";
 import "../styles/Hero.modules.css";
-import Image from 'next/image';
 
 const Hero = () => {
   return (
     <section className="hero">
       <div className="hero__content">
         <div className="hero__img">
-          <Image
+          <img
             src="/remove-outline.svg"
             alt="Fountain Beverages"
             width={80}

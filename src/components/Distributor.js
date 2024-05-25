@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/Distributor.modules.css";
-import Image from "next/image";
 
 const Distributor = () => {
   return (
@@ -12,7 +11,7 @@ const Distributor = () => {
                 <a href= "#" className="distributor__button">Apply Now</a>
             </div>
             <div className="distributor__image">
-                <Image
+                <img
                     src="/distributor.png"
                     alt="distributor"
                     className="distributor__img"

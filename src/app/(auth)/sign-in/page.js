@@ -4,7 +4,6 @@ import { useRouter } from 'next/navigation';
 import AuthForm from '../../../components/AuthForm';
 import { useAuth } from '../../../context/Authcontext';
 import '../../../styles/Sign-in.modules.css';
-import Image from 'next/image';
 import Link from 'next/link';
 
 const SignIn = () => {
@@ -41,7 +40,7 @@ const SignIn = () => {
     <>
     <header>
       <a href="#" className="header__logo">
-        <Image
+        <img
           src="/Fountain official logo white txtAsset 3@4x-8.png"
           alt="Fountain FMCG Logo"
           className='fountain-logo'
@@ -72,7 +71,7 @@ const SignIn = () => {
           />
         </Link> */}
         <Link href="#" className="navbar__cta-btn">
-          <Image 
+          <img
           src="/bx-cart.svg"
           className="navbar__cta-img"
           alt="cart icon"
@@ -81,7 +80,7 @@ const SignIn = () => {
           />
         </Link>
         <Link href="/sign-in" className="navbar__cta-btn">
-          <Image 
+          <img 
           src="/bx-user.svg"
           className="navbar__cta-img"
           alt='user icon'
@@ -90,7 +89,7 @@ const SignIn = () => {
           />
         </Link>
         <button className="navbar__cta-btn menu">
-          <Image 
+          <img
           src="/bx-menu.svg"
           className="navbar__cta-menu"
           alt='menu icon'

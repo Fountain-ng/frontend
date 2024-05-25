@@ -2,7 +2,6 @@
 import { useState } from 'react';
 // import { useRouter } from 'next/router';
 import '../../../styles/Sign-up.modules.css';
-import Image from 'next/image';
 import Link from 'next/link';
 
 const SignUp = () => {
@@ -38,7 +37,7 @@ const SignUp = () => {
     <>
     <header>
       <a href="#" className="header__logo">
-        <Image
+        <img
           src="/Fountain official logo white txtAsset 3@4x-8.png"
           alt="Fountain FMCG Logo"
           className='fountain-logo'
@@ -69,7 +68,7 @@ const SignUp = () => {
           />
         </a> */}
         <a href="#" className="navbar__cta-btn">
-          <Image 
+          <img
           src="/bx-cart.svg"
           alt='cart-icon'
           className="navbar__cta-img"
@@ -78,7 +77,7 @@ const SignUp = () => {
           />
         </a>
         <Link href="/sign-in" className="navbar__cta-btn">
-          <Image 
+          <img
           src="/bx-user.svg"
           alt='user-icon'
           className="navbar__cta-img"
@@ -87,7 +86,7 @@ const SignUp = () => {
           />
         </Link>
         <button className="navbar__cta-btn menu">
-          <Image 
+          <img
           src="/bx-menu.svg"
           alt='menu-icon'
           className="navbar__cta-menu"

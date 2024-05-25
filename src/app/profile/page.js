@@ -2,7 +2,6 @@
 
 import { useAuth } from '../../context/Authcontext';
 import Link from 'next/link';
-import Image from 'next/image';
 import { useState } from 'react';
 import React from 'react';
 import '../../styles/profiles.modules.css';
@@ -25,7 +24,7 @@ const Profile = () => {
     <>
     <header>
       <a href="#" className="header__logo">
-        <Image
+        <img
           src="/Fountain official logo white txtAsset 3@4x-8.png"
           alt="Fountain FMCG Logo"
           className='fountain-logo'
@@ -56,7 +55,7 @@ const Profile = () => {
           />
         </Link> */}
         <Link href="#" className="navbar__cta-btn">
-          <Image 
+          <img
           src="/bx-cart.svg"
           alt='cart-icon'
           className="navbar__cta-img-logout"
@@ -74,14 +73,14 @@ const Profile = () => {
         </Link> */}
         <button className="navbar__cta-btn-menu-logout" onClick={handleMenuToggle}>  
         {isMenuOpen ? (
-          <Image
+          <img
             src="/bx-x.svg"
             alt="Menu close button"
             width={30}
             height={30}
           />
         ) : (
-          <Image
+          <img
             src="/bx-menu.svg"
             alt="Menu toggle button"
             width={30}

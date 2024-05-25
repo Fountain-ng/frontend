@@ -1,5 +1,4 @@
 import React from "react";
-import Image from 'next/image';
 import "../styles/Services.modules.css";
 
 const Services = () => {
@@ -8,7 +7,7 @@ const Services = () => {
       <div className="services__container">
         <div className="services__container-1">
           <div className="services__container-1-1">
-            <Image
+            <img
               src="/remove-outline.svg"
               alt="Fountain Beverages"
               className="services__container-1-img"
@@ -20,7 +19,7 @@ const Services = () => {
           <h1 className="services__container-1-description">What are we <br></br> about?</h1>
           <p className="services__container-1-text">Determining what level of hiker you are can be an important tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various websites like All Trails and Modern Hiker. What type of hiker are you – novice, moderate, advanced moderate, expert, or expert backpacker? </p>
           <a href="#footer" className="services__container-1-cta">Learn More
-          <Image
+          <img
             src="/bx-right-arrow-alt.svg"
             className="services__container-1-cta-img"
             alt="right arrow"
@@ -30,7 +29,7 @@ const Services = () => {
           </a>
         </div>
         <div className="services__container-2">
-          <Image 
+          <img 
             src="/01.png"
             alt="Fountain Beverages"
             className="services__container-2-img"
@@ -39,7 +38,7 @@ const Services = () => {
           />
         </div>
         <div className="services__container-3">
-          <Image 
+          <img
             src="/man.png"
             alt="Love for Nature"
             className="services__container-3-img"
@@ -49,7 +48,7 @@ const Services = () => {
         </div>
         <div className="services__container-4">
           <div className="services__container-4-4">
-            <Image
+            <img
               src="/remove-outline.svg"
               alt="Fountain Beverages"
               className="services__container-4-img"
@@ -61,7 +60,7 @@ const Services = () => {
           <h1 className="services__container-1-description">What we offer?</h1>
           <p className="services__container-1-text">Lorem ipsum dolor sit amet consectetur. Mi luctus egestas nibh ut turpis ante nunc. Interdum gravida eleifend gravida molestie amet faucibus. Nunc eget duis faucibus neque. Varius amet faucibus sed volutpat imperdiet leo in at ornare.</p>
           <a href="#footer" className="services__container-1-cta">Read More
-          <Image
+          <img
             src="/bx-right-arrow-alt.svg"
             className="services__container-1-cta-img"
             alt="right arrow"

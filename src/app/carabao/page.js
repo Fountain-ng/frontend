@@ -1,6 +1,5 @@
 'use client';
 import Link from 'next/link';
-import Image from 'next/image';
 import { useState } from 'react';
 import React from 'react';
 import '../../styles/all-brands.modules.css';
@@ -18,7 +17,7 @@ const AllBrands = () => {
         <>
         <header>
           <div className='carabao-fountain'>
-            <Image
+            <img
             src="/Fountain official logo white txtAsset 3@4x-8.png"
             alt="Fountain FMCG Logo"
             className='fountain-logo'
@@ -49,7 +48,7 @@ const AllBrands = () => {
           />
         </Link> */}
         <Link href="#" className="navbar__cta-btn">
-          <Image 
+          <img
           src="/bx-cart.svg"
           className="navbar__cta-img-logout"
           alt='cart icon'
@@ -67,14 +66,14 @@ const AllBrands = () => {
         </Link> */}
         <button className="navbar__cta-btn-menu-logout" onClick={handleMenuToggle}>  
         {isMenuOpen ? (
-          <Image
+          <img
             src="/bx-x.svg"
             alt="Menu close button"
             width={30}
             height={30}
           />
         ) : (
-          <Image
+          <img
             src="/bx-menu.svg"
             alt="Menu toggle button"
             width={30}
@@ -88,7 +87,7 @@ const AllBrands = () => {
     <section className='all-brands'>
         <div className='all-brands_container'>
             <div className='all-brands__content'>
-                <Image
+                <img
                 src='/text-on-banner.png'
                 alt='Carabao logo'
                 className='brand-main-img'
@@ -98,7 +97,7 @@ const AllBrands = () => {
                 <a href='/carabao/products' className='all-brands__cta'>VIEW PRODUCTS</a>
             </div>
             <div className='all-brands__brands'>
-                <Image
+                <img
                 src='/carabao_product_image_new.png'
                 alt='Product image'
                 className='carabao_product_image_new'
@@ -111,7 +110,7 @@ const AllBrands = () => {
     <section className='all-brands-products'>
         <h1 className='all-brands-products__title'>OUR PRODUCTS</h1>
         <div className='all-brands-products__container'>
-            <Image 
+            <img 
             src='/Original-01.png'
             alt='Product image'
             className='all-brands-img'
@@ -127,7 +126,7 @@ const AllBrands = () => {
     <section className='carabao-details'>
       <div className='carabao-details__container'>
         <div className='carabao-details__content'>
-          <Image
+          <img
             src="/fruits.png"
             alt='Carabao energy fruits'
             width={120}
@@ -137,7 +136,7 @@ const AllBrands = () => {
           <p className='fruity-name'>Five refreshingly light fruity flavours, each taste just like a soft drink!</p>
         </div>
         <div className='carabao-details__content'>
-          <Image
+          <img
             src="/games.png"
             alt='Carabao energy fruits'
             width={120}
@@ -147,7 +146,7 @@ const AllBrands = () => {
           <p className='fruity-name'>Pre-workout at the gym, coffee-substitute at a desk or mixer at a party!</p>
         </div>
         <div className='carabao-details__content'>
-          <Image
+          <img
             src="/sugar.png"
             alt='Carabao energy fruits'
             width={120}
@@ -157,7 +156,7 @@ const AllBrands = () => {
           <p className='fruity-name'>Carabao Energy Drink has no fat, low salt and lower sugar - half the sugar of traditional energy drinks.</p>
         </div>
         <div className='carabao-details__content'>
-          <Image
+          <img
             src="/calorie.png"
             alt='Carabao energy fruits'
             width={120}
@@ -167,7 +166,7 @@ const AllBrands = () => {
           <p className='fruity-name'>63 cal or less per can, so no guilt or hidden calories to ruin your diet or nutrition plan.</p>
         </div>
         <div className='carabao-details__content'>
-          <Image
+          <img
             src="/bottle.png"
             alt='Carabao energy fruits'
             width={120}
@@ -177,7 +176,7 @@ const AllBrands = () => {
           <p className='fruity-name'>Get an energy boost without crash thanks to our unique formula of sugar, caffeine and B vitamins.</p>
         </div>
         <div className='carabao-details__content'>
-          <Image
+          <img
             src="/check.png"
             alt='Carabao energy fruits'
             width={120}
@@ -191,7 +190,7 @@ const AllBrands = () => {
     <footer className="footer">
       <div className="footer__container">
         <div className="footer__content">
-          <Image
+          <img
             src="/Fountain official logo dark txtAsset 4@4x-8 (1).png"
             alt="logo"
             width="180"
@@ -217,7 +216,7 @@ const AllBrands = () => {
               <a href="#" target="_blank" rel="noreferrer">Press</a>
               <div className="footer__socials">
               <a href="#" target="_blank" rel="noreferrer">
-                <Image
+                <img
                   src="/Group.svg"
                   alt="facebook"
                   width="20"
@@ -225,7 +224,7 @@ const AllBrands = () => {
                 />
               </a>
               <a href="#" target="_blank" rel="noreferrer">
-                <Image
+                <img
                   src="/Group (1).svg"
                   alt="twitter"
                   width="20"
@@ -233,7 +232,7 @@ const AllBrands = () => {
                 />
               </a>
               <a href="#" target="_blank" rel="noreferrer">
-                <Image
+                <img
                   src="/Group (2).svg"
                   alt="instagram"
                   width="20"

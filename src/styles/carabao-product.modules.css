@@ -138,6 +138,8 @@ header{
     }
     .navbar__cta-btn-menu-logout{
         display: flex;
+        background-color: transparent;
+        border: none;
     }
     .navbar__menu-2 {
         display: none; 

@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/Product.modules.css";
-import Image from 'next/image';
 
 const Products = () => {
   return (
@@ -10,7 +9,7 @@ const Products = () => {
       </div>
       <div className="product__btns">
         <a href="#" className="product__btn">
-          <Image
+          <img
             src="/bx-chevron-left.svg"
             className="product__btn-img"
             alt="Previous"
@@ -19,7 +18,7 @@ const Products = () => {
           />
         </a>
         <a href="#" className="product__btn">
-          <Image
+          <img
             src="/bx-chevron-right.svg"
             className="product__btn-img"
             alt="Next"
@@ -38,7 +37,7 @@ const Products = () => {
       <div className="column">
       <div className="product__content-img">
         <div className="product__img">
-          <Image
+          <img
             src="/drink.png"
             alt="Carabao Energy Drink Original"
             width={300}
