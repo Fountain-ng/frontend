@@ -45,7 +45,7 @@ const Navbar = () => {
       </ul>
 
       <div className="navbar__cta">
-        <a href="#" className="navbar__cta-btn">
+        <a href="/carabao/products" className="navbar__cta-btn">
           <img 
             src="/bx-cart.svg"
             className="navbar__cta-img-normal"
