@@ -31,7 +31,7 @@ const AllBrands = () => {
             <Link href="/" className="navbar__link-logout">HOME</Link>
         </li>
         <li className="navbar__item">
-          <Link href="#products" className="navbar__link-logout">SHOP</Link>
+          <Link href="/carabao" className="navbar__link-logout">SHOP</Link>
         </li>
         <li className="navbar__item">
           <Link href="#footer" className="navbar__link-logout">STORES</Link>

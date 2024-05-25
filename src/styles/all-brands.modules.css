@@ -336,6 +336,9 @@ a{
     }
     .navbar__cta-btn-menu-logout{
         display: flex;
+        background-color: transparent;
+        border: none;
+        filter: invert(100%) brightness(100%) contrast(100%);
     }
     .navbar__menu-2 {
         display: none; 

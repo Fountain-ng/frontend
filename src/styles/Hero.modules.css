@@ -89,12 +89,8 @@
     .hero{
         height: 500px;
     }
-    /* .hero__content{
-        display: flex;
-        align-items: flex-start;
-    } */
     .hero__title{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     .hero__description{
         font-size: 1rem;
@@ -116,10 +112,10 @@
         height: 330px;
     }
     .hero__title{
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     .hero__description{
-        font-size: 0.8rem;
+        font-size: 0.85rem;
         text-align: center;
     }
     .hero__content a{

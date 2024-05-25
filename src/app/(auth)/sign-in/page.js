@@ -54,7 +54,7 @@ const SignIn = () => {
             <Link href="/" className="navbar__link">HOME</Link>
         </li>
         <li className="navbar__item">
-          <Link href="#products" className="navbar__link">SHOP</Link>
+          <Link href="/carabao" className="navbar__link">SHOP</Link>
         </li>
         <li className="navbar__item">
           <Link href="#footer" className="navbar__link">STORES</Link>

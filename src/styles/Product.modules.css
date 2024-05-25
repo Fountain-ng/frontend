@@ -157,11 +157,18 @@
     }
      
 }
-
-@media (max-width: 390px){
-    .product__btns{
-        margin-right: 110px;
+@media(max-width: 479px){
+    .product__btns {
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+        margin-right: 0px;
     }
+}
+@media (max-width: 390px){
+    /* .product__btns{
+        margin-right: 110px;
+    } */
     .product__heading{
         font-size: 27px;
         line-height: 40px;
@@ -174,9 +181,6 @@
     }
 }
 @media (max-width: 350px){
-    .product__btns{
-        margin-right: 110px;
-    }
     .product__heading{
         font-size: 27px;
         line-height: 40px;

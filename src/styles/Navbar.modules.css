@@ -74,6 +74,7 @@
         display: flex;
         background-color: transparent;
         border: none;
+        transition: all 0.4s ease-in-out;
     }
     .navbar__menu-normal {
         display: none; 
@@ -90,6 +91,7 @@
         position: absolute;
         align-items: center;
         gap: 30px;
+        transition: all 0.4s ease-in-out;
         top: 95%;
         right: 0.0%;
         padding-top: 30px;
@@ -123,6 +125,7 @@
 @media (max-width: 379px){
     .navbar__menu.navbar__menu--open {
         width: 230px;
+        transition: all 0.4s ease-in-out;
     }
     .land-navbar-img{
       width: 160px;

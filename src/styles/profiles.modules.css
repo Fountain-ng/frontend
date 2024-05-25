@@ -107,6 +107,7 @@ header{
 @media(max-width: 595px){
     .navbar__menu-logout, .navbar__cta-btn{
         display: none;
+        background-color: transparent;
     }
     .profile-content{
         max-width: 400px;
@@ -135,6 +136,10 @@ header{
 
     .navbar__cta-btn-menu-logout{
         display: flex;
+        background-color: transparent;
+        border: none;
+        filter: invert(100%) brightness(100%) contrast(100%);
+        transition: all .4s ease-in-out;
     }
     .navbar__menu-2 {
         display: none; 
