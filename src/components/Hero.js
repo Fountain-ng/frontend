@@ -21,6 +21,7 @@ const Hero = () => {
         <Image
           src="/bx-down-arrow-alt.svg"
           className="hero__cta-img"
+          alt="down arrow"
           width={30}
           height={30}
         />

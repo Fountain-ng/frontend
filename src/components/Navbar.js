@@ -49,6 +49,7 @@ const Navbar = () => {
           <Image 
             src="/bx-cart.svg"
             className="navbar__cta-img-normal"
+            alt="cart icon"
             width={30}
             height={30}
           />
@@ -57,6 +58,7 @@ const Navbar = () => {
           <Image 
             src="/bx-user.svg"
             className="navbar__cta-img-normal"
+            alt="user icon"
             width={30}
             height={30}
           />

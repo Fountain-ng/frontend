@@ -23,6 +23,7 @@ const Services = () => {
           <Image
             src="/bx-right-arrow-alt.svg"
             className="services__container-1-cta-img"
+            alt="right arrow"
             width={20}
             height={20}
           />
@@ -63,6 +64,7 @@ const Services = () => {
           <Image
             src="/bx-right-arrow-alt.svg"
             className="services__container-1-cta-img"
+            alt="right arrow"
             width={25}
             height={25}
           />

@@ -75,6 +75,7 @@ const SignIn = () => {
           <Image 
           src="/bx-cart.svg"
           className="navbar__cta-img"
+          alt="cart icon"
           width={30}
           height={30}
           />
@@ -83,6 +84,7 @@ const SignIn = () => {
           <Image 
           src="/bx-user.svg"
           className="navbar__cta-img"
+          alt='user icon'
           width={30}
           height={30}
           />
@@ -91,6 +93,7 @@ const SignIn = () => {
           <Image 
           src="/bx-menu.svg"
           className="navbar__cta-menu"
+          alt='menu icon'
           width={30}
           height={30}
           />

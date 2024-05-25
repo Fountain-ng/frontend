@@ -6,7 +6,7 @@ import React from 'react';
 import '../../../styles/carabao-product.modules.css';
 
 
-const carabaoProducts = () => {
+const CarabaoProducts = () => {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -52,6 +52,7 @@ const carabaoProducts = () => {
           <Image 
           src="/bx-cart.svg"
           className="navbar__cta-img-logout"
+          alt='cart icon'
           width={30}
           height={30}
           />
@@ -121,4 +122,4 @@ const carabaoProducts = () => {
 }
 
 
-export default carabaoProducts;
+export default CarabaoProducts;

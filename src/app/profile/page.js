@@ -58,6 +58,7 @@ const Profile = () => {
         <Link href="#" className="navbar__cta-btn">
           <Image 
           src="/bx-cart.svg"
+          alt='cart-icon'
           className="navbar__cta-img-logout"
           width={30}
           height={30}
@@ -98,7 +99,7 @@ const Profile = () => {
         <div className='profile-content'>
             <div className='profile-orders'>
                 <h2>ORDER HISTORY</h2>
-                <p>You haven't placed any orders yet.</p>
+                <p>You haven&apos;t placed any orders yet.</p>
             </div>
             <div className='profile-details'>
                 <h2>ACCOUNT DETAILS</h2>

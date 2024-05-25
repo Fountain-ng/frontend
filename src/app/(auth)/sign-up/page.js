@@ -71,6 +71,7 @@ const SignUp = () => {
         <a href="#" className="navbar__cta-btn">
           <Image 
           src="/bx-cart.svg"
+          alt='cart-icon'
           className="navbar__cta-img"
           width={30}
           height={30}
@@ -79,6 +80,7 @@ const SignUp = () => {
         <Link href="/sign-in" className="navbar__cta-btn">
           <Image 
           src="/bx-user.svg"
+          alt='user-icon'
           className="navbar__cta-img"
           width={30}
           height={30}
@@ -87,6 +89,7 @@ const SignUp = () => {
         <button className="navbar__cta-btn menu">
           <Image 
           src="/bx-menu.svg"
+          alt='menu-icon'
           className="navbar__cta-menu"
           width={30}
           height={30}

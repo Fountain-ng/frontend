@@ -6,7 +6,7 @@ import React from 'react';
 import '../../styles/all-brands.modules.css';
 
 
-const allBrands = () => {
+const AllBrands = () => {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -52,6 +52,7 @@ const allBrands = () => {
           <Image 
           src="/bx-cart.svg"
           className="navbar__cta-img-logout"
+          alt='cart icon'
           width={30}
           height={30}
           />
@@ -250,4 +251,4 @@ const allBrands = () => {
 }
 
 
-export default allBrands;
+export default AllBrands;
