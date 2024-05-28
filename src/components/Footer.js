@@ -1,12 +1,13 @@
 import React from "react";
 import "../styles/Footer.modules.css";
+import Image from 'next/image';
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container">
         <div className="footer__content">
-          <img
+          <Image
             src="/Fountain official logo white txtAsset 3@4x-8.png"
             alt="logo"
             width="180"
@@ -32,7 +33,7 @@ const Footer = () => {
               <a href="#" target="_blank" rel="noreferrer">Press</a>
               <div className="footer__socials">
               <a href="#" target="_blank" rel="noreferrer">
-                <img
+                <Image
                   src="/Group.svg"
                   alt="facebook"
                   width="20"
@@ -40,7 +41,7 @@ const Footer = () => {
                 />
               </a>
               <a href="#" target="_blank" rel="noreferrer">
-                <img
+                <Image
                   src="/Group (1).svg"
                   alt="twitter"
                   width="20"
@@ -48,7 +49,7 @@ const Footer = () => {
                 />
               </a>
               <a href="#" target="_blank" rel="noreferrer">
-                <img
+                <Image
                   src="/Group (2).svg"
                   alt="instagram"
                   width="20"

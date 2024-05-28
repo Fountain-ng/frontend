@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import '../../styles/all-brands.modules.css';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import Image from 'next/image';
 
 const AllBrands = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -44,7 +45,7 @@ const AllBrands = () => {
     <>
       <header>
         <div className='carabao-fountain'>
-          <img
+          <Image
             src="/Fountain official logo white txtAsset 3@4x-8.png"
             alt="Fountain FMCG Logo"
             className='fountain-logo'
@@ -67,7 +68,7 @@ const AllBrands = () => {
 
         <div className="navbar__cta-logout">
           <Link href="#" className="navbar__cta-btn">
-            <img
+            <Image
               src="/bx-cart.svg"
               className="navbar__cta-img-logout"
               alt='cart icon'
@@ -77,14 +78,14 @@ const AllBrands = () => {
           </Link>
           <button className="navbar__cta-btn-menu-logout" onClick={handleMenuToggle}>
             {isMenuOpen ? (
-              <img
+              <Image
                 src="/bx-x.svg"
                 alt="Menu close button"
                 width={30}
                 height={30}
               />
             ) : (
-              <img
+              <Image
                 src="/bx-menu.svg"
                 alt="Menu toggle button"
                 width={30}
@@ -104,7 +105,7 @@ const AllBrands = () => {
             variants={containerVariants}
           >
             <motion.div className='all-brands__content' variants={itemVariants}>
-              <img
+              <Image
                 src='/text-on-banner.png'
                 alt='Carabao logo'
                 className='brand-main-img'
@@ -149,7 +150,7 @@ const AllBrands = () => {
         <section className='carabao-details'>
           <div className='carabao-details__container'>
             <motion.div className='carabao-details__content' variants={itemVariants}>
-              <img
+              <Image
                 src="/fruits.png"
                 alt='Carabao energy fruits'
                 width={120}
@@ -159,7 +160,7 @@ const AllBrands = () => {
               <p className='fruity-name'>Five refreshingly light fruity flavours, each taste just like a soft drink!</p>
             </motion.div>
             <motion.div className='carabao-details__content' variants={itemVariants}>
-              <img
+              <Image
                 src="/games.png"
                 alt='Carabao energy fruits'
                 width={120}
@@ -169,7 +170,7 @@ const AllBrands = () => {
               <p className='fruity-name'>Pre-workout at the gym, coffee-substitute at a desk or mixer at a party!</p>
             </motion.div>
             <motion.div className='carabao-details__content' variants={itemVariants}>
-              <img
+              <Image
                 src="/sugar.png"
                 alt='Carabao energy fruits'
                 width={120}
@@ -179,7 +180,7 @@ const AllBrands = () => {
               <p className='fruity-name'>Carabao Energy Drink has no fat, low salt and lower sugar - half the sugar of traditional energy drinks.</p>
             </motion.div>
             <motion.div className='carabao-details__content' variants={itemVariants}>
-              <img
+              <Image
                 src="/calorie.png"
                 alt='Carabao energy fruits'
                 width={120}
@@ -189,7 +190,7 @@ const AllBrands = () => {
               <p className='fruity-name'>63 cal or less per can, so no guilt or hidden calories to ruin your diet or nutrition plan.</p>
             </motion.div>
             <motion.div className='carabao-details__content' variants={itemVariants}>
-              <img
+              <Image
                 src="/bottle.png"
                 alt='Carabao energy fruits'
                 width={120}
@@ -199,7 +200,7 @@ const AllBrands = () => {
               <p className='fruity-name'>Get an energy boost without crash thanks to our unique formula of sugar, caffeine and B vitamins.</p>
             </motion.div>
             <motion.div className='carabao-details__content' variants={itemVariants}>
-              <img
+              <Image
                 src="/check.png"
                 alt='Carabao energy fruits'
                 width={120}
@@ -213,7 +214,7 @@ const AllBrands = () => {
         <footer className="footer">
           <div className="footer__container">
             <div className="footer__content">
-              <img
+              <Image
                 src="/Fountain official logo dark txtAsset 4@4x-8 (1).png"
                 alt="logo"
                 width="180"
@@ -239,7 +240,7 @@ const AllBrands = () => {
                 <a href="#" target="_blank" rel="noreferrer">Press</a>
                 <div className="footer__socials">
                   <a href="#" target="_blank" rel="noreferrer">
-                    <img
+                    <Image
                       src="/Group.svg"
                       alt="facebook"
                       width="20"
@@ -247,7 +248,7 @@ const AllBrands = () => {
                     />
                   </a>
                   <a href="#" target="_blank" rel="noreferrer">
-                    <img
+                    <Image
                       src="/Group (1).svg"
                       alt="twitter"
                       width="20"
@@ -255,7 +256,7 @@ const AllBrands = () => {
                     />
                   </a>
                   <a href="#" target="_blank" rel="noreferrer">
-                    <img
+                    <Image
                       src="/Group (2).svg"
                       alt="instagram"
                       width="20"

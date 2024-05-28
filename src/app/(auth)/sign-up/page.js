@@ -1,8 +1,8 @@
 'use client';
 import { useState } from 'react';
-// import { useRouter } from 'next/router';
 import '../../../styles/Sign-up.modules.css';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const SignUp = () => {
   // const router = useRouter();
@@ -37,7 +37,7 @@ const SignUp = () => {
     <>
     <header>
       <a href="#" className="header__logo">
-        <img
+        <Image
           src="/Fountain official logo white txtAsset 3@4x-8.png"
           alt="Fountain FMCG Logo"
           className='fountain-logo'
@@ -68,7 +68,7 @@ const SignUp = () => {
           />
         </a> */}
         <a href="#" className="navbar__cta-btn">
-          <img
+          <Image
           src="/bx-cart.svg"
           alt='cart-icon'
           className="navbar__cta-img"
@@ -77,7 +77,7 @@ const SignUp = () => {
           />
         </a>
         <Link href="/sign-in" className="navbar__cta-btn">
-          <img
+          <Image
           src="/bx-user.svg"
           alt='user-icon'
           className="navbar__cta-img"
@@ -86,7 +86,7 @@ const SignUp = () => {
           />
         </Link>
         <button className="navbar__cta-btn menu">
-          <img
+          <Image
           src="/bx-menu.svg"
           alt='menu-icon'
           className="navbar__cta-menu"

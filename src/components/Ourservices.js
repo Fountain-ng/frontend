@@ -3,6 +3,7 @@ import { useState } from "react";
 import "../styles/Services.modules.css";
 import { motion, useAnimation } from "framer-motion";
 import React, { useEffect } from 'react';
+import Image from 'next/image';
 import { useInView } from 'react-intersection-observer';
 
 const Services = () => {
@@ -45,7 +46,7 @@ const Services = () => {
       >
         <motion.div className="services__container-1" variants={itemVariants}>
           <div className="services__container-1-1">
-            <img
+            <Image
               src="/remove-outline.svg"
               alt="Fountain Beverages"
               className="services__container-1-img"
@@ -58,12 +59,12 @@ const Services = () => {
           <p className="services__container-1-text">
             At Fountain, we are dedicated to energizing your life with
             premium energy drinks that embody vitality, adventure, and passion. Our mission is to empower individuals
-            to embrace life's adventures with gusto, providing the energy and vitality needed to pursue their passions
+            to embrace life&apos;s adventures with gusto, providing the energy and vitality needed to pursue their passions
             and dreams.
           </p>
         </motion.div>
         <motion.div className="services__container-2" variants={itemVariants}>
-          <img
+          <Image
             src="/01.png"
             alt="Fountain Beverages"
             className="services__container-2-img"
@@ -72,7 +73,7 @@ const Services = () => {
           />
         </motion.div>
         <motion.div className="services__container-3" variants={itemVariants}>
-          <img
+          <Image
             src="/04.png"
             alt="Love for Nature"
             className="services__container-3-img"
@@ -82,7 +83,7 @@ const Services = () => {
         </motion.div>
         <motion.div className="services__container-4" variants={itemVariants}>
           <div className="services__container-4-4">
-            <img
+            <Image
               src="/remove-outline.svg"
               alt="Fountain Beverages"
               className="services__container-4-img"

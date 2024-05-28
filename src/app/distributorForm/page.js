@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import '../../styles/distributorForm.modules.css';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useAuth } from '../../context/Authcontext';
 
 const DistributorForm = () => {
@@ -14,7 +15,7 @@ const DistributorForm = () => {
   return (
     <>
     <header className="distributor-navbar">
-        <img
+        <Image
           src="/Fountain official logo dark txtAsset 4@4x-8 (1).png"
           alt="Fountain FMCG Logo"
           className="land-navbar-img"
@@ -44,7 +45,7 @@ const DistributorForm = () => {
 
       <div className="navbar__cta">
         <a href="/carabao/products" className="navbar__cta-btn">
-          <img 
+          <Image
             src="/bx-cart.svg"
             className="navbar__cta-img-normal"
             alt="cart icon"
@@ -53,7 +54,7 @@ const DistributorForm = () => {
           />
         </a>
         <Link href={user ? "/profile" : "/sign-in"} className="navbar__cta-btn">
-          <img
+          <Image
             src="/bx-user.svg"
             className="navbar__cta-img-normal"
             alt="user icon"
@@ -63,14 +64,14 @@ const DistributorForm = () => {
         </Link>
         <button className="navbar__cta-btn-menu" onClick={handleMenuToggle}>  
         {isMenuOpen ? (
-          <img
+          <Image
             src="/bx-x.svg"
             alt="Menu close button"
             width={30}
             height={30}
           />
         ) : (
-          <img
+          <Image
             src="/bx-menu.svg"
             alt="Menu toggle button"
             width={30}

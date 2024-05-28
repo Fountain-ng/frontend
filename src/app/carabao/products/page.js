@@ -1,6 +1,6 @@
 'use client';
 import '../../../styles/carabao-product.modules.css';
-
+import Image from 'next/image';
 
 import React, { useState, useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
@@ -44,7 +44,7 @@ const CarabaoProducts = () => {
     <>
       <header>
         <div className='carabao-fountain'>
-          <img
+          <Image
             src="/Fountain official logo white txtAsset 3@4x-8.png"
             alt="Fountain FMCG Logo"
             className='fountain-logo'
@@ -67,7 +67,7 @@ const CarabaoProducts = () => {
 
         <div className="navbar__cta-logout">
           <Link href="#" className="navbar__cta-btn">
-            <img
+            <Image
               src="/bx-cart.svg"
               className="navbar__cta-img-logout"
               alt='cart icon'
@@ -77,14 +77,14 @@ const CarabaoProducts = () => {
           </Link>
           <button className="navbar__cta-btn-menu-logout" onClick={handleMenuToggle}>
             {isMenuOpen ? (
-              <img
+              <Image
                 src="/bx-x.svg"
                 alt="Menu close button"
                 width={30}
                 height={30}
               />
             ) : (
-              <img
+              <Image
                 src="/bx-menu.svg"
                 alt="Menu toggle button"
                 width={30}
@@ -103,7 +103,7 @@ const CarabaoProducts = () => {
           variants={containerVariants}
         >
           <motion.div className="carabao-real__img" variants={itemVariants}>
-            <img
+            <Image
               src="/drink-pack-2.png"
               className='drink-pack-2'
               alt="Carabao Energy Drink"

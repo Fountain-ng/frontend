@@ -1,11 +1,12 @@
 import React from "react";
 import "../styles/brands.modules.css";
+import Image from 'next/image';
 
 const brands = () => {
     return (
         <section className="brands">
             <div className="element-1">
-                    <img
+                    <Image
                         src="/Element.png"
                         alt="brand1"
                         width={350}
@@ -13,7 +14,7 @@ const brands = () => {
                     />
                 </div>
                 <div className="element-2">
-                    <img
+                    <Image
                         src="/Element (1).png"
                         alt="brand2"
                         width={350}
@@ -21,7 +22,7 @@ const brands = () => {
                     />
                 </div>
                 <div className="element-3">
-                    <img
+                    <Image
                         src="/water2.png"
                         alt="brand3"
                         className="water-bg"
@@ -36,7 +37,7 @@ const brands = () => {
                     <a href= "/carabao" className="brands__content-btn">See all</a> 
                 </div>
                 <div className="brand-content-img">
-                    <img
+                    <Image
                         src="/pack.png"
                         alt="brand3"
                         className="brand-content-img-2"

@@ -2,6 +2,7 @@
 import "../styles/Product.modules.css";
 import { motion, useAnimation } from "framer-motion";
 import React, { useEffect, useRef } from 'react';
+import Image from 'next/image';
 import { useInView } from 'react-intersection-observer';
 
 const Products = () => {
@@ -41,7 +42,7 @@ const Products = () => {
       </div>
       <div className="product__btns">
       <a href="#" className={`product__btn ${isDisabled ? 'product__btn--disabled' : ''}`}>
-        <img
+        <Image
           src="/bx-chevron-left.svg"
           className="product__btn-img"
           alt="Previous"
@@ -50,7 +51,7 @@ const Products = () => {
         />
       </a>
       <a href="#" className={`product__btn ${isDisabled ? 'product__btn--disabled' : ''}`}>
-        <img
+        <Image
           src="/bx-chevron-right.svg"
           className="product__btn-img"
           alt="Next"
@@ -76,7 +77,7 @@ const Products = () => {
         <motion.div className="column" variants={itemVariants}>
           <motion.div className="product__content-img" variants={itemVariants}>
             <div className="product__img">
-              <img
+              <Image
                 src="/drink.png"
                 alt="Carabao Energy Drink Original"
                 width={300}

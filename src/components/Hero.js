@@ -1,6 +1,7 @@
 'use client';
 
 import React from "react";
+import Image from 'next/image';
 import "../styles/Hero.modules.css";
 import SplitStringUsingRegex from "@/utils/splittextspring";
 import {motion, variants} from "framer-motion";
@@ -18,7 +19,7 @@ const Hero = () => {
     <motion.section className="hero">
       <div className="hero__content">
         <div className="hero__img">
-          <img
+          <Image
             src="/remove-outline.svg"
             alt="Fountain Beverages"
             width={80}
@@ -55,7 +56,7 @@ const Hero = () => {
       </motion.h1>
         
         <a href="#services" className="hero__cta">
-        <img
+        <Image
           src="/bx-down-arrow-alt.svg"
           className="hero__cta-img"
           alt="down arrow"
