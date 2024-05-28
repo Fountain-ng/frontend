@@ -57,11 +57,17 @@
     font-size: 15px;
     font-family: 'sora';
     font-weight: 300;
-    line-height: 24px;
     display: flex;
     align-items: center;
     gap: 8px;
     color: #D7FC70;
+    transition: all 0.3s ease;
+}
+.services__container-1-cta:hover{
+    border: 1px solid #D7FC70;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
 }
 .services__container-4{
     max-width: 400px;
@@ -75,18 +81,9 @@
     display: flex;
     align-items: center;
 }
-.ervices__container-1-cta{
-    width: 150px;
-}
 .services__container-4-img, .services__container-1-cta-img{
     filter: invert(84%) sepia(39%) saturate(548%) hue-rotate(35deg) brightness(103%) contrast(92%);
 }
-
-.services__container-1-cta:hover{
-    border: 1px solid #D7FC70;
-    padding: 10px;
-}
-
 
 @media (max-width: 1199px){
     .services{

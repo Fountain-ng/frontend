@@ -1,11 +1,49 @@
-import React from "react";
+'use client'
+import { useState } from "react";
 import "../styles/Services.modules.css";
+import { motion, useAnimation } from "framer-motion";
+import React, { useEffect } from 'react';
+import { useInView } from 'react-intersection-observer';
 
 const Services = () => {
+  const controls = useAnimation();
+  const [ref, inView] = useInView({ triggerOnce: false, threshold: 0.2 });
+
+  useEffect(() => {
+    if (inView) {
+      controls.start('visible');
+    } else {
+      controls.start('hidden');
+    }
+  }, [controls, inView]);
+
+  const containerVariants = {
+    hidden: { opacity: 0, x: -50 },
+    visible: {
+      opacity: 1,
+      x: 0,
+      transition: {
+        duration: 0.5,
+        staggerChildren: 0.3,
+      },
+    },
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, x: -50 },
+    visible: { opacity: 1, x: 0, transition: { duration: 0.5 } },
+  };
+
   return (
     <section className="services" id="services">
-      <div className="services__container">
-        <div className="services__container-1">
+      <motion.div
+        ref={ref}
+        className="services__container"
+        initial="hidden"
+        animate={controls}
+        variants={containerVariants}
+      >
+        <motion.div className="services__container-1" variants={itemVariants}>
           <div className="services__container-1-1">
             <img
               src="/remove-outline.svg"
@@ -16,37 +54,33 @@ const Services = () => {
             />
             <h2 className="services__title">ABOUT US</h2>
           </div>
-          <h1 className="services__container-1-description">What are we <br></br> about?</h1>
-          <p className="services__container-1-text">Determining what level of hiker you are can be an important tool when planning future hikes. This hiking level guide will help you plan hikes according to different hike ratings set by various websites like All Trails and Modern Hiker. What type of hiker are you – novice, moderate, advanced moderate, expert, or expert backpacker? </p>
-          <a href="#footer" className="services__container-1-cta">Learn More
+          <h1 className="services__container-1-description">What are we <br /> about?</h1>
+          <p className="services__container-1-text">
+            At Fountain, we are dedicated to energizing your life with
+            premium energy drinks that embody vitality, adventure, and passion. Our mission is to empower individuals
+            to embrace life's adventures with gusto, providing the energy and vitality needed to pursue their passions
+            and dreams.
+          </p>
+        </motion.div>
+        <motion.div className="services__container-2" variants={itemVariants}>
           <img
-            src="/bx-right-arrow-alt.svg"
-            className="services__container-1-cta-img"
-            alt="right arrow"
-            width={20}
-            height={20}
-          />
-          </a>
-        </div>
-        <div className="services__container-2">
-          <img 
             src="/01.png"
             alt="Fountain Beverages"
             className="services__container-2-img"
             width={400}
-            height={500}
+            height={430}
           />
-        </div>
-        <div className="services__container-3">
+        </motion.div>
+        <motion.div className="services__container-3" variants={itemVariants}>
           <img
-            src="/man.png"
+            src="/04.png"
             alt="Love for Nature"
             className="services__container-3-img"
             width={400}
-            height={500}
+            height={430}
           />
-        </div>
-        <div className="services__container-4">
+        </motion.div>
+        <motion.div className="services__container-4" variants={itemVariants}>
           <div className="services__container-4-4">
             <img
               src="/remove-outline.svg"
@@ -58,20 +92,17 @@ const Services = () => {
             <h2 className="services__title">OUR SERVICES</h2>
           </div>
           <h1 className="services__container-1-description">What we offer?</h1>
-          <p className="services__container-1-text">Lorem ipsum dolor sit amet consectetur. Mi luctus egestas nibh ut turpis ante nunc. Interdum gravida eleifend gravida molestie amet faucibus. Nunc eget duis faucibus neque. Varius amet faucibus sed volutpat imperdiet leo in at ornare.</p>
-          <a href="#footer" className="services__container-1-cta">Read More
-          <img
-            src="/bx-right-arrow-alt.svg"
-            className="services__container-1-cta-img"
-            alt="right arrow"
-            width={25}
-            height={25}
-          />
-          </a>
-        </div>
-      </div>
+          <p className="services__container-1-text">
+            Fountain offers a diverse selection of premium energy drinks, each meticulously
+            curated to provide the ultimate boost of energy, focus, and vitality. We are committed
+            to ensuring the highest standards of quality, with rigorous testing and evaluation processes
+            for every product.
+          </p>
+        </motion.div>
+      </motion.div>
     </section>
   );
 };
 
 export default Services;
+

@@ -8,9 +8,8 @@ import { useAuth } from '../context/Authcontext';
 const Navbar = () => {
   const { user } = useAuth();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   const handleMenuToggle = () => {
-    console.log("isMenuOpen:", !isMenuOpen);
+    
     setIsMenuOpen(!isMenuOpen);
   };
 

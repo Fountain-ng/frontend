@@ -125,7 +125,6 @@
 @media (max-width: 379px){
     .navbar__menu.navbar__menu--open {
         width: 230px;
-        transition: all 0.4s ease-in-out;
     }
     .land-navbar-img{
       width: 160px;

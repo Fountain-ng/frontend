@@ -125,6 +125,12 @@
     font-weight: 600;
     transition: all 0.3s;
 }
+/* styles.css */
+.product__btn--disabled {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+  
 .product__cta:hover{
     background-color: #146B38;
     color: #fff;

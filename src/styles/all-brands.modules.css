@@ -131,9 +131,21 @@ header{
     line-height: 40px;
     color: #000000;
 }
-.all-brands-img{
-    transform: rotate(-25deg);
-}
+/* AllBrands.modules.css */
+.carabao_product_image_new {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .carabao_product_image_new:hover {
+    transform: scale(1.1);
+  }
+  
+  .all-brands-img {
+    transition: transform 0.3s ease-in-out;
+  }
+  .all-brands-img:hover {
+    transform: scale(1.1);
+  }
 .carabao-details{
     width: 100%;
     min-height: 600px;
@@ -157,6 +169,10 @@ header{
     gap: 20px;
     margin-bottom: 20px;
     color: #fff;
+}
+.all-brands__cta:hover{
+    background-color: transparent;
+    border: 2px solid #fff;
 }
 .fruity-header{
     font-size: 24px;
