@@ -1,0 +1,95 @@
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+    background-color: #146B38;
+}
+.navbar__menu{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.navbar__link{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #ffffff;
+    transition: all .42s ease;
+}
+.navbar__link:hover {
+    border-bottom: 2px solid #40B44B;
+  }
+.navbar__cta{
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
+.navbar__cta-btn{
+    transition: all .42s ease;
+    color: #fff;
+    margin-right: 15px;
+}
+.navbar__cta-menu, .menu{
+    display: none;
+}
+.navbar__cta-img{
+    filter: brightness(0) invert(1);
+}
+.SignIn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.SignIn__container{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media (max-width: 768px){
+    .navbar__cta-menu{
+        display: flex;
+        filter: brightness(0) invert(1);
+    }
+    /* .navbar__cta-img, .navbar__menu{
+        display: none;
+    } */
+    .SignIn__container{
+        width: 100%;
+        
+    }
+
+}
+
+@media (max-width: 575px){
+    .fountain-logo{
+        width: 150px;
+        height: 30px;
+    }
+    .navbar__cta-img, .navbar__menu{
+        display: none;
+    }
+}
+
+@media (max-width: 479px){
+    .fountain-logo{
+        width: 150px;
+        height: 30px;
+    }
+
+}
+
+@media (max-width: 374px){
+
+}
