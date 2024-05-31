@@ -1,4 +1,5 @@
 import './App.css';
+import './styles/font.css'
 import HomePage from './components/HomePage';
 import AllBrands from './components/carabao';
 import SignIn from './components/signIn';

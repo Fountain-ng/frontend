@@ -1,9 +1,8 @@
-/* styles/fonts.css */
 @font-face {
     font-family: 'CustomFont';
-    src: url('/fonts/hemi head bd it.otf') format('otf'),
-         url('/fonts/hemi head bd it.otf') format('otf'),
-         url('/fonts/hemi head bd it.otf') format('truetype');
+    src: url('/public/fonts/hemi head bd it.otf') format('otf'),
+         url('/public/fonts/hemi head bd it.otf') format('otf'),
+         url('/public/fonts/hemi head bd it.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
@@ -11,9 +10,8 @@
   /* If you have different styles or weights, define them as well */
 @font-face {
     font-family: 'Opinion Pro';
-    src: url('/fonts/Mint Type - Opinion Pro Condensed Light.otf') format('woff2'),
-         url('/fonts/Mint Type - Opinion Pro Light.otf') format('woff'),
-         url('/fonts/font-name-bold.ttf') format('truetype');
+    src: url('/public/fonts/Mint Type - Opinion Pro Condensed Light.otf') format('woff2'),
+         url('/public/fonts/Mint Type - Opinion Pro Light.otf') format('woff');
     font-weight: bold;
     font-style: normal;
   }
