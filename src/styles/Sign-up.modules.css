@@ -1,4 +1,4 @@
-header{
+.SignUp-header{
     position: relative;
     top: 0;
     left: 0;
@@ -9,19 +9,20 @@ header{
     padding: 20px 5%;
     background-color: #146B38;
 }
-.sign-navbar__menu{
+.signUp-navbar__menu{
     display: flex;
     align-items: center;
     gap: 30px;
 }
-.sign-navbar__link{
+.signUp-navbar__link{
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 700;
+    font-family: 'sora', sans-serif;
     color: #ffffff;
     transition: all .42s ease;
 }
-.sign-navbar__link:hover{
+.signUp-navbar__link:hover{
     border-bottom: 3px solid #40B44B;
 }
 .navbar__cta-menu{
@@ -43,6 +44,7 @@ header{
 .navbar__cta-img:hover {
     transform: scale(1.1);
 }
+
 .SignUp{
     display: flex;
     flex-direction: column;
@@ -50,56 +52,76 @@ header{
     justify-content: center;
 }
 .SignUp__container{
-    width: 500px;
-    height: 400px;
-    margin-top: 100px;
+    width: 100%;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.input-btn{
+.SignUp-Form{
+    width: 500px;
+}
+.signUp-btn{
     font-family: "Nanum Gothic", sans-serif;
     border: none;
+    background-color: #146B38;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-.form{
-    margin-top: 20px;
+.SignUp-title{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    font-family:  sans-serif;
+    text-transform: uppercase;
+    color: #146B38;
+    margin-bottom: 40px;
 }
-
-
-
-
-
-
-
-@media (max-width: 1199px){
-
+.detailsForSignUp{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
 }
-
-@media (max-width: 991px){
-
+.signUp-label{
+    font-size: 18px;
+    font-family: "Nanum Gothic", sans-serif;
 }
-
 @media (max-width: 768px){
-    .navbar__cta-menu{
-        display: flex;
-        filter: brightness(0) invert(1);
-    }
     .SignUp__container{
-        width: 100%;
-        
+        width: 100%;    
     }
-
 }
 
-@media (max-width: 575px){
+@media (max-width: 595px){
     .fountain-logo{
         width: 150px;
         height: 30px;
     }
-    .navbar__cta-img, .navbar__menu{
+    .navbar__cta-menu, .menu{
+        display: flex;
+        filter: brightness(0) invert(1);
+    }
+    .navbar__cta-img, .signUp-navbar__menu{
         display: none;
+    }
+    .SignUp-Form{
+        width: 400px;
+    }
+    .SignUp-title{
+        font-size: 1.8rem;
+        font-weight: 700;
     }
 }
 
@@ -108,17 +130,15 @@ header{
         width: 150px;
         height: 30px;
     }
-    .title{
-        font-size: 1.4rem;
-    }
-    .email-label, .input-label{
+    .signUp-label{
         font-size: 15px;
-        font-weight: 550;
+    }
+    .SignUp-Form{
+        width: 290px;
+    }
+    .SignUp-title{
+        font-size: 1.7rem;
+        font-weight: 600;
     }
 }
 
-@media (max-width: 374px){
-    .title{
-        font-size: 1.2rem;
-    }
-}

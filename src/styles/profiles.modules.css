@@ -146,7 +146,7 @@ header{
         align-items: flex-start;
       }
     .cross{
-        background: url('/bx-x.svg')   
+        background: url('/public/bx-x.svg')   
      }
 
     .navbar__menu-logout.navbar__menu--open {

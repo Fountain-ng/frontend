@@ -1,39 +1,12 @@
 'use client';
-import '../../../styles/carabao-product.modules.css';
+import '../styles/carabao-product.modules.css';
+import React, { useState} from 'react';
+import {Link} from 'react-router-dom';
 
-import React, { useState, useEffect } from 'react';
-import { motion, useAnimation } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-import Link from 'next/link';
+
+
 const CarabaoProducts = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const controls = useAnimation();
-  const [ref, inView] = useInView({ triggerOnce: false, threshold: 0.2 });
-
-  useEffect(() => {
-    if (inView) {
-      controls.start('visible');
-    } else {
-      controls.start('hidden');
-    }
-  }, [controls, inView]);
-
-  const containerVariants = {
-    hidden: { opacity: 0, y: 50 },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 0.5,
-        staggerChildren: 0.3,
-      },
-    },
-  };
-
-  const itemVariants = {
-    hidden: { opacity: 0, y: 50 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
-  };
 
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -97,7 +70,7 @@ const CarabaoProducts = () => {
         <div
           className="carabao-real__container"
         >
-          <div className="carabao-real__img" variants={itemVariants}>
+          <div className="carabao-real__img">
             <img
               src="/drink-pack-2.png"
               className='drink-pack-2'
@@ -106,7 +79,7 @@ const CarabaoProducts = () => {
               height={450}
             />
           </div>
-          <div className="carabao-real__content" variants={itemVariants}>
+          <div className="carabao-real__content">
             <h1 className="carabao-real__title">CARABAO ENERGY DRINK ORIGINAL (330ML CAN)</h1>
             <p className="carabao-real__price"><span className="price-span">N2000.00</span>N1500.00</p>
             <p className="carabao-real__size">Can Pack Size</p>

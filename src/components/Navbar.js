@@ -3,15 +3,16 @@ import React from "react";
 import "../styles/Navbar.modules.css";
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-// import { useAuth } from '../context/Authcontext';
+import {useAuthStatus} from '../hooks/useAuthStatus';
 
 const Navbar = () => {
-  // const { user } = useAuth();
+  const { data: authStatus, isLoading } = useAuthStatus();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const handleMenuToggle = () => {
     
     setIsMenuOpen(!isMenuOpen);
   };
+  const isAuthenticated = authStatus && authStatus.data && authStatus.data.user;
 
   return (
     <header className="land-navbar">
@@ -32,6 +33,17 @@ const Navbar = () => {
         <li className="navbar__item">
           <Link to="#" className="navbar__link-normal">STORES</Link>
         </li>
+        {!isLoading && (
+          isAuthenticated ? (
+            <li className="navbar__item">
+              <Link to="/LogoutButton" className="navbar__link-normal log-in">PROFILE</Link>
+            </li>
+          ) : (
+            <li className="navbar__item">
+              <Link to="/signIn" className="navbar__link-normal log-in">LOG IN</Link>
+            </li>
+          )
+        )}
       </ul>
 
       <div className="navbar__cta">
@@ -44,7 +56,9 @@ const Navbar = () => {
             height={30}
           />
         </Link>
-        <Link to="/signIn" className="navbar__cta-btn">
+        {!isLoading && (
+          isAuthenticated ? (
+            <Link to="/LogoutButton"className="navbar__cta-btn">
           <img
             src="/bx-user.svg"
             className="navbar__cta-img-normal"
@@ -53,6 +67,18 @@ const Navbar = () => {
             height={30}
           />
         </Link>
+          ) : (
+              <Link to="/signIn"className="navbar__cta-btn">
+          <img
+            src="/bx-user.svg"
+            className="navbar__cta-img-normal"
+            alt="user icon"
+            width={30}
+            height={30}
+          />
+        </Link>
+          )
+        )}
         <button className="navbar__cta-btn-menu" onClick={handleMenuToggle}>  
         {isMenuOpen ? (
           <img

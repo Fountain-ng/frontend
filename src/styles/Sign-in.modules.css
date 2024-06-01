@@ -1,4 +1,5 @@
-header{
+
+.signIn-header{
     position: relative;
     top: 0;
     left: 0;
@@ -8,19 +9,20 @@ header{
     padding: 20px 5%;
     background-color: #146B38;
 }
-.navbar__menu{
+.navbar__menu-signIn{
     display: flex;
     align-items: center;
     gap: 35px;
 }
-.navbar__link{
+.navbar__link-signIn{
     text-decoration: none;
-    font-size: 1.1rem;
+    font-family: 'sora', sans-serif;
+    font-size: 1rem;
     font-weight: 700;
     color: #ffffff;
     transition: all .42s ease;
 }
-.navbar__link:hover {
+.navbar__link-signIn:hover {
     border-bottom: 2px solid #40B44B;
   }
 .navbar__cta{
@@ -47,49 +49,122 @@ header{
     
 }
 .SignIn__container{
-    width: 500px;
-    height: 400px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+.SignIn-form{
+    padding: 2rem;
+    width: 400px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+.title {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family:  sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #146B38;
+}
+.email, .password{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.email-label, .input-label{
+  text-align: left;
+  font-size: 18px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 20px;
+}
+.email-input, .password-input{
+  padding: 12px 0;
+  border: none;
+  background-color: none;
+  border-bottom: 2px solid #146B38;
+  outline: none;
+  font-size: 16px;
+}
+
+.input-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+  margin-top: 5px;
+  font-weight: 600;
+  font-family: "Nanum Gothic", sans-serif;
+  letter-spacing: 2px;
+  background-color: #146B38;
+  color: #fff;
+  border-radius: 4px;
+}
+.create{
+  color: #000000;
+  margin-top: 20px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
 
 
 @media (max-width: 768px){
-    .navbar__cta-menu{
-        display: flex;
-        filter: brightness(0) invert(1);
-    }
-    /* .navbar__cta-img, .navbar__menu{
-        display: none;
-    } */
-    .SignIn__container{
-        width: 100%;
-        
-    }
+ .form{
+    margin-top: 40px;
+  }
+  .navbar__cta-menu{
+    display: flex;
+    filter: brightness(0) invert(1);
+}
 
 }
 
 @media (max-width: 575px){
-    .fountain-logo{
-        width: 150px;
-        height: 30px;
-    }
-    .navbar__cta-img, .navbar__menu{
-        display: none;
-    }
+  .fountain-logo{
+      width: 150px;
+      height: 30px;
+  }
+  .title{
+    font-size: 1.9rem;
+  }
+  .fountain-logo{
+    width: 150px;
+    height: 30px;
+}
+.navbar__cta-img, .navbar__menu-signIn{
+    display: none;
+}
 }
 
 @media (max-width: 479px){
-    .fountain-logo{
-        width: 150px;
-        height: 30px;
-    }
-
-}
-
-@media (max-width: 374px){
-
+  .fountain-logo{
+      width: 150px;
+      height: 30px;
+  }
+  .title{
+    font-size: 1.8rem;
+  }
+  .email-label, .input-label{
+    font-size: 15px;
+    font-weight: 550;
+  }
+  .create{
+    font-size: 15px;
+  }
+  .SignIn-form{
+    width: 255px;
+  }
 }

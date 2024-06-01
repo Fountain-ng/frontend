@@ -129,6 +129,27 @@ header{
     line-height: 40px;
     color: #000000;
 }
+.all-brands-products__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'sora';
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 20px 20px;
+    border-radius: 5px;
+    background-color: #00945E;
+    transition: all .42s ease;
+
+}
+.all-brands-products__btn:hover{
+    background-color: #ffffff;
+    color: #00945E;
+    border: 2px solid #00945E;
+}
 .carabao-details{
     width: 100%;
     min-height: 600px;

@@ -1,43 +1,34 @@
-'use client';
-import { useState } from 'react';
-import AuthForm from './AuthForm';
-// import { useAuth } from '../context/Authcontext';
+import React, { useState } from 'react';
+import { useLogin } from '../hooks/useLogin';
 import '../styles/Sign-in.modules.css';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const SignIn = () => {
   const [email, setEmail] = useState('');
-  // const { login } = useAuth();
   const [password, setPassword] = useState('');
-  const [setError] = useState(null);
+  const loginMutation = useLogin();
 
-  const handleSubmit = async (event) => {
-    event.preventDefault();
-    setError(null);
-    console.log('Form submitted');
-    try {
-      const response = await fetch('http://localhost:8080/api/v1/auth/user/login', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, password }),
-      });
-      const data = await response.json();
-      console.log("API response:", data); 
-      if (data.message === "Login successful.") {
-        // login(data.data.user, data.data.tokens.accessToken);
-      } else {
-        setError(data.error);
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    loginMutation.mutate({ email, password }, {
+      onSuccess: (response) => {
+        console.log('User logged in successfully:', response);
+        const { accessToken, refreshToken } = response.data.tokens;
+        console.log('Setting access token:', accessToken);
+        console.log('Setting refresh token:', refreshToken);
+        localStorage.setItem('accessToken', accessToken);
+        localStorage.setItem('refreshToken', refreshToken);
+        window.location.href = '/';
+      },
+      onError: (error) => {
+        console.error('Login failed:', error);
       }
-    } catch (error) {
-      setError('An unexpected error occurred.');
-      console.error("An unexpected error occurred:", error);
-    }
+    });
   };
 
   return (
     <>
-    <header>
-      <Link to="#" className="header__logo">
+    <header className='signIn-header'>
         <img
           src="/Fountain official logo white txtAsset 3@4x-8.png"
           alt="Fountain FMCG Logo"
@@ -45,29 +36,19 @@ const SignIn = () => {
           width={200}
           height={40}
         />
-      </Link>
-
-      <ul className="navbar__menu">
-        <li className="navbar__item">
-            <Link to="/" className="navbar__link">HOME</Link>
+      <ul className="navbar__menu-signIn">
+        <li className="navbar__item-signIn">
+            <Link to="/" className="navbar__link-signIn">HOME</Link>
         </li>
-        <li className="navbar__item">
-          <Link to="/carabao" className="navbar__link">SHOP</Link>
+        <li className="navbar__item-signIn">
+          <Link to="/carabao" className="navbar__link-signIn">SHOP</Link>
         </li>
-        <li className="navbar__item">
-          <Link to="#footer" className="navbar__link">STORES</Link>
+        <li className="navbar__item-signIn">
+          <Link to="#footer" className="navbar__link-signIn">STORES</Link>
         </li>
       </ul>
 
       <div className="navbar__cta">
-        {/* <Link href="#" className="navbar__cta-btn">
-          <Image 
-          src="/bx-search.svg"
-          className="navbar__cta-img"
-          width={30}
-          height={30}
-          />
-        </Link> */}
         <Link to="#" className="navbar__cta-btn">
           <img
           src="/bx-cart.svg"
@@ -77,7 +58,7 @@ const SignIn = () => {
           height={30}
           />
         </Link>
-        <Link to="/sign-in" className="navbar__cta-btn">
+        <Link to="/signIn" className="navbar__cta-btn">
           <img
           src="/bx-user.svg"
           className="navbar__cta-img"
@@ -99,14 +80,33 @@ const SignIn = () => {
     </header>
     <section className="SignIn">
       <div className="SignIn__container">
-        <AuthForm
-          title="Login"
-          email={email}
-          setEmail={setEmail}
-          password={password}
-          setPassword={setPassword}
-          handleSubmit={handleSubmit}
-        />
+        <form onSubmit={handleSubmit} className="SignIn-form">
+        <h1 className="title">SIGN IN</h1>
+        <div className="email">
+          <label htmlFor="email" className="email-label">Email</label>
+          <input
+            type="email"
+            id="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            className="email-input"
+            required
+          />
+        </div>
+        <div className="password">
+          <label htmlFor="password" className="input-label">Password</label>
+          <input
+            type="password"
+            id="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            className="password-input"
+            required
+          />
+        </div>
+        <button type="submit" className="input-btn">SIGN IN</button>
+        <Link to="/SignUp" className="create">Create account</Link>
+      </form>
       </div>
     </section>
     </>
@@ -114,3 +114,6 @@ const SignIn = () => {
 };
 
 export default SignIn;
+
+
+

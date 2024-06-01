@@ -12,7 +12,7 @@ const Distributor = () => {
           <p className="distributor__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum, dolor non ultricies posuere, lectus quam auctor urna, ac tincidunt nunc turpis a nunc. Sed id magna non nisl fringilla vestibulum. Nulla facilisi. Sed ut nunc at nunc ultricies lacinia. Nullam eget odio nec mi viverra aliquam. Sed nec nunc in purus tincidunt fermentum. Nulla facilisi.
           </p>
-          <Link to="/distributorForm" className="distributor__button">Apply Now</Link>
+          <Link to="" className="distributor__button">Apply Now</Link>
         </div>
         <div className="distributor__image">
           <img

@@ -84,6 +84,7 @@ const AllBrands = () => {
               <p className='all-brands-products__description'>
                 Carabao Original is a refreshing and great tasting non-carbonated energy drink. Contains taurine, caffeine and B vitamins which replenishes energy and relieves fatigue. Niacin, pantothenic acid, vitamin B6 and vitamin B12 contribute to normal energy yielding metabolism and to the reduction of tiredness and fatigue.
               </p>
+              <Link to="/protected" className='all-brands-products__btn'>Shop Now</Link>
             </div>
           </div>
         </section>
