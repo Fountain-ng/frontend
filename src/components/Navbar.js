@@ -30,7 +30,10 @@ const Navbar = () => {
           <Link to="/carabao" className="navbar__link-normal">SHOP</Link>
         </li>
         <li className="navbar__item">
-          <Link to="#" className="navbar__link-normal">STORES</Link>
+          <Link to="/Cart" className="navbar__link-normal">BASKET</Link>
+        </li>
+        <li className="navbar__item">
+          <Link to="/Cart" className="navbar__link-normal cart-nav">CART</Link>
         </li>
         {!loading && (
           authStatus ? (

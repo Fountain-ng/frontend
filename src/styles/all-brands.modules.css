@@ -18,7 +18,7 @@ header{
     font-size: 1.3rem;
     font-weight: 700;
     padding: 10px 20px;
-    font-family: 'CustomFont', sans-serif;
+    font-family: 'sora', sans-serif;
     color: #ffffff;
     transition: all .42s ease;
 }
@@ -49,35 +49,37 @@ header{
 .navbar__cta-img:hover {
     transform: scale(1.1);
 }
-.all-brands__content{
-    background: url('/public/Fountain header GIF.gif');
+.all-brands{
+    background-color: #00793A;
+    position: relative;
+    height: 600px;
+}
+.all-brands__container{
+    background: url('../animations/desktop-gif.gif');
     background-size: cover;
     background-position: center;
-    min-height: 600px;
-}
-/* .all-brands{
-    background: url('/public/Fountain header GIF.gif');
-    background-size: cover;
-    background-position: center;
-    min-height: 600px;
-} */
-/* .all-brands_container{
-    padding: 5% 5%;
-    display: flex;
-    align-items: center;
-    gap: 200px;
+    height: 600px;
 }
 .all-brands__content{
+    width: 500px;
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 25px;
+    gap: 10px;
+    top: 25%;
+    left: 5%;
+}
+.all-brands__header{
     color: #fff;
+    font-family: 'CustomRealFont';
+    font-size: 50px;
 }
 .all-brands__title{
-    font-size: 45px;
-    line-height: 60px;
-} */
+    font-size: 30px;
+    color: #fff;
+    font-family: 'CustomRealFont';
+}
 .all-brands__cta{
     display: flex;
     align-items: center;
@@ -101,7 +103,7 @@ header{
     align-items: center;
     justify-content: center;
     color: #00945E;
-    font-family: 'CustomFont', sans-serif;
+    font-family: 'CustomRealFont', sans-serif;
     padding-top: 15px;
     font-size: 45px;
 }
@@ -119,6 +121,27 @@ header{
     flex-direction: column;
     gap: 15px;
     max-width: 500px;
+}
+.all-brands__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'sora';
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px 20px;
+    border-radius: 5px;
+    background-color: #00945E;
+    transition: all .42s ease;
+    border: none;
+}
+.all-brands__btn:hover{
+    background-color: #ffffff;
+    color: #00945E;
+    border: 2px solid #00945E;
 }
 .all-brands-products__header{
     color: #00945E;
@@ -258,12 +281,9 @@ a{
 }
 
 
-@media (max-width: 1199px){
-    .all-brands_container{
-        padding: 5% 5%;
-        display: flex;
-        align-items: center;
-        gap: 50px;
+@media (max-width: 1200px){
+    .all-brands__container{
+        margin-left: -200px;
     }
 }
 @media(max-width: 980px){
@@ -275,8 +295,44 @@ a{
         max-width: 300px;
         max-height: 300px;
     }
-    .all-brands_container{
-        padding-top: 100px;
+    .all-brands__container{
+        margin-left: -400px;
+    }
+    .all-brands__content{
+        width: 450px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        top: 30%;
+        left: 5%;
+    }
+}
+@media(max-width: 770px){
+    .all-brands__container{
+        height: 300px;
+        padding-top: 250px;
+        margin-left: -350px;
+    }
+    .all-brands__content{
+        width: 300px;
+        position: absolute;
+        top: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        left: 5%;
+    }
+    .all-brands__header{
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 40px;
+    }
+    .all-brands__title{
+        font-size: 25px;
+        line-height: 30px;
+        color: #fff;
+        font-family: sans-serif;
     }
 }
 @media(max-width: 595px){
@@ -287,15 +343,29 @@ a{
         width: 300px;
         height: 100px;
     }
-    .all-brands{
-        background: url('/public/Fountain header GIF mobile.gif');
+    .all-brands_container{
+        background: url('../animations/mobile-gif.gif');
         background-size: cover;
         background-position: center;
-        max-width: 595px;
     }
-    .all-brands_container{
+    .all-brands{
         display: flex;
         flex-direction: column-reverse;
+        min-height: 800px;
+    }
+    .all-brands__content{
+        max-width: 300px;
+        display: flex;
+        align-items: flex-start;
+        gap: 0;
+        position: absolute;
+        top: 5%;
+        left: 20%;
+    }
+    .all-brands__container{
+        height: 300px;
+        padding-top: 180px;
+        margin-left: -650px;
     }
     .carabao_product_image_new{
         width: 250px;
@@ -383,6 +453,7 @@ a{
         right: 0.0%;
         padding-top: 30px;
         background-color: #00945E;
+        z-index: 1;
         color: #fff;
         width: 50%;
         height: 66vh;
@@ -403,11 +474,59 @@ a{
       display: block;
     }
 }
-@media (max-width: 350px){
+@media (max-width: 450px){
     .all-brands{
-        background: url('/public/Fountain header GIF mobile.gif');
+        display: flex;
+        flex-direction: column-reverse;
+        min-height: 800px;
+    }
+    .all-brands__content{
+        max-width: 300px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        top: 5%;
+        left: 12%;
+    }
+    .all-brands__container{
+        height: 300px;
+        padding-top: 180px;
+        margin-left: -600px;
+    }
+}
+@media (max-width: 360px){
+    .all-brands__content{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 14px;
+        top: 5%;
+        left: 17%;
+    }
+    .all-brands{
+        min-height: 400px;
+    }
+    .all-brands__container{
+        background: url('../animations/mobile2.gif');
         background-size: cover;
         background-position: center;
-        width: 320px;
+        padding-top: 350px;
+        margin-left: 20px;
+    }
+    .all-brands__header{
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 30px;
+    }
+    .all-brands__title{
+        font-size: 18px;
+        line-height: 17px;
+        color: #fff;
+        font-family: sans-serif;
+    }
+    .all-brands__btn{
+        font-size: 15px;
     }
 }

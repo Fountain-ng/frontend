@@ -33,7 +33,10 @@ return (
             <Link to="/carabao" className="navbar__link-logout">SHOP</Link>
           </li>
           <li className="navbar__item">
-            <Link to="#" className="navbar__link-logout">STORES</Link>
+            <Link to="/Cart" className="navbar__link-logout">BASKET</Link>
+          </li>
+          <li className="navbar__item">
+          <Link to="/Cart" className="navbar__link-normal cart-nav">CART</Link>
           </li>
           {!loading && (
           authStatus ? (

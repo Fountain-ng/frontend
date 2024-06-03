@@ -19,7 +19,7 @@
 }
 .navbar__link-normal {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-family: 'sora', sans-serif;
     font-weight: 700;
     color: #000000;
@@ -29,7 +29,9 @@
 .navbar__link-normal:hover {
     border-bottom: 2px solid #40B44B;
 }
-  
+.cart-nav{
+  display: none;
+}
 .navbar__cta {
     display: flex;
     align-items: center;
@@ -83,6 +85,9 @@
         flex-direction: column;
         align-items: flex-start;
       }
+      .cart-nav{
+        display: block;
+      }
     .cross{
         background: url('/public/bx-x.svg')   
      }
@@ -97,7 +102,7 @@
         top: 95%;
         right: 0.0%;
         padding-top: 30px;
-        background-color: #146B38;
+        background-color: #00945E;
         color: #fff;
         width: 53%;
         height: 110vh;

@@ -14,4 +14,14 @@
          url('/public/fonts/Mint Type - Opinion Pro Light.otf') format('woff');
     font-weight: bold;
     font-style: normal;
-  }
+}
+
+@font-face {
+     font-family: 'CustomRealFont';
+     src: url('/public/fonts/vipnagorgialla bd it.otf') format('woff2'),
+          url('/public/fonts/vipnagorgialla bd.otf') format('woff'),
+          url('/public/fonts/vipnagorgialla rg it.otf') format('woff'),
+          url('/public/fonts/vipnagorgialla rg.otf') format('woff');
+     font-weight: bold;
+     font-style: normal;
+ }

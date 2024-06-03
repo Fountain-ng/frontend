@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px 5%;
-    background-color: #146B38;
+    background-color: #00945E;
 }
 .signUp-navbar__menu{
     display: flex;
@@ -65,7 +65,7 @@
 .signUp-btn{
     font-family: "Nanum Gothic", sans-serif;
     border: none;
-    background-color: #146B38;
+    background-color: #00945E;
     border-radius: 5px;
     color: #fff;
     padding: 10px 20px;
@@ -86,7 +86,7 @@
     text-align: center;
     font-family:  sans-serif;
     text-transform: uppercase;
-    color: #146B38;
+    color: #00945E;
     margin-bottom: 40px;
 }
 .detailsForSignUp{

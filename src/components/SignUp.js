@@ -1,10 +1,15 @@
 'use client'
-import React, { useState } from 'react';
+import React, { useState} from 'react';
 import { Link } from 'react-router-dom';
 import { useSignup } from '../hooks/useSignup';
 import '../styles/Sign-up.modules.css';
 
+
 const SignUp = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const handleMenuToggle = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [userName, setUserName] = useState('');
@@ -40,51 +45,59 @@ const SignUp = () => {
           width={200}
           height={40}
         />
-        <ul className="signUp-navbar__menu">
-          <li className="signUp-navbar__item">
-            <Link to="/" className="signUp-navbar__link">
-              HOME
-            </Link>
+        <ul className={`navbar__menu-logout ${isMenuOpen ? 'navbar__menu--open' : ''}`}>
+          <li className="navbar__item-logout">
+            <Link to="/" className="navbar__link-logout">HOME</Link>
           </li>
           <li className="navbar__item">
-            <Link to="#" className="signUp-navbar__link">
-              SHOP
-            </Link>
+            <Link to="/carabao" className="navbar__link-logout">SHOP</Link>
           </li>
           <li className="navbar__item">
-            <Link to="#" className="signUp-navbar__link">
-              STORES
-            </Link>
+            <Link to="/Cart" className="navbar__link-logout">BASKET</Link>
           </li>
+          <li className="navbar__item">
+            <Link to="/Cart" className="navbar__link-normal cart-nav">CART</Link>
+          </li>
+          <li className="navbar__item">
+              <Link to="/signIn" className="navbar__link-normal log-in">LOG IN</Link>
+            </li>
         </ul>
 
-        <div className="navbar__cta">
+        <div className="navbar__cta-logout">
           <Link to="#" className="navbar__cta-btn">
             <img
               src="/bx-cart.svg"
-              alt="cart-icon"
-              className="navbar__cta-img"
+              className="navbar__cta-img-logout"
+              alt='cart icon'
               width={30}
               height={30}
             />
           </Link>
-          <Link to="/signIn" className="navbar__cta-btn">
-            <img
-              src="/bx-user.svg"
-              alt="user-icon"
-              className="navbar__cta-img"
-              width={30}
-              height={30}
-            />
-          </Link>
-          <button className="navbar__cta-btn menu">
-            <img
-              src="/bx-menu.svg"
-              alt="menu-icon"
-              className="navbar__cta-menu"
-              width={30}
-              height={30}
-            />
+          <Link to="/LogoutButton"className="navbar__cta-btn">
+          <img
+            src="/bx-user.svg"
+            className="navbar__cta-img-normal-main"
+            alt="user icon"
+            width={30}
+            height={30}
+          />
+        </Link>
+          <button className="navbar__cta-btn-menu-logout" onClick={handleMenuToggle}>
+            {isMenuOpen ? (
+              <img
+                src="/bx-x.svg"
+                alt="Menu close button"
+                width={30}
+                height={30}
+              />
+            ) : (
+              <img
+                src="/bx-menu.svg"
+                alt="Menu toggle button"
+                width={30}
+                height={30}
+              />
+            )}
           </button>
         </div>
       </header>

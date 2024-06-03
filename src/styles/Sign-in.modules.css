@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px 5%;
-    background-color: #146B38;
+    background-color: #00945E;
 }
 .navbar__menu-signIn{
     display: flex;
@@ -72,7 +72,7 @@
     font-family:  sans-serif;
     text-transform: uppercase;
     text-align: center;
-    color: #146B38;
+    color: #00945E;
 }
 .email, .password{
     display: flex;
@@ -92,7 +92,7 @@
   padding: 12px 0;
   border: none;
   background-color: none;
-  border-bottom: 2px solid #146B38;
+  border-bottom: 2px solid #00945E;
   outline: none;
   font-size: 16px;
 }
@@ -108,7 +108,7 @@
   font-weight: 600;
   font-family: "Nanum Gothic", sans-serif;
   letter-spacing: 2px;
-  background-color: #146B38;
+  background-color: #00945E;
   color: #fff;
   border-radius: 4px;
 }

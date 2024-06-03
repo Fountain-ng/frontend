@@ -7,8 +7,6 @@ import {AuthContext} from '../context/AuthContext';
 const AllBrands = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { authStatus, loading } = useContext(AuthContext);
-  // const animationUrl = 'https://lottie.host/embed/a82bedf7-af47-4a87-b2e8-742ac4cf66b0/xTsdC49Xga.json';
-
   const handleMenuToggle = () => {
     console.log("isMenuOpen:", !isMenuOpen);
     setIsMenuOpen(!isMenuOpen);
@@ -35,7 +33,10 @@ const AllBrands = () => {
             <Link to="/carabao" className="navbar__link-logout">SHOP</Link>
           </li>
           <li className="navbar__item">
-            <Link to="#" className="navbar__link-logout">STORES</Link>
+            <Link to="/Cart" className="navbar__link-logout">BASKET</Link>
+          </li>
+          <li className="navbar__item">
+            <Link to="/Cart" className="navbar__link-normal cart-nav">CART</Link>
           </li>
           {!loading && (
           authStatus ? (
@@ -105,9 +106,11 @@ const AllBrands = () => {
       <main>
         <section className='all-brands'>
           <div className='all-brands__container'>
-          <h1 className='all-brands__header'>Carabao Energy Drink</h1>
-            <div className='all-brands__content'>
-            </div>
+          </div>
+          <div className='all-brands__content'>
+            <h1 className='all-brands__header'>GET READY TO BRING IT ON!</h1>
+            <h2 className='all-brands__title'>Carabao Energy Drink</h2>
+            <Link to="/carabao-products" className='all-brands__btn'>VIEW PRODUCTS</Link>
           </div>
         </section>
         <section className='all-brands-products'>
