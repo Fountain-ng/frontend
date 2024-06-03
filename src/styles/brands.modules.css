@@ -192,6 +192,7 @@
     .brands{
         padding:4% 0%;
         position: relative;
+        margin-bottom: 50px;
     }
     .brands__container{
         display: flex;
@@ -213,8 +214,8 @@
     .brands__content{
         display: flex;
         flex-direction: column;
-        gap: 20px;
-        width: 300px;
+        gap: 10px;
+        width: 250px;
         height: 150px;
         color: #000000;
     }
@@ -232,10 +233,10 @@
         height: 25px;
         font-size: 15px;
         position: absolute;
-        bottom: -70%;
+        bottom: -35%;
     }
     .brand-content-img-2 {
-        margin-top: 50px;
+        margin-top: 0px;
     }
 }
 
