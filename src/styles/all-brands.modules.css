@@ -49,21 +49,23 @@ header{
 .navbar__cta-img:hover {
     transform: scale(1.1);
 }
-
-.all-brands{
+.all-brands__content{
     background: url('/public/Fountain header GIF.gif');
     background-size: cover;
     background-position: center;
     min-height: 600px;
 }
-.all-brands_container{
+/* .all-brands{
+    background: url('/public/Fountain header GIF.gif');
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+} */
+/* .all-brands_container{
     padding: 5% 5%;
     display: flex;
     align-items: center;
     gap: 200px;
-}
-.brand-main-img{
-    max-width: 400px;
 }
 .all-brands__content{
     display: flex;
@@ -75,7 +77,7 @@ header{
 .all-brands__title{
     font-size: 45px;
     line-height: 60px;
-}
+} */
 .all-brands__cta{
     display: flex;
     align-items: center;

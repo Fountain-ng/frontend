@@ -12,10 +12,7 @@ const SignIn = () => {
     e.preventDefault();
     loginMutation.mutate({ email, password }, {
       onSuccess: (response) => {
-        console.log('User logged in successfully:', response);
         const { accessToken, refreshToken } = response.data.tokens;
-        console.log('Setting access token:', accessToken);
-        console.log('Setting refresh token:', refreshToken);
         localStorage.setItem('accessToken', accessToken);
         localStorage.setItem('refreshToken', refreshToken);
         window.location.href = '/';

@@ -1,23 +1,20 @@
 // src/components/ProtectedRoute.js
-import React from 'react';
-import { Navigate } from 'react-router-dom';
-import { useAuthStatus } from '../hooks/useAuthStatus';
+import React, { useContext } from 'react';
+import {Navigate } from 'react-router-dom';
+import { AuthContext} from '../context/AuthContext';
 
 const ProtectedRoute = ({ children }) => {
-  const { data, isLoading, isError } = useAuthStatus();
+  const { authStatus, loading } = useContext(AuthContext);
 
-  console.log('Auth Status:', data);
+  console.log('Auth Status:', authStatus);
 
-  if (isLoading) {
+  if (loading) {
     return <div>Loading...</div>;
   }
 
-  if (isError || !data || !data.data || !data.data.user) {
-    console.log('Redirecting to login');
-    return <Navigate to="/signIn" />;
-  }
-
-  return children;
+  return(
+    authStatus ? children : <Navigate to="/signIn" />
+  ) ;
 };
 
 export default ProtectedRoute;

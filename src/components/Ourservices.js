@@ -4,9 +4,7 @@ import "../styles/Services.modules.css";
 const Services = () => {
   return (
     <section className="services" id="services">
-      <div
-        className="services__container"
-      >
+      <div className="services__container">
         <div className="services__container-1">
           <div className="services__container-1-1">
             <img
@@ -19,16 +17,16 @@ const Services = () => {
             <h2 className="services__title">ABOUT US</h2>
           </div>
           <h1 className="services__container-1-description">What are we <br /> about?</h1>
-          <p className="services__container-1-text">
-            At Fountain, we are dedicated to energizing your life with
-            premium energy drinks that embody vitality, adventure, and passion. Our mission is to empower individuals
-            to embrace life&apos;s adventures with gusto, providing the energy and vitality needed to pursue their passions
-            and dreams.
-          </p>
+            <p className="services__container-1-text">
+              At Fountain, we are dedicated to energizing your life with
+              premium energy drinks that embody vitality, adventure, and passion. Our mission is to empower individuals
+              to embrace life&apos;s adventures with gusto, providing the energy and vitality needed to pursue their passions
+              and dreams.
+            </p>
         </div>
         <div className="services__container-2">
           <img
-            src="/01.png"
+            src="/fountain-image1.jpg"
             alt="Fountain Beverages"
             className="services__container-2-img"
             width={400}
@@ -37,7 +35,7 @@ const Services = () => {
         </div>
         <div className="services__container-3">
           <img
-            src="/04.png"
+            src="/fountain-image3.jpg"
             alt="Love for Nature"
             className="services__container-3-img"
             width={400}

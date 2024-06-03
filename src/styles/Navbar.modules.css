@@ -17,7 +17,7 @@
 .navbar__item{
   list-style-type: none;
 }
-.navbar__link-normal{
+.navbar__link-normal {
     text-decoration: none;
     font-size: 1rem;
     font-family: 'sora', sans-serif;

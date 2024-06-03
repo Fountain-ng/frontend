@@ -1,10 +1,13 @@
 'use client';
 import { Link } from 'react-router-dom';
-import React, { useState} from 'react';
+import React, { useState, useContext} from 'react';
 import '../styles/all-brands.modules.css';
+import {AuthContext} from '../context/AuthContext';
 
 const AllBrands = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const { authStatus, loading } = useContext(AuthContext);
+  // const animationUrl = 'https://lottie.host/embed/a82bedf7-af47-4a87-b2e8-742ac4cf66b0/xTsdC49Xga.json';
 
   const handleMenuToggle = () => {
     console.log("isMenuOpen:", !isMenuOpen);
@@ -34,10 +37,21 @@ const AllBrands = () => {
           <li className="navbar__item">
             <Link to="#" className="navbar__link-logout">STORES</Link>
           </li>
+          {!loading && (
+          authStatus ? (
+            <li className="navbar__item">
+              <Link to="/LogoutButton" className="navbar__link-normal log-in">PROFILE</Link>
+            </li>
+          ) : (
+            <li className="navbar__item">
+              <Link to="/signIn" className="navbar__link-normal log-in">LOG IN</Link>
+            </li>
+          )
+        )}
         </ul>
 
         <div className="navbar__cta-logout">
-          <Link to="#" className="navbar__cta-btn">
+          <Link to="/Cart" className="navbar__cta-btn">
             <img
               src="/bx-cart.svg"
               className="navbar__cta-img-logout"
@@ -46,6 +60,29 @@ const AllBrands = () => {
               height={30}
             />
           </Link>
+          {!loading && (
+          authStatus ? (
+            <Link to="/LogoutButton"className="navbar__cta-btn">
+          <img
+            src="/bx-user.svg"
+            className="navbar__cta-img-normal-main"
+            alt="user icon"
+            width={30}
+            height={30}
+          />
+        </Link>
+          ) : (
+              <Link to="/signIn"className="navbar__cta-btn">
+          <img
+            src="/bx-user.svg"
+            className="navbar__cta-img-normal-main"
+            alt="user icon"
+            width={30}
+            height={30}
+          />
+        </Link>
+          )
+        )}
           <button className="navbar__cta-btn-menu-logout" onClick={handleMenuToggle}>
             {isMenuOpen ? (
               <img
@@ -67,7 +104,11 @@ const AllBrands = () => {
       </header>
       <main>
         <section className='all-brands'>
-          
+          <div className='all-brands__container'>
+          <h1 className='all-brands__header'>Carabao Energy Drink</h1>
+            <div className='all-brands__content'>
+            </div>
+          </div>
         </section>
         <section className='all-brands-products'>
           <h1 className='all-brands-products__title'>OUR PRODUCTS</h1>
@@ -84,7 +125,7 @@ const AllBrands = () => {
               <p className='all-brands-products__description'>
                 Carabao Original is a refreshing and great tasting non-carbonated energy drink. Contains taurine, caffeine and B vitamins which replenishes energy and relieves fatigue. Niacin, pantothenic acid, vitamin B6 and vitamin B12 contribute to normal energy yielding metabolism and to the reduction of tiredness and fatigue.
               </p>
-              <Link to="/protected" className='all-brands-products__btn'>Shop Now</Link>
+              <Link to="/carabao-products" className='all-brands-products__btn'>Shop Now</Link>
             </div>
           </div>
         </section>

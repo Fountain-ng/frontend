@@ -1,10 +1,11 @@
-// src/hooks/useLogout.js
 import { useMutation } from 'react-query';
 import axios from 'axios';
 
 const logout = async () => {
-  const refreshToken = localStorage.getItem('refreshToken');
-  const response = await axios.post('http://localhost:8080/api/v1/auth/user/logout', { token: refreshToken });
+  const accessToken = localStorage.getItem('accessToken');
+  const response = await axios.get('http://localhost:8080/api/v1/auth/user/logout', {
+    headers: { Authorization: `Bearer ${accessToken}` }
+  });
   return response.data;
 };
 

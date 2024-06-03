@@ -41,7 +41,9 @@ header{
 }
 .navbar__cta-btn-menu-logout{
     display: none;
-
+}
+.navbar__cta-img-normal-main{
+    filter: brightness(0) invert(1);
 }
 .navbar__cta-img-logout{
     filter: brightness(0) invert(1);
@@ -49,99 +51,48 @@ header{
 .navbar__cta-img:hover {
     transform: scale(1.1);
 }
-
-.carabao-real__container{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 80px 5%;
-}
-
-.carabao-real__content{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    max-width: 400px;
-    gap: 15px;
-}
-.carabao-real__title{
-    font-size: 40px;
-    font-family: 'CustomFont', sans-serif;
-    color: #00945E;
-}
-.carabao-real__price, .carabao-real__size{
-    font-size: 17px;
-    color: #000000;
-    font-family: 'sora', sans-serif;
-}
-.price-span{
-    text-decoration: line-through;
-    padding-right: 10px;
-    font-family: 'sora', sans-serif;
-}
-.carabao-real__select{
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    font-size: 17px;
-    font-family: 'sora', sans-serif;
-    border: none;
-    outline: none;
-    border-bottom: 2px solid #000000;
-    padding-bottom:7px;
-}
-.carabao-real__cta{
-    width: 100%;
-    font-family: 'sora', sans-serif;
-}
-.carabao-real__cta-btn{
+.cart-real{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'sora', sans-serif;
-    /* width: 100%; */
-    padding: 15px 30px;
-    font-size: 18px;
+}
+.cart-real__container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.cart-header{
+    font-size: 40px;
     font-weight: 700;
-    color: #fff;
-    border-radius: 5px;
-    margin-top: 20px;
-    background-color: #00945E;
-    border: none;
-}
-.carabao-real__cta-btn:hover{
-    transition: all .42s ease;
-    background-color: #00603d;
-}
-.quantity-real{
-    border: none;
-    outline: none;
     font-family: 'sora', sans-serif;
-    border-bottom: 2px solid #000000;
-    font-size: 17px;
+    color: #00945E;
 }
-
-@media (max-width: 768px){
-    .carabao-real__container{
-        flex-direction: column;
-        align-items: center;
-        gap: 50px;
-    }
-    .carabao-real__title {
-        font-size: 40px;
-        color: #00945E;
-        width: 100%;
-    }
+.cart-description{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Opinion Pro', sans-serif;
 }
+.cart-link{
+    background-color: #00945E;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-family: 'Opinion Pro', sans-serif;
+    margin-top: 60px;
+    text-transform: uppercase;
+    font-size: 20px;
+    width: 200px;
+    height: 45px;
+    justify-content: center;
 
+}
 @media(max-width:595px){
-    .drink-pack-2{
-        max-width: 350px;
-        max-height: 350px;
-    }
-    .carabao-real__title {
-        font-size: 35px;
-    }
     .navbar__cta-btn-menu-logout{
         display: flex;
         background-color: transparent;
@@ -188,15 +139,5 @@ header{
     }
     .navbar__menu-logout, .navbar__cta-btn{
         display: none;
-    }
-}
-
-@media(max-width:595px){
-    .carabao-real__title {
-        font-size: 28px;
-    }
-    .drink-pack-2{
-        max-width: 300px;
-        max-height: 300px;
     }
 }

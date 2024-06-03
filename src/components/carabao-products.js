@@ -3,11 +3,8 @@ import '../styles/carabao-product.modules.css';
 import React, { useState} from 'react';
 import {Link} from 'react-router-dom';
 
-
-
 const CarabaoProducts = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -35,6 +32,9 @@ const CarabaoProducts = () => {
           <li className="navbar__item">
             <Link to="#" className="navbar__link-logout">STORES</Link>
           </li>
+          <li className="navbar__item">
+              <Link to="/LogoutButton" className="navbar__link-normal log-in">PROFILE</Link>
+            </li>
         </ul>
 
         <div className="navbar__cta-logout">
@@ -47,6 +47,15 @@ const CarabaoProducts = () => {
               height={30}
             />
           </Link>
+          <Link to="/LogoutButton"className="navbar__cta-btn">
+          <img
+            src="/bx-user.svg"
+            className="navbar__cta-img-normal-main"
+            alt="user icon"
+            width={30}
+            height={30}
+          />
+        </Link>
           <button className="navbar__cta-btn-menu-logout" onClick={handleMenuToggle}>
             {isMenuOpen ? (
               <img
@@ -93,10 +102,10 @@ const CarabaoProducts = () => {
                 <option value="6">90 x 300ml</option>
               </select>
             </div>
-            <label htmlFor="quantity">Qty</label>
-            <input type="number" id="quantity" name="quantity" min="2" max="100" required></input>
+            <label htmlFor="quantity" className="quantity-real">Qty</label>
+            <input type="number"  name="quantity" min="2" max="100" required></input>
             <div className="carabao-real__cta">
-              <a to='#' className="carabao-real__cta-btn">ADD TO CART</a>
+              <Link to='#' className="carabao-real__cta-btn">ADD TO CART</Link>
             </div>
           </div>
         </div>

@@ -1,18 +1,17 @@
 'use client';
 import React from "react";
 import "../styles/Navbar.modules.css";
-import { useState } from 'react';
+import {useContext, useState } from 'react';
 import { Link } from 'react-router-dom';
-import {useAuthStatus} from '../hooks/useAuthStatus';
+import {AuthContext} from '../context/AuthContext';
 
 const Navbar = () => {
-  const { data: authStatus, isLoading } = useAuthStatus();
+  const { authStatus, loading } = useContext(AuthContext);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const handleMenuToggle = () => {
     
     setIsMenuOpen(!isMenuOpen);
   };
-  const isAuthenticated = authStatus && authStatus.data && authStatus.data.user;
 
   return (
     <header className="land-navbar">
@@ -33,8 +32,8 @@ const Navbar = () => {
         <li className="navbar__item">
           <Link to="#" className="navbar__link-normal">STORES</Link>
         </li>
-        {!isLoading && (
-          isAuthenticated ? (
+        {!loading && (
+          authStatus ? (
             <li className="navbar__item">
               <Link to="/LogoutButton" className="navbar__link-normal log-in">PROFILE</Link>
             </li>
@@ -47,7 +46,7 @@ const Navbar = () => {
       </ul>
 
       <div className="navbar__cta">
-        <Link to="/carabao/products" className="navbar__cta-btn">
+        <Link to="/Cart" className="navbar__cta-btn">
           <img
             src="/bx-cart.svg"
             className="navbar__cta-img-normal"
@@ -56,8 +55,8 @@ const Navbar = () => {
             height={30}
           />
         </Link>
-        {!isLoading && (
-          isAuthenticated ? (
+        {!loading && (
+          authStatus ? (
             <Link to="/LogoutButton"className="navbar__cta-btn">
           <img
             src="/bx-user.svg"

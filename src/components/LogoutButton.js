@@ -1,11 +1,13 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import '../styles/profiles.modules.css';
 import { useLogout } from '../hooks/useLogout';
-import { useAuthStatus } from '../hooks/useAuthStatus';
+import { AuthContext} from '../context/AuthContext';
 import Navbar from './Navbar';
 
 const LogoutButton = () => {
   const logoutMutation = useLogout();
+  const {authStatus, loading} = useContext(AuthContext);
+  console.log('Auth Status:', authStatus);
 
   const handleLogout = () => {
     logoutMutation.mutate(null, {
@@ -20,8 +22,9 @@ const LogoutButton = () => {
       }
     });
   };
-  const { data: authStatus} = useAuthStatus();
-  const isAuthenticated = authStatus && authStatus.data && authStatus.data.user;
+  if (loading) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <>
@@ -38,14 +41,7 @@ const LogoutButton = () => {
         </div>
         <div className='profile-details'>
           <h2>ACCOUNT DETAILS</h2>
-          {
-            isAuthenticated ? (
-              <p>Welcome, {authStatus.data.user.firstName} {authStatus.data.user.lastName}!</p>
-            ) : (
-              <p>You are not logged in.</p>
-            )
-          }
-          
+          {authStatus && <p>Welcome, {authStatus.userName}!</p>}         
         </div>
     </div>
 </div>

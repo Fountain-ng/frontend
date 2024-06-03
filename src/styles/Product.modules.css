@@ -1,7 +1,7 @@
 .product{
     height: 800px;
     /* background: #9bad9b; */
-    background: #29AE29;
+    background: url('/public/fountain-background.jpg');
     display: flex;
     flex-direction: column;
     justify-content: center;
