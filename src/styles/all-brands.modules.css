@@ -66,6 +66,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    font-family: 'CustomRealFont', sans-serif;
     gap: 10px;
     top: 25%;
     left: 5%;
@@ -302,6 +303,7 @@ a{
         width: 450px;
         position: absolute;
         display: flex;
+        font-family: 'CustomRealFont', sans-serif;
         flex-direction: column;
         align-items: flex-start;
         top: 30%;
@@ -316,6 +318,7 @@ a{
     }
     .all-brands__content{
         width: 300px;
+        font-family: 'CustomRealFont', sans-serif;
         position: absolute;
         top: 25%;
         display: flex;
@@ -325,14 +328,14 @@ a{
     }
     .all-brands__header{
         color: #fff;
-        font-family: sans-serif;
         font-size: 40px;
+        font-family: 'CustomRealFont', sans-serif;
     }
     .all-brands__title{
         font-size: 25px;
         line-height: 30px;
         color: #fff;
-        font-family: sans-serif;
+        font-family: 'CustomRealFont', sans-serif;
     }
 }
 @media(max-width: 595px){
@@ -355,6 +358,7 @@ a{
     }
     .all-brands__content{
         max-width: 300px;
+        font-family: 'CustomRealFont', sans-serif;
         display: flex;
         align-items: flex-start;
         gap: 0;
@@ -417,8 +421,8 @@ a{
     .all-brands__content {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        gap: 30px;
+        align-items:flex-start;
+        gap: 14px;
         color: #fff;
     }
     .all-brands__cta {
@@ -473,6 +477,20 @@ a{
     .navbar__cta-menu {
       display: block;
     }
+    .all-brands__header{
+        color: #fff;
+        font-size: 35px;
+        font-family: 'CustomRealFont', sans-serif;
+    }
+    .all-brands__title{
+        font-size: 20px;
+        line-height: 30px;
+        color: #fff;
+        font-family: 'CustomRealFont', sans-serif;
+    }
+    .all-brands__btn{
+        font-size: 16px;
+    }
 }
 @media (max-width: 450px){
     .all-brands{
@@ -485,6 +503,7 @@ a{
         position: absolute;
         display: flex;
         flex-direction: column;
+        font-family: 'CustomRealFont', sans-serif;
         align-items: flex-start;
         top: 5%;
         left: 12%;
@@ -494,16 +513,20 @@ a{
         padding-top: 180px;
         margin-left: -600px;
     }
+    .all-brands__header, .all-brands__title{
+        font-family: 'CustomRealFont', sans-serif;
+    }
 }
 @media (max-width: 360px){
     .all-brands__content{
         position: absolute;
         display: flex;
+        font-family: 'CustomRealFont', sans-serif;
         flex-direction: column;
         align-items: flex-start;
         gap: 14px;
         top: 5%;
-        left: 17%;
+        left: 6%;
     }
     .all-brands{
         min-height: 400px;
@@ -517,16 +540,16 @@ a{
     }
     .all-brands__header{
         color: #fff;
-        font-family: sans-serif;
+        font-family: 'CustomRealFont', sans-serif;
         font-size: 30px;
     }
     .all-brands__title{
         font-size: 18px;
         line-height: 17px;
         color: #fff;
-        font-family: sans-serif;
+        font-family: 'CustomRealFont', sans-serif;
     }
     .all-brands__btn{
-        font-size: 15px;
+        font-size: 14px;
     }
 }

@@ -25,15 +25,13 @@
 }
 .element-2{
     position: absolute;
-    /* top: 200px; */
-    top: 33%;
-    left: 5%;
-    
+    top: 31%;
+    left: 5%;    
 }
 .element-3{
     position: absolute;
     top: 25%;
-    right: 34.5%;
+    right: 40%;
     z-index: 0;
 }
 .brands__content{
@@ -75,7 +73,25 @@
     border: 2px solid #146B38;
     color: #000;
 }
+@media (max-width: 1440px){
+    .element-1{
+        position: absolute;
+        left: 5%;
+        top: 17.8%;
+    }
+    .element-2{
+        position: absolute;
+        top: 33.2%;
+        left: 5%;
+    }
+    .element-3{
+        position: absolute;
+        top: 25%;
+        right: 34.4%;
+        z-index: 1000;
+    }
 
+}
 @media (max-width: 1199px){
     .element-1{
         position: absolute;
@@ -85,10 +101,25 @@
     }
     .element-2{
         position: absolute;
-        /* top: 200px; */
         top: 25%;
         left: 7.9%;
-        
+    }
+    
+}
+@media (max-width: 1024px){
+    .element-1{
+        position: absolute;
+        left: 5%;
+        top: 15.4%;
+    
+    }
+    .element-2{
+        position: absolute;
+        top: 32%;
+        left: 5%;
+    }
+    .element-3{
+        display: none;
     }
     
 }
@@ -103,15 +134,15 @@
      }
      .element-1{
         position: absolute;
-        left: 7.9%;
-        top: 11%;
+        left: 5%;
+        top: 12.7%;
     
     }
     .element-2{
         position: absolute;
         /* top: 200px; */
-        top: 20%;
-        left: 7.9%;
+        top: 30.4%;
+        left: 5%;
     }
      .water-bg{
         width: 100px;
@@ -129,7 +160,34 @@
     }
 }
 
+@media (max-width: 690px){
+    .brands__container{
+        max-width: 690px;
+     }
+     .element-1{
+        position: absolute;
+        left: 5%;
+        top: 11.6%;
+    
+    }
+    .element-2{
+        position: absolute;
+        /* top: 200px; */
+        top: 30.1%;
+        left: 5%;
+    }
+    .element-3{
+        position: absolute;
+        top: 35%;
+        right: 41.8%;
+        z-index: 0;
+    }
+    .brands__content h2{
+        font-size: 35px;
+        font-family: 'sora';
+    }
 
+}
 @media (max-width: 479px){
     .brands{
         padding:4% 0%;
