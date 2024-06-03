@@ -447,7 +447,7 @@ a{
         background: url('/public/bx-x.svg')   
      }
 
-    .navbar__menu-logout.navbar__menu--open {
+    .navbar__menu-logout.navbar__menu--open{
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -459,8 +459,10 @@ a{
         background-color: #00945E;
         z-index: 1;
         color: #fff;
+        transition: all 0.4s ease-in-out;
         width: 50%;
         height: 66vh;
+        transition: opacity 0.6s ease-in-out;
         overflow-y: auto;
         opacity: 1;
       }

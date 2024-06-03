@@ -73,6 +73,11 @@
         top: 80%;
     }
 }
+@media(max-width: 700px){
+    .hero__content{
+        width: 500px;
+    }
+}
 
 @media (max-width: 479px){
     .hero{

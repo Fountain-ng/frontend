@@ -33,15 +33,6 @@ const Services = () => {
             height={430}
           />
         </div>
-        <div className="services__container-3">
-          <img
-            src="/fountain-image3.jpg"
-            alt="Love for Nature"
-            className="services__container-3-img"
-            width={400}
-            height={430}
-          />
-        </div>
         <div className="services__container-4">
           <div className="services__container-4-4">
             <img
@@ -60,6 +51,15 @@ const Services = () => {
             to ensuring the highest standards of quality, with rigorous testing and evaluation processes
             for every product.
           </p>
+        </div>
+        <div className="services__container-3">
+          <img
+            src="/fountain-image3.jpg"
+            alt="Love for Nature"
+            className="services__container-3-img"
+            width={400}
+            height={430}
+          />
         </div>
       </div>
     </section>
