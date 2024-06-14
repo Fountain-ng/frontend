@@ -1,92 +1,14 @@
 'use client';
 import '../styles/carabao-product.modules.css';
-import React, { useState, useContext} from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
-import {AuthContext} from '../context/AuthContext';
+import GreenNavbar from './Navbar-Green';
 
 const CarabaoProducts = () => {
-  const { authStatus, loading } = useContext(AuthContext);
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const handleMenuToggle = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
 
   return (
     <>
-      <header>
-        <div className='carabao-fountain'>
-          <Link to="/">
-          <img
-            src="/Fountain official logo white txtAsset 3@4x-8.png"
-            alt="Fountain FMCG Logo"
-            className='fountain-logo'
-            width={200}
-            height={40}
-          />
-          </Link>
-        </div>
-
-        <ul className={`navbar__menu-logout ${isMenuOpen ? 'navbar__menu--open' : ''}`}>
-          <li className="navbar__item-logout">
-            <Link to="/carabao" className="navbar__link-logout">Our Brands</Link>
-          </li>
-          <li className="navbar__item">
-            <Link to="/Cart" className="navbar__link-logout">Our Shop</Link>
-          </li>
-          <li className="navbar__item">
-            <Link to="#" className="navbar__link-logout">Careers</Link>
-          </li>
-          {!loading && (
-            authStatus ? (
-            <li className="navbar__item">
-              <Link to="/LogoutButton" className="navbar__link-normal log-in">PROFILE</Link>
-            </li>
-          ) : (
-            <li className="navbar__item">
-              <Link to="/signIn" className="navbar__link-normal log-in">LOG IN</Link>
-            </li>
-          )
-        )}
-        </ul>
-
-        <div className="navbar__cta-logout">
-          <Link to="#" className="navbar__cta-btn">
-            <img
-              src="/bx-cart.svg"
-              className="navbar__cta-img-logout"
-              alt='cart icon'
-              width={30}
-              height={30}
-            />
-          </Link>
-          <Link to="/LogoutButton"className="navbar__cta-btn">
-          <img
-            src="/bx-user.svg"
-            className="navbar__cta-img-normal-main"
-            alt="user icon"
-            width={30}
-            height={30}
-          />
-        </Link>
-          <button className="navbar__cta-btn-menu-logout" onClick={handleMenuToggle}>
-            {isMenuOpen ? (
-              <img
-                src="/bx-x.svg"
-                alt="Menu close button"
-                width={30}
-                height={30}
-              />
-            ) : (
-              <img
-                src="/bx-menu.svg"
-                alt="Menu toggle button"
-                width={30}
-                height={30}
-              />
-            )}
-          </button>
-        </div>
-      </header>
+      <GreenNavbar></GreenNavbar>
       <section className="carabao-real">
         <div className="carabao-real__container">
           <div className="carabao-real__img">
