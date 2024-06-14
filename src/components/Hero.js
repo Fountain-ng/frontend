@@ -18,7 +18,7 @@ const Hero = () => {
           Welcome to Fountain
           </p>
       </div>
-      <h1 className="hero__title">Refreshing Moments Await with Fountain Beverages</h1>
+      <h1 className="hero__title">The <span className="cursive">perfect</span> fusion of <span className="cursive">people</span> and <span className="cursive">brands</span></h1>
       </div>
     </section>
   );

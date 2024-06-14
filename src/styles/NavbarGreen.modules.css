@@ -1,0 +1,43 @@
+
+.signIn-header{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+    background-color: #00945E;
+}
+.navbar__menu-signIn{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.navbar__link-signIn{
+    text-decoration: none;
+    font-family: 'sora', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffffff;
+    transition: all .42s ease;
+}
+.navbar__link-signIn:hover {
+    border-bottom: 2px solid #40B44B;
+  }
+.navbar__cta{
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
+.navbar__cta-btn{
+    transition: all .42s ease;
+    color: #fff;
+    margin-right: 15px;
+}
+.navbar__cta-menu, .menu{
+    display: none;
+}
+.navbar__cta-img{
+    filter: brightness(0) invert(1);
+}

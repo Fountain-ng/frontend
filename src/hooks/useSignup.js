@@ -1,8 +1,9 @@
 import { useMutation } from 'react-query';
-import axios from '../api/axiosConfig';
+import { routes } from '../api/config/routes';
+import axios from 'axios';
 
 const signup = async (userData) => {
-  const response = await axios.post('/auth/user/signup', userData);
+  const response = await axios.post(routes.auth.user.signup, userData);
   return response.data;
 };
 

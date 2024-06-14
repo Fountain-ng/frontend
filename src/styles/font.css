@@ -25,3 +25,39 @@
      font-weight: bold;
      font-style: normal;
  }
+
+ @font-face {
+     font-family: 'Geo';
+     src: 
+          /* url('/public/fonts/URWGeometricBold.otf') format('woff'), */
+          /* url('/public/fonts/URWGeometricExtraBold.otf') format('woff'), */
+          /* url('/public/fonts/URWGeometricHeavy.otf') format('woff'), */
+          url('/public/fonts/URWGeometricRegular.otf') format('woff'),
+          url('/public/fonts/URWGeometricMedium.otf') format('woff'),
+          url('/public/fonts/URWGeometricLight.otf') format('woff'),
+          /* url('/public/fonts/URWGeometricSemiBold.otf') format('woff'), */
+          url('/public/fonts/URWGeometricExtraLight.otf') format('woff'),
+          url('/public/fonts/URWGeometricThin.otf') format('woff');
+     font-style: normal;
+}
+
+@font-face {
+     font-family: 'Geo-semiBold';
+     src: 
+          url('/public/fonts/URWGeometricSemiBold.otf') format('woff');
+}
+@font-face {
+     font-family: 'Geo-Light';
+     src: 
+     url('/public/fonts/URWGeometricLight.otf') format('woff'),
+}
+
+
+
+@font-face {
+     font-family: 'Neftali';
+     src: 
+          url('/public/fonts/Fontspring-DEMO-neftalipro-mediumitalic.otf') format('woff'),
+          url('/public/fonts/Fontspring-DEMO-neftalipro-italic.otf') format('woff');
+     font-style: normal;
+ }

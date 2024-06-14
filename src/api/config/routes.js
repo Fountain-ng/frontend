@@ -1,4 +1,5 @@
 import { currentHost } from "./host";
+
 export const routes = Object.freeze({
   health: `${currentHost}/health`,
   auth: {

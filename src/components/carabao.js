@@ -1,123 +1,28 @@
 'use client';
 import { Link } from 'react-router-dom';
-import React, { useState, useContext} from 'react';
+import Navbar from './Navbar';
+import React from 'react';
 import '../styles/all-brands.modules.css';
-import {AuthContext} from '../context/AuthContext';
 
 const AllBrands = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const { authStatus, loading } = useContext(AuthContext);
-  const handleMenuToggle = () => {
-    console.log("isMenuOpen:", !isMenuOpen);
-    setIsMenuOpen(!isMenuOpen);
-  };
-
   return (
     <>
-      <header>
-        <div className='carabao-fountain'>
-          <img
-            src="/Fountain official logo white txtAsset 3@4x-8.png"
-            alt="Fountain FMCG Logo"
-            className='fountain-logo'
-            width={200}
-            height={40}
-          />
-        </div>
-
-        <ul className={`navbar__menu-logout ${isMenuOpen ? 'navbar__menu--open' : ''}`}>
-          <li className="navbar__item-logout">
-            <Link to="/" className="navbar__link-logout">HOME</Link>
-          </li>
-          <li className="navbar__item">
-            <Link to="/carabao" className="navbar__link-logout">SHOP</Link>
-          </li>
-          <li className="navbar__item">
-            <Link to="/Cart" className="navbar__link-logout">BASKET</Link>
-          </li>
-          <li className="navbar__item">
-            <Link to="/Cart" className="navbar__link-normal cart-nav">CART</Link>
-          </li>
-          {!loading && (
-          authStatus ? (
-            <li className="navbar__item">
-              <Link to="/LogoutButton" className="navbar__link-normal log-in">PROFILE</Link>
-            </li>
-          ) : (
-            <li className="navbar__item">
-              <Link to="/signIn" className="navbar__link-normal log-in">LOG IN</Link>
-            </li>
-          )
-        )}
-        </ul>
-
-        <div className="navbar__cta-logout">
-          <Link to="/Cart" className="navbar__cta-btn">
-            <img
-              src="/bx-cart.svg"
-              className="navbar__cta-img-logout"
-              alt='cart icon'
-              width={30}
-              height={30}
-            />
-          </Link>
-          {!loading && (
-          authStatus ? (
-            <Link to="/LogoutButton"className="navbar__cta-btn">
-          <img
-            src="/bx-user.svg"
-            className="navbar__cta-img-normal-main"
-            alt="user icon"
-            width={30}
-            height={30}
-          />
-        </Link>
-          ) : (
-              <Link to="/signIn"className="navbar__cta-btn">
-          <img
-            src="/bx-user.svg"
-            className="navbar__cta-img-normal-main"
-            alt="user icon"
-            width={30}
-            height={30}
-          />
-        </Link>
-          )
-        )}
-          <button className="navbar__cta-btn-menu-logout" onClick={handleMenuToggle}>
-            {isMenuOpen ? (
-              <img
-                src="/bx-x.svg"
-                alt="Menu close button"
-                width={30}
-                height={30}
-              />
-            ) : (
-              <img
-                src="/bx-menu.svg"
-                alt="Menu toggle button"
-                width={30}
-                height={30}
-              />
-            )}
-          </button>
-        </div>
-      </header>
+      <Navbar/>
       <main>
-        <section className='all-brands'>
-          <div className='all-brands__container'>
+      <section className='all-brands-1'>
+          <div className='all-brands__container-1'>
           </div>
-          <div className='all-brands__content'>
-            <h1 className='all-brands__header'>GET READY TO BRING IT ON!</h1>
-            <h2 className='all-brands__title'>Carabao Energy Drink</h2>
-            <Link to="/carabao-products" className='all-brands__btn'>VIEW PRODUCTS</Link>
+          <div className='all-brands__content-1'>
+            <h1 className='all-brands__header-1'>GET READY TO BRING IT ON!</h1>
+            <h2 className='all-brands__title-1'>Carabao Energy Drink</h2>
+            <Link to="/carabao-products" className='all-brands__btn-1'>BUY NOW</Link>
           </div>
         </section>
         <section className='all-brands-products'>
           <h1 className='all-brands-products__title'>OUR PRODUCTS</h1>
           <div className='all-brands-products__container'>
             <img
-              src='/download.png'
+              src="/424428900_2489162597956505_8765206352264754478_n 1.png" 
               alt='Products'
               className='all-brands-img'
               width={350}
@@ -128,7 +33,7 @@ const AllBrands = () => {
               <p className='all-brands-products__description'>
                 Carabao Original is a refreshing and great tasting non-carbonated energy drink. Contains taurine, caffeine and B vitamins which replenishes energy and relieves fatigue. Niacin, pantothenic acid, vitamin B6 and vitamin B12 contribute to normal energy yielding metabolism and to the reduction of tiredness and fatigue.
               </p>
-              <Link to="/carabao-products" className='all-brands-products__btn'>Shop Now</Link>
+              <Link to="/carabao-products" className='all-brands-products__btn'>ORDER NOW</Link>
             </div>
           </div>
         </section>
@@ -196,6 +101,58 @@ const AllBrands = () => {
             </div>
           </div>
         </section>
+        {/* <section className='carabao'>
+            <div className='carabao-cup'>
+              <div className='carabao-cup-content'>
+                <h1 className='carabao-cup-header'>IGNITE THE CARABAO SPIRIT IN YOU.</h1>
+              </div>
+            </div>
+        </section> */}
+        <section className='carabao-history'>
+          <div className='carabao-history__container'>
+            <div className='carabao-history__content'>
+              <h1 className='carabao-history__header'>Coming Alive into the Culture</h1>
+              <p className='carabao-history__description'>
+              Guinness’ distinctive voice is informed by deep consumer insight and powered by precision marketing to ensure it connects with key cultural moments. In August 2021, Guinness launched its first pan-African campaign in five years: Black Shines Brightest. Inspired by the bold and unique beer, Guinness Foreign Extra Stout and features some of the best-known local culture makers.</p>
+            </div>
+            <div className='carabao-history__img'>
+              <img
+                src="/ai-gen.jpg"
+                alt='Carabao energy drink'
+                width={400}
+                height={400}
+              />
+            </div>
+          </div>
+        </section>
+        <section className='all-brands'>
+          <div className='all-brands__container'>
+            <div className='all-brands__content'>
+              <img
+                src='/efl_logo (2).png'
+                alt='Carabao energy drink'
+                className='efl-logo'
+                width={400}
+                height={400}
+              />
+              <div className='all-brands__text'>
+                <h1 className='all-brands__header'>Carabao Cup</h1>
+                <p className='all-brands__description'>
+                Official partners of fountain beverages
+                </p>
+                <p className='all-brands__description-2'>We love football! That's why we're the proud partner of the Carabao Cup.</p>
+                <Link to="#" className='all-brands__btn'>Learn more</Link>
+              </div>
+              <img
+                src='/Untitled-3 (1).png'
+                alt='Carabao energy drink'
+                width={400}
+                height={400}
+              />
+            </div>
+          </div>
+        </section>
+        
         <footer className="all-brands-footer">
           <div className="all-brands-footer__container">
             <div className="all-brands-footer__content">
@@ -212,36 +169,36 @@ const AllBrands = () => {
               <div className="all-brands-footer__blog">
                 <p className="all-brands-footer__text">More on the blog</p>
                 <Link to="#" target="_blank" rel="noreferrer">About Fountain</Link>
-                <Link to="#" target="_blank" rel="noreferrer">Products</Link>
-                <Link to="#" target="_blank" rel="noreferrer">Shop</Link>
+                <Link to="/carabao" target="_blank" rel="noreferrer">Products</Link>
+                <Link to="/carabao-products" target="_blank" rel="noreferrer">Shop</Link>
               </div>
               <div className="all-brands-footer__jobs">
                 <p className="all-brands-footer__text">More on Fountain</p>
                 <Link to="#" target="_blank">The team</Link>
-                <Link to="#" target="_blank" rel="noreferrer">Jobs</Link>
+                <Link to="https://www.instagram.com/p/C6wKv9sIs8l/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noreferrer">Jobs</Link>
                 <div className="all-brands-footer__socials">
                   <Link to="#" target="_blank" rel="noreferrer">
                     <img
-                      src="/Group.svg"
+                      src="/Group (5).svg"
                       alt="facebook"
-                      width="20"
-                      height="20"
+                      width="24"
+                      height="24"
                     />
                   </Link>
                   <Link to="#" target="_blank" rel="noreferrer">
                     <img
-                      src="/Group (1).svg"
+                      src="/Group (3).svg"
                       alt="twitter"
-                      width="20"
-                      height="20"
+                      width="24"
+                      height="24"
                     />
                   </Link>
-                  <Link to="#" target="_blank" rel="noreferrer">
+                  <Link to="https://www.instagram.com/fountain.ng/" target="_blank" rel="noreferrer">
                     <img
-                      src="/Group (2).svg"
+                      src="/Group (4).svg"
                       alt="instagram"
-                      width="20"
-                      height="20"
+                      width="24"
+                      height="24"
                     />
                   </Link>
                 </div>

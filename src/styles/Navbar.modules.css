@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: transparent;
-    padding: 20px 5%;
+    /* padding: 30px 5%; */
 }
 .navbar__menu-normal {
     display: flex;
@@ -19,11 +19,9 @@
 }
 .navbar__link-normal {
     text-decoration: none;
-    font-size: 1.1rem;
-    font-family: 'sora', sans-serif;
-    font-weight: 700;
+    font-size: min(6vmin, calc(1rem + 0.23vmax));
+    font-family: 'Geo';
     color: #000000;
-    transition: all 0.42s ease;
 }
   
 .navbar__link-normal:hover {
@@ -43,12 +41,16 @@
     color: #fff;
     margin-right: 15px;
   }
-  
+  .navbar__cta-img-menu{
+    filter: brightness(0) invert(1);
+  }
   .navbar__cta-menu {
     display: none;
   }
   .navbar__cta-btn-menu{
     display: none;
+    /* position: fixed;
+    right: 10px; */
 }
 .log-in{
     display: none;
@@ -107,7 +109,7 @@
     background-color: #00945E;
     color: #fff;
     width: 53%;
-    height: 110vh;
+    height: 500vh;
     overflow-y: auto;
     opacity: 0;
   }
@@ -123,6 +125,8 @@
 }
 .navbar__cta-btn-menu{
   display: block;
+  background-color: transparent;
+  border: none;
 }
 .log-in{
   display: block;
@@ -155,18 +159,17 @@
     .navbar__menu-normal{
         display: flex;
         flex-direction: column;
-        position: absolute;
+        position: fixed;
         align-items: center;
         gap: 30px;
         transition: all 0.4s ease-in-out;
-        top: 95%;
+        top: 0px;
         right: 0%;
         transition: opacity 0.6s ease-in-out;
-        padding-top: 30px;
         background-color: #00945E;
         color: #fff;
-        width: 53%;
-        height: 110vh;
+        width: 80%;
+        height: 1143.3vh;
         overflow-y: auto;
         opacity: 0;
       }
@@ -190,8 +193,8 @@
     .navbar__cta-menu {
       display: block;
     }
-  }
-  
+}
+
 
 @media (max-width: 379px){
     .navbar__menu.navbar__menu--open {
