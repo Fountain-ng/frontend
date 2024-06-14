@@ -1,4 +1,4 @@
-import { currentHost } from "./host.js";
+import { currentHost } from "./host";
 
 export const routes = Object.freeze({
   health: `${currentHost}/health`,
