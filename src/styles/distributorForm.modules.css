@@ -151,7 +151,7 @@ header{
         background: url('/bx-x.svg')   
      }
 
-    .navbar__menu-normal.navbar__menu--open {
+    .navbar__menu-normal {
         display: flex;
         flex-direction: column;
         position: absolute;

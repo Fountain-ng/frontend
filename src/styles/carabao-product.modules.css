@@ -223,9 +223,6 @@ header{
     .navbar__cta-menu {
       display: block;
     }
-    .navbar__menu-logout, .navbar__cta-btn{
-        display: none;
-    }
 }
 
 @media(max-width:595px){

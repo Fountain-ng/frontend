@@ -113,7 +113,7 @@ const AllBrands = () => {
             <div className='carabao-history__content'>
               <h1 className='carabao-history__header'>Coming Alive into the Culture</h1>
               <p className='carabao-history__description'>
-              Guinness’ distinctive voice is informed by deep consumer insight and powered by precision marketing to ensure it connects with key cultural moments. In August 2021, Guinness launched its first pan-African campaign in five years: Black Shines Brightest. Inspired by the bold and unique beer, Guinness Foreign Extra Stout and features some of the best-known local culture makers.</p>
+              Fountain’s distinctive voice is informed by deep consumer insight and powered by precision marketing to ensure it connects with key cultural moments. In August 2023, Fountain launched its first nationwide campaign: Energy Unleashed. Inspired by the bold and invigorating Carabao Energy Drink, this campaign features some of the most influential local culture makers.</p>       
             </div>
             <div className='carabao-history__img'>
               <img
