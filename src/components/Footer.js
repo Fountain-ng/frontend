@@ -20,13 +20,14 @@ const Footer = () => {
           <div className="footer__blog">
           <p className="footer__text">More on the blog</p>
           <Link to="#" target="_blank" rel="noreferrer">About Fountain</Link>
-          <Link to="#" target="_blank" rel="noreferrer">Products</Link>
-          <Link to="#" target="_blank" rel="noreferrer">Shop</Link>
+          <Link to="/carabao" target="_blank" rel="noreferrer">Contact</Link>
+          <Link to="/carabao" target="_blank" rel="noreferrer">Delivery</Link>
+          <Link to="/carabao-products" target="_blank" rel="noreferrer">Refund Policy</Link>
           </div>
           <div className="footer__jobs">
             <p className="footer__text">More on Fountain</p>
               <Link to="#" target="_blank">The team</Link>
-              <Link to="#" target="_blank" rel="noreferrer">Jobs</Link>
+              <Link to="https://www.instagram.com/p/C6wKv9sIs8l/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noreferrer">Jobs</Link>
               <div className="footer__socials">
               <Link to="#" target="_blank" rel="noreferrer">
                 <img
@@ -44,7 +45,7 @@ const Footer = () => {
                   height="20"
                 />
               </Link>
-              <Link to="#" target="_blank" rel="noreferrer">
+              <Link to="https://www.instagram.com/fountain.ng/" target="_blank" rel="noreferrer">
                 <img
                   src="/Group (2).svg"
                   alt="instagram"

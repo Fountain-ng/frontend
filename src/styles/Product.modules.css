@@ -1,6 +1,5 @@
 .product{
     height: 800px;
-    /* background: #9bad9b; */
     background: url('/public/fountain-background.jpg');
     display: flex;
     flex-direction: column;
@@ -65,7 +64,7 @@
     justify-content: space-around;
     align-items: flex-start;
     padding-top: 40px;
-    gap: 80px;
+    gap: 150px;
 }
 .product__content{
     display: flex;

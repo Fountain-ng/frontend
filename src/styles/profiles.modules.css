@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Sora:wght@100..800&display=swap');
 header{
     position: relative;
     top: 0;
@@ -13,13 +12,12 @@ header{
     display: flex;
     align-items: center;
 }
+
 .navbar__link-logout{
     text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: 700;
-    padding: 10px 20px;
+    font-size: min(6vmin, calc(1rem + 0.23vmax));
+    font-family: 'Geo';
     color: #ffffff;
-    transition: all .42s ease;
 }
 .navbar__link:hover{
     color: #000000;
@@ -35,6 +33,7 @@ header{
     color: #fff;
     margin-right: 15px;
 }
+
 .navbar__cta-menu{
     display: none;
 }
@@ -43,6 +42,9 @@ header{
 
 }
 .navbar__cta-img-logout{
+    filter: brightness(0) invert(1);
+}
+.navbar__cta-img-normal-main{
     filter: brightness(0) invert(1);
 }
 .navbar__cta-img:hover {

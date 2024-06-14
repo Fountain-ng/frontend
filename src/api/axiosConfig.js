@@ -2,7 +2,7 @@ import axios from 'axios';
 import { useRefreshToken } from '../hooks/userefreshToken';
 
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:8080/api/v1',
+  baseURL: 'https://backend.fountain.ng/api/v1',
   headers: {
     'Content-Type': 'application/json',
   },

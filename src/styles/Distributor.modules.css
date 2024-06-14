@@ -1,5 +1,5 @@
 .distributor{
-    padding: 10% 5%;
+    padding: 10% 7%;
     height: 350px;
 }
 .distributor__container{
@@ -24,10 +24,10 @@
     letter-spacing: 0.5px;
 }
 .distributor__text{
-    font-size: 14.5px;
+    font-size: 15px;
     font-family: 'sora';
     font-weight: 400;
-    line-height: 22px;
+    line-height: 25px;
     color: #000;
 }
  

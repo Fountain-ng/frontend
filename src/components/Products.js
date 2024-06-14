@@ -52,7 +52,7 @@ const Products = () => {
             </div>
             <p className="product__name">Carabao Energy Drink</p>
           </div>
-          <Link to="/carabao-products" className="product__cta">SHOP NOW</Link>
+          <Link to="/carabao-products" className="product__cta">ORDER NOW</Link>
         </div>
       </div>
     </section>

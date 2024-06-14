@@ -1,7 +1,7 @@
 .brands{
     min-height: 400px;
     background: #ffffff;
-    padding: 10% 5%;
+    padding: 10% 7%;
     position: relative;
 }
 
@@ -17,7 +17,7 @@
     padding: 30px 50px;
 }
 
-.element-1{
+.element-1 img{
     position: absolute;
     left: 5%;
     top: 18%;

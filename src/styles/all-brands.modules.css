@@ -1,81 +1,139 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Sora:wght@100..800&display=swap');
-header{
-    position: relative;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 5%;
+.all-brands-1{
     background-color: #00945E;
-}
-.navbar__menu-logout{
-    display: flex;
-    align-items: center;
-}
-.navbar__link-logout{
-    text-decoration: none;
-    font-size: 1.3rem;
-    font-weight: 700;
-    padding: 10px 20px;
-    font-family: 'sora', sans-serif;
-    color: #ffffff;
-    transition: all .42s ease;
-}
-.navbar__link:hover{
-    color: #000000;
-    background-color: #ffffff;
-}
-.navbar__cta-logout{
-    display: flex;
-    color: #fff;
-    align-items: center;
-}
-.navbar__cta-btn{
-    transition: all .42s ease;
-    color: #fff;
-    margin-right: 15px;
-}
-.navbar__cta-menu{
-    display: none;
-}
-.navbar__cta-btn-menu-logout{
-    display: none;
-
-}
-.navbar__cta-img-logout{
-    filter: brightness(0) invert(1);
-}
-.navbar__cta-img:hover {
-    transform: scale(1.1);
-}
-.all-brands{
-    background-color: #00793A;
     position: relative;
     height: 600px;
 }
-.all-brands__container{
+.all-brands__container-1{
     background: url('../animations/desktop-gif.gif');
     background-size: cover;
     background-position: center;
     height: 600px;
 }
-.all-brands__content{
+.all-brands__content-1{
     width: 500px;
     position: absolute;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-family: 'CustomRealFont', sans-serif;
-    gap: 10px;
+    gap: 30px;
     top: 25%;
     left: 5%;
 }
-.all-brands__header{
+.all-brands__header-1{
     color: #fff;
-    font-family: 'CustomRealFont';
+    font-family: 'sora';
     font-size: 50px;
 }
+.all-brands__title-1{
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Geo';
+}
+.all-brands__btn-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #00945E;
+    font-weight: 700;
+    font-family: 'sora';
+    width: 200px;
+    padding: 20px 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    transition: all .42s ease;
+}
+.all-brands__btn-1:hover{
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.all-brands{
+    width: 100%;
+    height: 540px;
+    background: url('/public/Carabao-cup-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.all-brands__container{
+    padding: 120px 5%;
+}
+.all-brands__content{
+    display: flex;
+    margin-top: 18px;
+    gap: 15px;
+}
+.all-brands__header{
+    color: #fff;
+    font-family: 'Geo';
+    font-size: 437.5%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.all-brands__description{
+    font-size: 19px;
+    color: #ffffffcc;
+    /* color: #868181; */
+    font-family: 'sora';
+    text-align: center;
+}
+.all-brands__description-2{
+    font-size: 16px;
+    /* color: #868181; */
+    color: #ffffffcc;
+    font-family: 'sora';
+    text-align: center;
+}
+.all-brands__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -90px;
+    gap: 25px;
+}
+.all-brands__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'sora';
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    background-color: #00945E;
+    transition: all .42s ease;
+    border: none;
+}
+.all-brands__btn:hover{
+    background-color: #ffffff;
+    color: #00945E;
+    border: 2px solid #00945E;
+}
+.energy{
+    position: absolute;
+    left: 48%;
+    top: 10%;
+}
+
+.carabao{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: url('/public/carabao-in.png') no-repeat scroll 50% / cover;
+}
+.carabao-cup-header{
+    color: #fff;
+    font-size: 65px;
+    padding-left: 40px;
+    font-family: 'Geo';
+
+}
+
 .all-brands__title{
     font-size: 30px;
     color: #fff;
@@ -104,7 +162,7 @@ header{
     align-items: center;
     justify-content: center;
     color: #00945E;
-    font-family: 'CustomRealFont', sans-serif;
+    font-family: 'Geo', sans-serif;
     padding-top: 15px;
     font-size: 45px;
 }
@@ -123,30 +181,51 @@ header{
     gap: 15px;
     max-width: 500px;
 }
-.all-brands__btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
+.carabao-history{
+    width: 100%;
+    background: url('/public/Spirit.png');
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+}
+.carabao-history__content{
+    max-width: 400px;
     color: #fff;
-    font-family: 'sora';
-    margin-top: 10px;
-    font-weight: 700;
-    font-size: 18px;
-    padding: 20px 20px;
-    border-radius: 5px;
-    background-color: #00945E;
-    transition: all .42s ease;
-    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
 }
-.all-brands__btn:hover{
-    background-color: #ffffff;
-    color: #00945E;
-    border: 2px solid #00945E;
+.carabao-history__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px;
 }
+.carabao-history__description{
+    font-size: 20px;
+    font-family: 'Opinion Pro';
+    line-height: 40px;
+    color: #fff;
+    margin-top: 20px;
+}
+.carabao-history__btn{
+    color: #fff;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #d33232;
+}
+.carabao-history__header{
+    font-size: 45px;
+    font-family: 'Geo';
+}
+.carabao-socials{
+    background-color: #4fe1a9;
+    width: 100%;
+    height: 150px;
+}
+
 .all-brands-products__header{
     color: #00945E;
-    font-family: 'CustomFont';
+    font-family: 'Geo';
     font-size: 45px;
 }
 .all-brands-products__description{
@@ -188,6 +267,7 @@ header{
     padding: 20px 40px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 25px;
     
 }
@@ -221,7 +301,6 @@ a{
     color: #000000;
 
 }
-
 .all-brands-footer{
     /* background-color: #ffffff; */
     height: 300px;
@@ -280,14 +359,25 @@ a{
     margin-top: 60px;
     gap: 20px;
 }
-
+.all-brands-footer__socials{
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+}
 
 @media (max-width: 1200px){
-    .all-brands__container{
+    .all-brands__container-1{
         margin-left: -200px;
     }
+    .all-brands__container {
+        padding: 120px 0px;
+    }
+    .all-brands__content {
+        gap: 0px;
+    }
 }
-@media(max-width: 980px){
+@media(max-width: 1024px){
     .brand-main-img {
         width: 300px;
         height: 100px;
@@ -296,29 +386,181 @@ a{
         max-width: 300px;
         max-height: 300px;
     }
-    .all-brands__container{
+   .all-brands__content img{
+       width: 350px;
+       height: 350px;
+   }
+   .all-brands__header {
+    color: #fff;
+    font-family: 'Geo';
+    font-size: 350%;
+    text-align: center;
+    text-transform: uppercase;
+    }
+    .all-brands__content {
+        margin-top: 70px;
+    }
+    .all-brands-products__container {
+        margin: 45px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        color: #fff;
+        gap: 25px;
+    }
+    .all-brands__container-1{
         margin-left: -400px;
     }
-    .all-brands__content{
+    .all-brands__content-1{
         width: 450px;
         position: absolute;
         display: flex;
-        font-family: 'CustomRealFont', sans-serif;
+        font-family: 'Geo', sans-serif;
         flex-direction: column;
         align-items: flex-start;
         top: 30%;
         left: 5%;
     }
 }
+@media(max-width: 980px){
+    .all-brands__container-1{
+        margin-left: -400px;
+    }
+    .all-brands__content-1{
+        width: 450px;
+        position: absolute;
+        display: flex;
+        font-family: 'Geo', sans-serif;
+        flex-direction: column;
+        align-items: flex-start;
+        top: 30%;
+        left: 5%;
+    }
+}
+@media(max-width: 950px){
+    .all-brands{
+        width: 100%;
+        height: 700px;
+    }
+    .efl-logo {
+        display: none;
+    }
+    .all-brands__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 18px;
+        gap: 80px;
+    }
+    .all-brands__text {
+        width: 500px;
+    }
+    .all-brands-products__container{
+        margin: 65px 25px;
+    }
+    .carabao-history__container {
+        padding: 65px 25px;
+    }
+    .carabao-history__content{
+        max-width: 300px;
+    }
+    .all-brands-head {
+        max-width: 350px;
+    }
+    .all-brands-products__header {
+        font-size: 32px;
+    }
+    .all-brands-products__btn {
+        font-size: 18px;
+    }
+    .all-brands-products__description {
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .all-brands__content img{
+        width: 300px;
+        height: 300px;
+    }
+    .all-brands-img{
+        width: 300px;
+        height: 300px;
+    }
+    .carabao-history__img img{
+        width: 300px;
+        height: 300px;
+    }
+    .carabao{
+        padding-bottom: 150px;
+        padding-top: 150px;
+    }
+}
 @media(max-width: 770px){
-    .all-brands__container{
+    .carabao{
+        padding-bottom: 80px;
+        padding-top: 80px;
+    }
+    .carabao-cup-content{
+        color: #fff;
+        width: 250px;
+        font-family: 'Geo';
+        padding-left: 0px;
+    }
+    .carabao-cup-header{
+        font-size: 35px;
+    }
+    .all-brands-products__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .all-brands-img {
+        max-width: 600px;
+        max-height: 400px;
+    }
+    .all-brands-products__title {
+        font-size: 32px;
+    }
+    .carabao-history__img img{
+        max-width: 600px;
+        max-height: 400px;
+    }
+    .carabao-history__header {
+        font-size: 32px;
+        font-family: 'Geo';
+    }
+    .carabao-history__description{
+        font-size: 18px;
+    }
+    .all-brands-head {
+        max-width: 600px;
+    }
+    .carabao-history__content{
+        max-width: 600px;
+    }
+    .carabao-history__container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 25px;
+    }
+    .all-brands-footer__container {
+        max-width: 1000px;
+        height: 250px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 70px;
+    }
+    .all-brands__container-1{
         height: 300px;
         padding-top: 250px;
         margin-left: -350px;
     }
-    .all-brands__content{
+    .all-brands__content-1{
         width: 300px;
-        font-family: 'CustomRealFont', sans-serif;
+        font-family: 'Geo', sans-serif;
         position: absolute;
         top: 25%;
         display: flex;
@@ -326,232 +568,210 @@ a{
         align-items: flex-start;
         left: 5%;
     }
-    .all-brands__header{
+    .all-brands__header-1{
         color: #fff;
         font-size: 40px;
-        font-family: 'CustomRealFont', sans-serif;
+        font-family: 'Geo', sans-serif;
     }
-    .all-brands__title{
+    .all-brands__title-1{
         font-size: 25px;
         line-height: 30px;
         color: #fff;
-        font-family: 'CustomRealFont', sans-serif;
+        font-family: 'Geo', sans-serif;
     }
+
 }
-@media(max-width: 595px){
-    .navbar__menu-logout, .navbar__cta-btn{
-        display: none;
-    }
-    .brand-main-img{
-        width: 300px;
-        height: 100px;
-    }
-    .all-brands_container{
-        background: url('../animations/mobile-gif.gif');
-        background-size: cover;
-        background-position: center;
-    }
-    .all-brands{
-        display: flex;
-        flex-direction: column-reverse;
-        min-height: 800px;
-    }
-    .all-brands__content{
-        max-width: 300px;
-        font-family: 'CustomRealFont', sans-serif;
+@media (max-width: 500px){
+    .all-brands-footer__container {
         display: flex;
         align-items: flex-start;
-        gap: 0;
-        position: absolute;
-        top: 5%;
-        left: 20%;
-    }
-    .all-brands__container{
-        height: 300px;
-        padding-top: 180px;
-        margin-left: -650px;
-    }
-    .carabao_product_image_new{
-        width: 250px;
-        height: 250px;
-    }
-    .all-brands-products__container{
-        display: flex;
         flex-direction: column;
-        align-items: center;
-        gap: 50px;
-    }
-    .carabao-details__container{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .all-brands-img {
-        width: 200px;
-        height: 250px;
-    }
-    .all-brands-footer{
-        padding: 10% 5%;
-        height: 570px;
-    }
-    .all-brands-footer__container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         justify-content: space-between;
-        gap: 100px;
+        gap: 70px;
     }
-    .all-brands-footer__content{
-        gap: 20px;
+    .carabao-cup-header{
+        color: #fff;
+        font-size: 25px;
+        max-width: 350px;
+        font-family: 'Geo';
+    
     }
-    .all-brands-products__title {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #00945E;
-        font-family: 'CustomFont', sans-serif;
-        padding-top: 15px;
-        font-size: 35px;
+    .carabao{
+        padding-bottom: 70px;
+        padding-top: 70px;
     }
-    .all-brands-products__header {
-        color: #00945E;
-        font-family: 'CustomFont';
-        font-size: 35px;
+    .carabao-cup-content{
+        color: #fff;
+        width: 200px;
+        font-family: 'Geo';
+        padding-left: 0px;
+    }
+    .all-brands-footer {
+        height: 400px;
+    }
+    .all-brands__text {
+        max-width: 350px;
+    }
+    .all-brands__header {
+        color: #fff;
+        font-family: 'Geo';
+        font-size: 250%;
+        text-align: center;
+        text-transform: uppercase;
     }
     .all-brands__content {
         display: flex;
         flex-direction: column;
-        align-items:flex-start;
-        gap: 14px;
-        color: #fff;
-    }
-    .all-brands__cta {
-        font-size: 14px;
-    }
-
-    .footer__socials{
-        margin-bottom: 20px;
-    }
-    .navbar__cta-btn-menu-logout{
-        display: flex;
-        background-color: transparent;
-        border: none;
-        filter: invert(100%) brightness(100%) contrast(100%);
-    }
-    .navbar__menu-2 {
-        display: none; 
-        flex-direction: column;
-        align-items: flex-start;
-      }
-    .cross{
-        background: url('/public/bx-x.svg')   
-     }
-
-    .navbar__menu-logout.navbar__menu--open{
-        display: flex;
-        flex-direction: column;
-        position: absolute;
         align-items: center;
-        gap: 30px;
-        top: 95%;
-        right: 0.0%;
-        padding-top: 30px;
-        background-color: #00945E;
-        z-index: 1;
-        color: #fff;
-        transition: all 0.4s ease-in-out;
-        width: 50%;
-        height: 66vh;
-        transition: opacity 0.6s ease-in-out;
-        overflow-y: auto;
-        opacity: 1;
-      }
-    .navbar__cta-btn {
-      display: none;
+        justify-content: center;
+        margin-top: 18px;
+        gap: 56px;
     }
-    .navbar__cta-btn-menu{
-      display: block;
-  }
-  .log-in{
-      display: block;
-  }
-  
-    .navbar__cta-menu {
-      display: block;
-    }
-    .all-brands__header{
-        color: #fff;
-        font-size: 35px;
-        font-family: 'CustomRealFont', sans-serif;
-    }
-    .all-brands__title{
-        font-size: 20px;
-        line-height: 30px;
-        color: #fff;
-        font-family: 'CustomRealFont', sans-serif;
-    }
-    .all-brands__btn{
-        font-size: 16px;
+    .all-brands__description, .all-brands__description-2 {
+        font-size: 17px;
+        color: #ffffffcc;
+        font-family: 'sora';
+        text-align: center;
     }
 }
+
 @media (max-width: 450px){
-    .all-brands{
+    .all-brands-1{
         display: flex;
         flex-direction: column-reverse;
         min-height: 800px;
     }
-    .all-brands__content{
+    .all-brands__content-1{
         max-width: 300px;
         position: absolute;
         display: flex;
         flex-direction: column;
-        font-family: 'CustomRealFont', sans-serif;
+        font-family: 'Geo', sans-serif;
         align-items: flex-start;
+        gap: 24px;
         top: 5%;
-        left: 12%;
+        left: 22%;
     }
-    .all-brands__container{
+    .all-brands__container-1{
         height: 300px;
         padding-top: 180px;
         margin-left: -600px;
     }
-    .all-brands__header, .all-brands__title{
-        font-family: 'CustomRealFont', sans-serif;
+    .all-brands__header-1, .all-brands__title-1{
+        font-family: 'Geo', sans-serif;
+    }
+    .all-brands__content img {
+        width: 250px;
+        height: 250px;
+    }
+    .all-brands__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 18px;
+        gap: 109px;
+    }
+    .carabao-cup-header{
+        color: #fff;
+        font-size: 21px;
+        width: 130px;
+        font-family: 'Geo';
+    
+    }
+    .carabao{
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .carabao-cup-content{
+        color: #fff;
+        width: 150px;
+        font-family: 'Geo';
+        padding-left: 0px;
     }
 }
-@media (max-width: 360px){
-    .all-brands__content{
+@media (max-width: 400px){
+    .all-brands__content-1{
         position: absolute;
         display: flex;
         font-family: 'CustomRealFont', sans-serif;
         flex-direction: column;
         align-items: flex-start;
-        gap: 14px;
+        justify-content: center;
+        gap: 24px;
         top: 5%;
-        left: 6%;
+        left: 20%;
     }
-    .all-brands{
+}
+@media (max-width: 360px){
+    .all-brands__text {
+        max-width: 270px;
+    }
+    .all-brands__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 18px;
+        gap: 65px;
+    }
+    .carabao-cup-header{
+        color: #fff;
+        font-size: 20px;
+        max-width: 350px;
+        font-family: 'Geo';
+    
+    }
+    .carabao{
+        padding-bottom: 52px;
+        padding-top: 52px;
+    }
+    .carabao-cup-content{
+        color: #fff;
+        width: 130px;
+        font-family: 'Geo';
+        margin-left: -20px;
+    }
+    .all-brands__content-1{
+        position: absolute;
+        display: flex;
+        font-family: 'CustomRealFont', sans-serif;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 24px;
+        top: 5%;
+        left: 20%;
+        margin-top: 15px;
+        width: 200px;
+    }
+    .all-brands-1{
         min-height: 400px;
     }
-    .all-brands__container{
+    .all-brands__container-1{
         background: url('../animations/mobile2.gif');
         background-size: cover;
         background-position: center;
         padding-top: 350px;
         margin-left: 20px;
     }
-    .all-brands__header{
+    .all-brands__header-1{
         color: #fff;
-        font-family: 'CustomRealFont', sans-serif;
-        font-size: 30px;
+        font-family: 'Geo', sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
     }
-    .all-brands__title{
-        font-size: 18px;
+    .all-brands__title-1{
+        font-size: 20px;
         line-height: 17px;
         color: #fff;
-        font-family: 'CustomRealFont', sans-serif;
+        font-family: 'Geo', sans-serif;
     }
-    .all-brands__btn{
-        font-size: 14px;
+    .all-brands__btn-1{
+        font-size: 13px;
+        font-family: 'Geo', sans-serif;
+        padding: 10px 10px;
+        width: 150px;
     }
 }

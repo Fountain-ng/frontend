@@ -12,15 +12,14 @@ header{
 .navbar__menu-logout{
     display: flex;
     align-items: center;
+    gap: 45px;
 }
+
 .navbar__link-logout{
     text-decoration: none;
-    font-size: 1.3rem;
-    font-weight: 700;
-    padding: 10px 20px;
-    font-family: 'CustomFont', sans-serif;
+    font-size: min(6vmin, calc(1rem + 0.23vmax));
+    font-family: 'Geo';
     color: #ffffff;
-    transition: all .42s ease;
 }
 .navbar__link:hover{
     color: #000000;
@@ -36,6 +35,7 @@ header{
     color: #fff;
     margin-right: 15px;
 }
+
 .navbar__cta-menu{
     display: none;
 }
@@ -44,6 +44,9 @@ header{
 
 }
 .navbar__cta-img-logout{
+    filter: brightness(0) invert(1);
+}
+.navbar__cta-img-normal-main{
     filter: brightness(0) invert(1);
 }
 .navbar__cta-img:hover {
@@ -66,7 +69,7 @@ header{
 }
 .carabao-real__title{
     font-size: 40px;
-    font-family: 'CustomFont', sans-serif;
+    font-family: 'Geo', sans-serif;
     color: #00945E;
 }
 .carabao-real__price, .carabao-real__size{
@@ -120,7 +123,36 @@ header{
     border-bottom: 2px solid #000000;
     font-size: 17px;
 }
-
+.carabao-real-details{
+    width: 100%;
+    min-height: 600px;
+}
+.carabao-real-details__container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 80px 13%;
+}
+.carabao-real-details__content{
+    border-bottom: 2px solid #000000;
+    padding-bottom: 15px;
+    width: 100%;
+}
+.carabao-real-details__content-header{
+    display: flex;
+    justify-content: space-between;
+}
+.carabao-real-details__content-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 18px;
+}
+.carabao-real-details__content-header-desc, .carabao-real-details__content-desc-p{
+    font-size: 19px;
+    font-family: 'Opinion Pro', sans-serif;
+}
 @media (max-width: 768px){
     .carabao-real__container{
         flex-direction: column;

@@ -164,7 +164,7 @@ header{
         background-color: #146B38;
         color: #fff;
         width: 53%;
-        height: 110vh;
+        height: 100%;
         overflow-y: auto;
         opacity: 1;
       }
