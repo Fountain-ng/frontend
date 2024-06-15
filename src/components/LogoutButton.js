@@ -2,7 +2,7 @@ import React, {useContext} from 'react';
 import '../styles/profiles.modules.css';
 import { useLogout } from '../hooks/useLogout';
 import { AuthContext} from '../context/AuthContext';
-import Navbar from './Navbar';
+import GreenNavbar from './Navbar-Green';
 
 const LogoutButton = () => {
   const logoutMutation = useLogout();
@@ -28,7 +28,7 @@ const LogoutButton = () => {
 
   return (
     <>
-  <Navbar />
+  <GreenNavbar />
 <div className='profile'>
     <div className='profile-header'>
         <h1>MY ACCOUNT</h1>
