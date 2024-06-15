@@ -7,15 +7,15 @@ import '../styles/all-brands.modules.css';
 const AllBrands = () => {
   return (
     <>
-      <Navbar/>
       <main>
+      <Navbar/>
       <section className='all-brands-1'>
           <div className='all-brands__container-1'>
           </div>
           <div className='all-brands__content-1'>
             <h1 className='all-brands__header-1'>GET READY TO BRING IT ON!</h1>
             <h2 className='all-brands__title-1'>Carabao Energy Drink</h2>
-            <Link to="/carabao-products" className='all-brands__btn-1'>BUY NOW</Link>
+            <Link to='/carabao-products' className='all-brands__btn-1' >BUY NOW</Link>
           </div>
         </section>
         <section className='all-brands-products'>

@@ -1,11 +1,11 @@
 // src/hooks/useRefreshToken.js
 import { useMutation } from 'react-query';
 import axios from 'axios';
-import { routes } from '../api/config/routes';
+// import { routes } from '../api/config/routes';
 
 const refreshToken = async () => {
   const token = localStorage.getItem('refreshToken');
-  const response = await axios.post(routes.auth.refreshToken, { token });
+  const response = await axios.post('', { token });
   return response.data;
 };
 

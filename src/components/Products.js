@@ -30,9 +30,7 @@ const Products = () => {
         />
       </Link>
     </div>
-      <div
-        className="product__container"
-      >
+      <div className="product__container">
         <div className="product__content">
           <h1 className="product__heading">Carabao Energy Drink Original</h1>
           <p className="product__description">

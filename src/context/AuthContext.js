@@ -1,6 +1,6 @@
 import React, {createContext, useState, useEffect} from "react";
 import axios from "axios";
-import { routes } from '../api/config/routes';
+// import { routes } from '../api/config/routes';
 
 const AuthContext = createContext();
 
@@ -17,7 +17,7 @@ const AuthProvider = ({children}) => {
         return;
       }
       try {
-        const response = await axios.get(routes.auth.status, {
+        const response = await axios.get('', {
           headers: { Authorization: `Bearer ${accessToken}` }
         });
         console.log('Auth Status Response:', response.data);

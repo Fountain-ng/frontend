@@ -1,30 +1,16 @@
 
-.signIn-header{
-    position: relative;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 5%;
-    background-color: #00945E;
-}
-.navbar__menu-signIn{
-    display: flex;
-    align-items: center;
-    gap: 35px;
-}
-.navbar__link-signIn{
+.navbar__link-normal-cart{
+    color: #fff;
     text-decoration: none;
-    font-family: 'sora', sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
-    color: #ffffff;
-    transition: all .42s ease;
+    font-size: min(6vmin, calc(1rem + 0.23vmax));
+    font-family: 'Geo';
 }
-.navbar__link-signIn:hover {
-    border-bottom: 2px solid #40B44B;
-  }
+.navbar__link-normal-cart:hover{
+    border-bottom: 2px solid #ffffff;
+}
+.navbar__link-normal-cart-real{
+    opacity: 0;
+}
 .navbar__cta{
     display: flex;
     color: #fff;
@@ -35,9 +21,32 @@
     color: #fff;
     margin-right: 15px;
 }
-.navbar__cta-menu, .menu{
+.navbar__cta-img-normal-cart{
+    filter: brightness(0) invert(1);
+}
+.navbar__cta-btn-menu-cart{
     display: none;
 }
 .navbar__cta-img{
     filter: brightness(0) invert(1);
+}
+
+@media (max-width: 700px) {
+    .navbar__link-normal-cart-real{
+      opacity: 1;
+      color: #fff;
+    text-decoration: none;
+    font-size: min(6vmin, calc(1rem + 0.23vmax));
+    font-family: 'Geo';
+    }
+}
+
+@media (max-width: 595px) {
+    .navbar__link-normal-cart-real{
+      opacity: 1;
+      color: #fff;
+    text-decoration: none;
+    font-size: min(6vmin, calc(1rem + 0.23vmax));
+    font-family: 'Geo';
+    }
 }
