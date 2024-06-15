@@ -6,10 +6,10 @@ import CarabaoProducts from './components/carabao-products';
 import SignIn from './components/signIn';
 import SignUp from './components/SignUp';
 import LogoutButton from './components/LogoutButton';
+import SimpleTest from './components/demo';
 import Cart from './components/cart';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import {Routes, Route } from 'react-router-dom'
-// import ProtectedRoute from './components/ProtectedRoute';
 
 const queryClient = new QueryClient();
 
@@ -25,6 +25,7 @@ function App() {
         <Route path="/signUp" element={<SignUp/>}/>
         <Route path="/LogoutButton" element={<LogoutButton/>}/>
         <Route path="/Cart" element={<Cart/>}/>
+        <Route path="/demo" element={<SimpleTest/>}/>
         {/* <Route path="/protected" element={<ProtectedRoute><CarabaoProducts/></ProtectedRoute>} /> */}
       </Routes>
       </QueryClientProvider>

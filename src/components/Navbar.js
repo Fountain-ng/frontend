@@ -29,10 +29,13 @@ const Navbar = () => {
           <Link to="/carabao" className="navbar__link-normal">Our Brands</Link>
         </li>
         <li className="navbar__item">
-          <Link to="/Cart" className="navbar__link-normal">Our Shop</Link>
+          <Link to="/carabao" className="navbar__link-normal">Our Shop</Link>
         </li>
         <li className="navbar__item">
-          <Link to="/" className="navbar__link-normal">Careers</Link>
+          <Link to="/Cart" className="navbar__link-normal-cart-real">Cart</Link>
+        </li>
+        <li className="navbar__item">
+          <Link to="/" className="navbar__link-normal">Our Stores</Link>
         </li>
         {!loading && (
           authStatus ? (

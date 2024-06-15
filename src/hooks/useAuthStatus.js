@@ -1,6 +1,6 @@
 import { useQuery } from 'react-query';
 import axios from 'axios';
-import { routes } from '../api/config/routes';
+// import { routes } from '../api/config/routes';
 const fetchAuthStatus = async () => {
   const accessToken = localStorage.getItem('accessToken');
   
@@ -9,7 +9,7 @@ const fetchAuthStatus = async () => {
     throw new Error('No access token found');
   }
 
-  const response = await axios.get(routes.auth.status, {
+  const response = await axios.get('', {
     headers: { Authorization: `Bearer ${accessToken}` }
   });
 

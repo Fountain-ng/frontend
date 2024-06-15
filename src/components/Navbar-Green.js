@@ -31,10 +31,13 @@ const { authStatus, loading } = useContext(AuthContext);
           <Link to="/carabao" className="navbar__link-normal-cart">Our Brands</Link>
         </li>
         <li className="navbar__item">
-          <Link to="/Cart" className="navbar__link-normal-cart">Our Shop</Link>
+          <Link to="/carabao" className="navbar__link-normal-cart">Our Shop</Link>
         </li>
         <li className="navbar__item">
-          <Link to="#" className="navbar__link-normal-cart">Careers</Link>
+          <Link to="/Cart" className="navbar__link-normal-cart-real">Cart</Link>
+        </li>
+        <li className="navbar__item">
+          <Link to="#" className="navbar__link-normal-cart">Our Stores</Link>
         </li>
         {!loading && (
           authStatus ? (
@@ -43,7 +46,7 @@ const { authStatus, loading } = useContext(AuthContext);
             </li>
           ) : (
             <li className="navbar__item">
-              <Link to="/signIn" className="navbar__link-normal log-in">Log in</Link>
+              <Link to="/signIn" className="navbar__link-normal-cart log-in">Log in</Link>
             </li>
           )
         )}
