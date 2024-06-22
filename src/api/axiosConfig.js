@@ -1,16 +1,16 @@
-import axios from 'axios';
-import { useRefreshToken } from '../hooks/userefreshToken';
+import axios from "axios";
+import { useRefreshToken } from "../hooks";
 
 const axiosInstance = axios.create({
-  baseURL: 'https://backend.fountain.ng/api/v1',
+  baseURL: "https://backend.fountain.ng/api/v1",
   headers: {
-    'Content-Type': 'application/json',
+    "Content-Type": "application/json",
   },
 });
 
 axiosInstance.interceptors.request.use(
   (config) => {
-    const accessToken = localStorage.getItem('accessToken');
+    const accessToken = localStorage.getItem("accessToken");
     if (accessToken) {
       config.headers.Authorization = `Bearer ${accessToken}`;
     }
@@ -62,7 +62,7 @@ axiosInstance.interceptors.response.use(
         const { mutateAsync: refresh } = useRefreshToken();
         const data = await refresh();
         const { accessToken } = data;
-        localStorage.setItem('accessToken', accessToken);
+        localStorage.setItem("accessToken", accessToken);
         axiosInstance.defaults.headers.common.Authorization = `Bearer ${accessToken}`;
         processQueue(null, accessToken);
         return axiosInstance(originalRequest);

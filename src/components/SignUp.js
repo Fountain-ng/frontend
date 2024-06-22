@@ -1,16 +1,15 @@
-'use client'
-import React, { useState} from 'react';
-import { useSignup } from '../hooks/useSignup';
-import '../styles/Sign-up.modules.css';
-import GreenNavbar from './Navbar-Green';
-
+"use client";
+import React, { useState } from "react";
+import { useSignup } from "../hooks";
+import "../styles/Sign-up.modules.css";
+import GreenNavbar from "./Navbar-Green";
 
 const SignUp = () => {
-  const [firstName, setFirstName] = useState('');
-  const [lastName, setLastName] = useState('');
-  const [userName, setUserName] = useState('');
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [userName, setUserName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [error, setError] = useState(null);
 
   const { mutate: signup, isLoading, isError, isSuccess } = useSignup();
@@ -21,11 +20,11 @@ const SignUp = () => {
       { firstName, lastName, userName, email, password },
       {
         onSuccess: (data) => {
-          console.log('User signed up successfully:', data);
-          window.location.href = '/';
+          console.log("User signed up successfully:", data);
+          window.location.href = "/";
         },
         onError: (error) => {
-          setError(error.response?.data?.error || 'Sign-up error');
+          setError(error.response?.data?.error || "Sign-up error");
         },
       }
     );
