@@ -1,63 +1,6 @@
 @font-face {
-    font-family: 'CustomFont';
-    src: url('/public/fonts/hemi head bd it.otf') format('otf'),
-         url('/public/fonts/hemi head bd it.otf') format('otf'),
-         url('/public/fonts/hemi head bd it.otf') format('truetype');
+    font-family: 'YourCustomFont';
+    src: url('/public/fonts/fonnts.com-Clash_Display_Variable_Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
-  
-  /* If you have different styles or weights, define them as well */
-@font-face {
-    font-family: 'Opinion Pro';
-    src: url('/public/fonts/Mint Type - Opinion Pro Condensed Light.otf') format('woff2'),
-         url('/public/fonts/Mint Type - Opinion Pro Light.otf') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-     font-family: 'CustomRealFont';
-     src: url('/public/fonts/vipnagorgialla bd it.otf') format('woff2'),
-          url('/public/fonts/vipnagorgialla bd.otf') format('woff'),
-          url('/public/fonts/vipnagorgialla rg it.otf') format('woff'),
-          url('/public/fonts/vipnagorgialla rg.otf') format('woff');
-     font-weight: bold;
-     font-style: normal;
- }
-
- @font-face {
-     font-family: 'Geo';
-     src: 
-          /* url('/public/fonts/URWGeometricBold.otf') format('woff'), */
-          /* url('/public/fonts/URWGeometricExtraBold.otf') format('woff'), */
-          /* url('/public/fonts/URWGeometricHeavy.otf') format('woff'), */
-          url('/public/fonts/URWGeometricRegular.otf') format('woff'),
-          url('/public/fonts/URWGeometricMedium.otf') format('woff'),
-          url('/public/fonts/URWGeometricLight.otf') format('woff'),
-          /* url('/public/fonts/URWGeometricSemiBold.otf') format('woff'), */
-          url('/public/fonts/URWGeometricExtraLight.otf') format('woff'),
-          url('/public/fonts/URWGeometricThin.otf') format('woff');
-     font-style: normal;
-}
-
-@font-face {
-     font-family: 'Geo-semiBold';
-     src: 
-          url('/public/fonts/URWGeometricSemiBold.otf') format('woff');
-}
-@font-face {
-     font-family: 'Geo-Light';
-     src: 
-     url('/public/fonts/URWGeometricLight.otf') format('woff'),
-}
-
-
-
-@font-face {
-     font-family: 'Neftali';
-     src: 
-          url('/public/fonts/Fontspring-DEMO-neftalipro-mediumitalic.otf') format('woff'),
-          url('/public/fonts/Fontspring-DEMO-neftalipro-italic.otf') format('woff');
-     font-style: normal;
- }

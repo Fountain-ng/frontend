@@ -3,63 +3,57 @@ import "../styles/Services.modules.css";
 
 const Services = () => {
   return (
-    <section className="services" id="services">
-      <div className="services__container">
-        <div className="services__container-1">
-          <div className="services__container-1-1">
-            <img
-              src="/remove-outline.svg"
-              alt="Fountain Beverages"
-              className="services__container-1-img"
-              width={80}
-              height={60}
-            />
-            <h2 className="services__title">ABOUT US</h2>
-          </div>
-          <h1 className="services__container-1-description">What are we <br /> about?</h1>
-            <p className="services__container-1-text">
-              At Fountain, we are dedicated to energizing your life with
-              premium energy drinks that embody vitality, adventure, and passion. Our mission is to empower individuals
-              to embrace life&apos;s adventures with gusto, providing the energy and vitality needed to pursue their passions
-              and dreams.
-            </p>
+    <section className="about">
+      <div className="about__container">
+        <div className="about-text">
+          <h2 className="about__title-1">WELCOME TO THE FOUNTAIN FAMILY.</h2>
         </div>
-        <div className="services__container-2">
-          <img
-            src="/fountain-image1.jpg"
-            alt="Fountain Beverages"
-            className="services__container-2-img"
-            width={400}
-            height={430}
-          />
+        <div className="about__text">
+          <h2 className="about__title-2">WE ARE MORE THAN JUST A DISTRIBUTOR  <span className="about-image">
+              <img
+                src="/icons/store.png"
+                alt=""
+              />
+            </span>
+          </h2>
         </div>
-        <div className="services__container-4">
-          <div className="services__container-4-4">
-            <img
-              src="/remove-outline.svg"
-              alt="Fountain Beverages"
-              className="services__container-4-img"
-              width={80}
-              height={80}
-            />
-            <h2 className="services__title">OUR SERVICES</h2>
-          </div>
-          <h1 className="services__container-1-description">What we offer?</h1>
-          <p className="services__container-1-text">
-            Fountain offers a diverse selection of premium energy drinks, each meticulously
-            curated to provide the ultimate boost of energy, focus, and vitality. We are committed
-            to ensuring the highest standards of quality, with rigorous testing and evaluation processes
-            for every product.
+        <div className="about__text">
+          <h2 className="about__title-3">WE ARE YOUR GO-TO SOURCE <span className="about-image">
+              <img
+                src="/icons/ice.png"
+                alt=""
+              />
+            </span> FOR <br/> <span className="about-image">
+              <img
+                src="/icons/energy.png"
+                alt=""
+              />
+            </span> ENERGY SOLUTIONS. 
+            <span className="about-image">
+              <img
+                src="/icons/exercise.png"
+                alt=""
+              />
+            </span>
+          </h2>
+        </div>
+
+        <div className="about-description">
+          <p className="about__description-1">
+            As the exclusive distributor of Carabao Energy Drink in Nigeria, 
+            we ensure that the products you love are available wherever and 
+            whenever you need them.
+          </p>
+          <p className="about__description-1">
+            We make quality energy products easily accessible, 
+            whether you’re powering through a busy workday or 
+            gearing up for your next big adventure. 
           </p>
         </div>
-        <div className="services__container-3">
-          <img
-            src="/fountain-image3.jpg"
-            alt="Love for Nature"
-            className="services__container-3-img"
-            width={400}
-            height={430}
-          />
+        <div className="about-description-story">
+          <p className="about__description-story-text">
+            OUR STORY, OUR BRAND
+          </p>
         </div>
       </div>
     </section>

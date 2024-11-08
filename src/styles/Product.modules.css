@@ -1,60 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 .product{
-    height: 800px;
-    background: url('/public/fountain-background.jpg');
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.product__btns{
-    display: flex;
-    gap: 25px;
-    justify-content:  flex-end;
-    margin-top: 30px;
-    margin-right: 60px;
-}
-.product__btn{
-    width: 65px;
-    height: 65px;
-    border-radius: 50%;
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    /* padding: 15px; */
-}
-.product__btn-img{
-    filter: invert(49%) sepia(90%) saturate(3313%) hue-rotate(75deg) brightness(98%) contrast(89%);
-}
-.product__btn:hover{
-    background: #29AE29;
-    color: #fff;
-    border: 1px solid #fff;
-    background-color: transparent;
-    transition: all 0.5s;
-    filter: brightness(0) invert(1);
+    border-top: 1px dashed #000;
+    padding: 6% 4%;
 }
 .product__title{
-    background-color: #fff;
-    color: #000;
+    color: #041D0FCC;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    height: 100px;
-    margin-top: -76px;
 }
 .product__title h1{
-    font-family: 'sora';
     font-weight: 700;
     font-size: 30px;
 }
 .product__container{
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
     padding-top: 40px;
-    gap: 150px;
+    gap: 50px;
 }
 .product__content{
     display: flex;
@@ -64,21 +30,55 @@
     max-height: 500px;
     color: #fff;
 }
+.product__content-1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 70px;
+}
+.product__content-number{
+    font-size: 18px;
+    color: #146B38;
+    line-height: 25px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+.product__content-text{
+    width: 300px;
+    height: 86px;
+
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.product_content-text-main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
 .product__heading{
-    max-width: 300px;
-    font-size: 32px;
-    line-height: 45px;
-    font-family: 'sora';
+    font-size: 24px;
+    color: #146B38;
+    line-height: 25px;
 }
 .product__description{
     font-size: 15px;
-    font-family: 'sora';
+    font-weight: 500;
+    color: #555555;
+    font-family: "Montserrat Alternates", sans-serif;
 }
 .column{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 100px;
+}
+.product_arrows{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 .product__name{
     font-size: 20px;
@@ -124,63 +124,4 @@
     background-color: #146B38;
     color: #fff;
     transition: all 0.5s;
-}
-
-
-
-@media (max-width: 1199px){
-    .product__container{
-        display: flex;
-    }
-}
-
-
-@media (max-width: 768px){
-     .product{
-        height: 850px;
-     } 
-     .product__description{
-        display: none;
-     }
-     .product__container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 20px;
-        gap: 40px;
-    }
-     
-}
-@media(max-width: 479px){
-    .product__btns {
-        display: flex;
-        gap: 25px;
-        justify-content: center;
-        margin-right: 0px;
-    }
-}
-@media (max-width: 390px){
-    .product__heading{
-        font-size: 27px;
-        line-height: 40px;
-        margin-left: 45px;
-    }
-    .product__container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
-@media (max-width: 350px){
-    .product__heading{
-        font-size: 27px;
-        line-height: 40px;
-        margin-left: 45px;
-    }
-    .product__container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 }

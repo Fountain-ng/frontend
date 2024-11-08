@@ -2,12 +2,22 @@
     position: relative;
     top: 0;
     left: 0;
+<<<<<<< HEAD
     z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: transparent;
     /* padding: 30px 5%; */
+=======
+    height: 80px;
+    z-index: 1000;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid #fff;
+    justify-content: space-between;
+>>>>>>> 1bf109b (Initial commit)
 }
 .navbar__menu-normal {
     display: flex;
@@ -34,7 +44,10 @@
 .navbar__cta {
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     position: relative;
+=======
+>>>>>>> 1bf109b (Initial commit)
 }
   
   .navbar__cta-btn {
