@@ -1,0 +1,28 @@
+/* [project]/src/styles/sponsors.css [app-client] (css) */
+.sponsors {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sponsors-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sponsors-container_overall {
+  display: flex;
+  gap: 80px;
+}
+
+.sponsors-btns {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=src_styles_sponsors_b52d8e.css.map*/

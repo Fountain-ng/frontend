@@ -1,0 +1,140 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
+/* [project]/src/styles/Product.css [app-client] (css) */
+.product {
+  border-top: 1px dashed #000;
+  padding: 6% 4%;
+}
+
+.product__title {
+  color: #041d0fcc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product__title h1 {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.product__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 40px;
+  gap: 50px;
+}
+
+.product__content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 400px;
+  max-height: 500px;
+  color: #fff;
+}
+
+.product__content-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 70px;
+}
+
+.product__content-number {
+  font-size: 18px;
+  color: #146b38;
+  line-height: 25px;
+  font-family: Montserrat Alternates, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.product__content-text {
+  width: 300px;
+  height: 86px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.product_content-text-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.product__heading {
+  font-size: 24px;
+  color: #146b38;
+  line-height: 25px;
+}
+
+.product__description {
+  font-size: 15px;
+  font-weight: 500;
+  color: #555;
+  font-family: Montserrat Alternates, sans-serif;
+}
+
+.column {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.product_arrows {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.product__name {
+  font-size: 20px;
+  color: #29ae29;
+  font-family: sora;
+}
+
+.product__content-img {
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.product__cta {
+  width: 150px;
+  height: 58px;
+  background-color: #fff;
+  color: #29ae29;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 7px;
+  color: #29ae29;
+  font-family: Arial, Helvetica, "sans-serif";
+  font-size: 18px;
+  font-weight: 600;
+  transition: all .3s;
+}
+
+.product__btn--disabled {
+  pointer-events: none;
+  opacity: .5;
+}
+
+.product__cta:hover {
+  background-color: #146b38;
+  color: #fff;
+  transition: all .5s;
+}
+
+
+/*# sourceMappingURL=src_styles_Product_84fc21.css.map*/

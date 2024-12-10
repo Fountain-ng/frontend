@@ -1,0 +1,72 @@
+/* [project]/src/styles/Services.css [app-client] (css) */
+.about {
+  background-color: #fff;
+  padding: 10% 5%;
+}
+
+.about__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.about__title-1, .about__title-2, .about__title-3 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 1.5px;
+  color: #041d0fcc;
+  font-family: CustomFont;
+}
+
+.about__title-4 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 1.5px;
+  color: #041d0fcc;
+  font-family: CustomFont;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-description {
+  display: flex;
+  align-items: flex-start;
+  gap: 80px;
+  font-family: Montserrat Alternates, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.about__description-1 {
+  font-size: 16px;
+  font-weight: 300;
+  max-width: 480px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 27px;
+  color: #000;
+}
+
+.about-description-story {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 360px;
+  height: 60px;
+  border-top: 1px solid #d02227;
+  border-bottom: 1px solid #d02227;
+}
+
+.about__description-story-text {
+  font-family: Montserrat Alternates, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #d02227;
+}
+
+/*# sourceMappingURL=src_styles_Services_b52d8e.css.map*/
