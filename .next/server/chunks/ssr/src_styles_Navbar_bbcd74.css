@@ -1,0 +1,73 @@
+/* [project]/src/styles/Navbar.css [app-client] (css) */
+.land-navbar {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 90px;
+  z-index: 1000;
+  background-color: #000;
+  display: flex;
+  padding: 20px 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__menu-normal {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.navbar__item {
+  list-style-type: none;
+}
+
+.navbar__link-normal {
+  text-decoration: none;
+  font-size: min(6vmin, 1rem + .23vmax);
+  font-family: Geo;
+  color: #000;
+}
+
+.navbar__link-normal:hover {
+  border-bottom: 2px solid #40b44b;
+}
+
+.cart-nav {
+  display: none;
+}
+
+.navbar__cta {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__cta-btn {
+  transition: all .42s;
+  color: #fff;
+  margin-right: 15px;
+}
+
+.navbar__cta-menu {
+  display: none;
+}
+
+.navbar__cta-btn-menu {
+  display: none;
+}
+
+.log-in {
+  display: none;
+}
+
+.navbar__cta-img-normal {
+  filter: brightness(0) contrast();
+}
+
+.navbar__cta-img-normal:hover {
+  transform: scale(1.1);
+  filter: brightness(0) contrast();
+}
+
+
+/*# sourceMappingURL=src_styles_Navbar_bbcd74.css.map*/

@@ -25,17 +25,49 @@ import blenco from "./blenco.png"
 import chopilos from "./chopilos logo.png"
 import clubLogo from "./club logo.png"
 import chandever from "./de chandever logo.png"
+import founder from "./founder.jpeg"
 import libraryLogo from "./the library logo.png"
+import brandBackgroundImage from "./Brand Background Image.jpeg"
 import shoprite from "./shoprite.png"
+import journey from "./journey.png"
+import passion from "./passion.png"
+import one from "./01.png"
+import two from "./02.png"
+import three from "./03.png"
+import askamaya from "./askamaya logo 1.png"
+import ebeano from "./prince ebeano logo 1.png"
+import secretPalace from "./secrets palace logo 1.png"
+import vodaBeach from "./voda beach logo 1.png"
+import movement_one from "./movement_1.jpeg"
+import movement_two from "./movement_2.jpeg"
+import four from "./04.png"
+import star from "./Star 1.png"
+import teamImage from "./team_image.jpeg"
 
 export {
     blackLogo,
     whiteLogo,
     arrowUp,
+    star,
+    one,
+    two,
+    three,
+    askamaya,
+    ebeano,
+    secretPalace,
+    vodaBeach,
+    movement_one,
+    movement_two,
+    four,
     partner1,
     partner2,
     partner3,
+    journey,
     ritz,
+    teamImage,
+    founder,
+    passion,
+    brandBackgroundImage,
     shoprite,
     libraryLogo,
     chandever,

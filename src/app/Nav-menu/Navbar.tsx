@@ -27,10 +27,10 @@ const Navbar = () => {
         <Link href="/signIn" className="navbar__cta-btn">
           <Search/>
         </Link>
-        <Link href="" className="navbar__cta-btn">
+        <Link href="/Brand" className="navbar__cta-btn">
           <Cart />
         </Link>
-        <Link href="/signIn" className="navbar__cta-btn">
+        <Link href="/Brand" className="navbar__cta-btn">
           <User/>
         </Link>
         <Link href="" className="navbar__cta-btn">

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file://C%3A/Users/olabo/OneDrive/Desktop/frontend/src/styles/Navbar.css"],"sourcesContent":[".land-navbar{\n  position: relative;\n  top: 0;\n  left: 0;\n  height: 90px;\n  z-index: 1000;\n  background-color: #000000;\n  display: flex;\n  padding: 20px 40px;\n  align-items: center;\n  justify-content: space-between;\n}\n.navbar__menu-normal {\n  display: flex;\n  align-items: center;\n  gap: 45px;\n}\n.navbar__item{\nlist-style-type: none;\n}\n\n.navbar__link-normal {\n  text-decoration: none;\n  font-size: min(6vmin, calc(1rem + 0.23vmax));\n  font-family: 'Geo';\n  color: #000000;\n}\n\n.navbar__link-normal:hover {\n  border-bottom: 2px solid #40B44B;\n}\n.cart-nav{\ndisplay: none;\n}\n.navbar__cta {\n  display: flex;\n  align-items: center;\n}\n\n.navbar__cta-btn {\n  transition: all 0.42s ease;\n  color: #fff;\n  margin-right: 15px;\n}\n.navbar__cta-menu {\n  display: none;\n}\n.navbar__cta-btn-menu{\n  display: none;\n  /* position: fixed;\n  right: 10px; */\n}\n.log-in{\n  display: none;\n}\n\n.navbar__cta-img-normal {\n  filter: brightness(0) contrast(100%);\n}\n\n.navbar__cta-img-normal:hover {\n  transform: scale(1.1);\n  filter: brightness(0) contrast(100%);\n}"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;AAYA;;;;;;AAKA;;;;AAIA;;;;;;;AAOA;;;;AAGA;;;;AAGA;;;;;AAKA;;;;;;AAKA;;;;AAGA;;;;AAKA;;;;AAIA;;;;AAIA"}},
+    {"offset": {"line": 70, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
