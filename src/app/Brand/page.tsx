@@ -5,6 +5,7 @@ import Footer from "../landing-page/Footer";
 import '../../styles/all-brands.css';
 import NormalArrowRightt from "@/icons/NormalArrowRight2";
 import { askamaya, blenco, chandever, chopilos, clubLogo, drinkPack, ebeano, founder, four, journey, libraryLogo, one, passion, ritz, secretPalace, shoprite, star, teamImage, three, two, vodaBeach } from "@/images";
+import NormalArrowLeftt from "@/icons/NormalArrowLeftt";
 
 
 const Brand = () => {
@@ -16,14 +17,13 @@ const Brand = () => {
           <div className="brand__content">
             <h1 className="brand__content-title">OUR BRAND</h1>
             <p className="brand__content-text">
-            A Brand of Quality and Energy.
+            Your journey starts here, with products that elevate your everyday experience.
             </p>
           </div>
         </div>
         <div className="brand-names-identity">
+            <p> <NormalArrowLeftt/></p>
             <a href="/">HOME</a>
-            <p> <NormalArrowRightt/></p>
-            <a href="/">OUR BRAND</a>
         </div>
       </div>
       
@@ -31,7 +31,7 @@ const Brand = () => {
       <div className="brand__about">
         <div><h1 className="brand__about_title">ABOUT US</h1></div>
         <div className="brand__about_content">
-          <Image src={founder} width={576} height={400} alt="founder image" />
+          <Image src={founder} width={576} height={400} id="brand__about_content_image" alt="founder image" />
           <div className="brand__about_content-text">
             <p><span className="brand__about_content-text-span">Fountain Impex Ltd.</span> is more than just a distributor — we’re a trusted partner in energizing and refreshing lives across Nigeria. </p>
             <p>As the exclusive distributor of Carabao Energy Drink, we proudly bring a world-class product known for its exceptional taste, quality, and balanced energy. </p>
@@ -45,10 +45,11 @@ const Brand = () => {
                                                       {/* BRAND jOURNEY AND COMMITMENT*/}
 
       <div className="brand__journey">
-        <div>
-          <h1 className="brand__about_title">
-            OUR JOURNEY <Image src={passion} alt=""/>AND COMMITMENT <Image src={journey} alt=""/>
+        <div className="brand__about_title_overall">
+          <h1 className="brand__journey_title">
+            OUR JOURNEY <Image src={passion} className="passion_image" alt=""/>
             </h1>
+          <h1 className="brand__journey_title title_brand">& COMMITMENT <Image src={journey} className="journey_image" alt=""/></h1>
         </div>
 
         <div className="brand__journey_content">
@@ -57,7 +58,7 @@ const Brand = () => {
               Since partnering with Carabao, <span className="brand__about_content-text-span">Fountain Impex Ltd.</span> has achieved remarkable milestones, distributing over a million cans within the first four months. This success reflects our dedication to offering a premium product that resonates with consumers’ lifestyles, whether for athletes, students, professionals, or anyone needing a boost of vitality.
             </p>
           </div>
-          <Image src={teamImage} width={576} height={400} alt=""/>
+          <Image src={teamImage} id="brand_journey_main_image" width={576} height={400} alt=""/>
         </div>
       </div>
 
@@ -65,12 +66,14 @@ const Brand = () => {
                                           {/* BRAND QUALITY */}
       <div className="brand__quality">
         <div className="brand__quality_container">
+          
           <div className="brand__quality_container_first">
+            <h1>EXPLORE OUR PARTNERS</h1>
             <Image className="brand__quality_container_first_image" src={drinkPack} width={450} height={336} alt=""/>
           </div>
           <div className="brand__quality_container_second">
             <div className="brand__quality_container_second_main-content">
-              <h1>EXPLORE OUR PARTNERS</h1>
+              <h1 className="brand__quality_container_second_main-content_header">EXPLORE OUR PARTNERS</h1>
               <div className="brand__quality_container_second_main-content-2">
                 <h1>Carabao: a brand of quality and energy</h1>
                 <p>Carabao Energy Drink is a globally recognized brand, celebrated for its unique flavor, low-sugar formulation, and health benefits, including rich doses of B6 and B12 vitamins.</p>

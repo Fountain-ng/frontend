@@ -1498,7 +1498,7 @@ const Searchblack = ({ size = 40, className = "" })=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                 d: "M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z",
                 stroke: "#292D32",
-                "stroke-width": "1.5",
+                "strokeWidth": "1.5",
                 "stroke-linecap": "round",
                 "stroke-linejoin": "round"
             }, void 0, false, {
@@ -1509,7 +1509,7 @@ const Searchblack = ({ size = 40, className = "" })=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                 d: "M22 22L20 20",
                 stroke: "#292D32",
-                "stroke-width": "1.5",
+                "strokeWidth": "1.5",
                 "stroke-linecap": "round",
                 "stroke-linejoin": "round"
             }, void 0, false, {
@@ -1549,7 +1549,7 @@ const Locatoricon = ({ size = 60, className = "" })=>{
                 d: "M12 13.4304C13.7231 13.4304 15.12 12.0336 15.12 10.3104C15.12 8.5873 13.7231 7.19043 12 7.19043C10.2769 7.19043 8.88 8.5873 8.88 10.3104C8.88 12.0336 10.2769 13.4304 12 13.4304Z",
                 stroke: "#7F7F7F",
                 strokeOpacity: "0.5",
-                "stroke-width": "1.5",
+                "strokeWidth": "1.5",
                 style: {
                     mixBlendMode: 'luminosity'
                 }
@@ -1574,7 +1574,7 @@ const Locatoricon = ({ size = 60, className = "" })=>{
                 d: "M3.61995 8.49C5.58995 -0.169998 18.42 -0.159997 20.38 8.5C21.53 13.58 18.37 17.88 15.6 20.54C13.59 22.48 10.41 22.48 8.38995 20.54C5.62995 17.88 2.46995 13.57 3.61995 8.49Z",
                 stroke: "#7F7F7F",
                 strokeOpacity: "0.5",
-                "stroke-width": "1.5",
+                "strokeWidth": "1.5",
                 style: {
                     mixBlendMode: 'luminosity'
                 }

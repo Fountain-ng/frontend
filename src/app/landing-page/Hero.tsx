@@ -16,6 +16,7 @@ const Hero = () => {
         <div className="hero__img">
           <Image
             src={mainheroImg}
+            className="hero__real__img"
             alt="Main Hero Image"
           />
         </div>

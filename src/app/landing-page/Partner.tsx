@@ -30,7 +30,6 @@ const Partner = () => {
                             <p className="partnership__container_text">As we expand our product line, you'll have the first look at new additions, giving you an edge in the market.</p>
                         </div>
                     </div>
-                    <a className="learn_content_button">BECOME A PARTNER</a>
                 </div>
                 <div className="partnership__container_img">
                     <Image src={partner1} className="zoom-image" alt='partner image 1' />
@@ -38,6 +37,7 @@ const Partner = () => {
                     <Image src={partner3} className="zoom-image" alt='partner image 3' />
                 </div>
             </div>
+            <a href="/distributor" className="learn_content_button">BECOME A PARTNER</a>
         </section>
     )
 

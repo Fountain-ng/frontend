@@ -1,0 +1,433 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,480;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,480;1,600;1,700;1,800;1,900&display=swap";
+/* [project]/src/styles/Footer.css [app-client] (css) */
+.footer {
+  width: 100%;
+  height: 100%;
+  padding: 60px;
+  background-color: #1d3427;
+}
+
+.footer-container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 200px;
+  color: #fff;
+}
+
+.footer_container_content {
+  display: flex;
+  gap: 70px;
+}
+
+.footer-location {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.footer-location_content {
+  max-width: 200px;
+}
+
+.footer-brand, .footer-contact, .footer-help {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.footer-header {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.footer-location_content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.footer-location_content span {
+  font-family: Montserrat Alternates, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: .04em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.footer-bottom_content {
+  border-top: 1px solid #fff;
+  margin-top: 50px;
+}
+
+.footer-social_content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.footer-social_content p {
+  color: #6a6969;
+}
+
+.footer-socials {
+  display: flex;
+  align-items: center;
+}
+
+#special_social_icon_main {
+  margin-top: -5px;
+}
+
+@media only screen and (width >= 769px) and (width <= 1024px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 100px;
+    color: #fff;
+  }
+
+  .footer_container_content {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  .footer-location_content {
+    max-width: 150px;
+  }
+}
+
+@media only screen and (width >= 481px) and (width <= 768px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer_container_content {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  .footer-location_content {
+    max-width: 150px;
+  }
+}
+
+@media (width <= 480px) {
+  .footer {
+    width: 100%;
+    height: 100%;
+    padding: 60px 30px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 100px;
+    color: #fff;
+  }
+
+  .footer_container_content {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+  }
+
+  .footer-header {
+    font-size: 16px;
+  }
+
+  .footer-location_content {
+    max-width: 150px;
+  }
+
+  .footer-location_content span {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .footer-brand, .footer-contact, .footer-help {
+    max-width: 200px;
+  }
+
+  .footer-social_content p {
+    font-size: 12px;
+  }
+
+  #special_social_icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  #special_social_icon_main {
+    width: 30px;
+    height: 30px;
+    margin-top: -5px;
+  }
+}
+
+
+/* [project]/src/styles/distributorPage.css [app-client] (css) */
+.distributor_main {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  font-weight: 480;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.distributor_main:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("/_next/static/media/distributorBackgroundImage.9d82ba70.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(50%);
+  z-index: -1;
+}
+
+.distributor_main__container {
+  width: 100%;
+}
+
+.distributor_main__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.distributor_main__content-title {
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 88px;
+  letter-spacing: .02em;
+  text-align: center;
+  color: #fff;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.distributor_main__content-text {
+  font-family: Montserrat Alternates, sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  color: #fff;
+  max-width: 560px;
+  text-align: center;
+}
+
+.distributor_main-names-identity {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.distributor_main-names-identity a {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #fff;
+  letter-spacing: .02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.distributor_main__form {
+  width: 100%;
+  height: 100%;
+  padding: 80px 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 60px;
+}
+
+.distributor_main__form_overall_header {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.distributor_main__form_header {
+  width: 100%;
+  font-size: 100px;
+  max-width: 600px;
+}
+
+.distributor_main__form_class {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 650px;
+  width: 100%;
+}
+
+.distributor_main__form__input input {
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: Montserrat Alternates;
+  font-size: 18px;
+  font-weight: 480;
+  line-height: 21.94px;
+  letter-spacing: .02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.distributor_main__form__label {
+  margin-bottom: -15px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.distributor_main__form__btn {
+  width: 100%;
+  padding: 20px;
+  background-color: #d02227;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  font-family: Montserrat Alternates;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.5px;
+  letter-spacing: .12em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.distributor_main__form__btn:hover {
+  background-color: #fff;
+  color: #d02227;
+  border: 1px solid #d02227;
+}
+
+@media only screen and (width >= 481px) and (width <= 768px) {
+  .distributor_main__content-title {
+    font-size: 60px;
+  }
+
+  .distributor_main__form {
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+  }
+
+  .distributor_main__form_overall_header {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hand_shaking_img {
+    display: none;
+  }
+
+  .distributor_main__form_header {
+    font-size: 35px;
+  }
+}
+
+@media (width <= 480px) {
+  .distributor_main__form {
+    margin-top: 0;
+  }
+
+  .distributor_main__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .distributor_main__content {
+    max-width: 344px;
+  }
+
+  .distributor_main__content-title {
+    font-size: 35px;
+  }
+
+  .distributor_main-names-identity {
+    margin-left: 10px;
+  }
+
+  .distributor_main-names-identity a {
+    font-size: 14px;
+  }
+
+  .distributor_main__form {
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+  }
+
+  .distributor_main__form_overall_header {
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .hand_shaking_img {
+    display: none;
+  }
+
+  .distributor_main__form_header {
+    font-size: 24px;
+  }
+
+  .distributor_main__form__input input, .distributor_main__form__btn {
+    font-size: 14px;
+  }
+}
+
+
+/*# sourceMappingURL=src_styles_f26a84._.css.map*/

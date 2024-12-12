@@ -13,11 +13,11 @@ const Distributor = () => {
         <div className="distributor__content">
           <div className='distributor__content-real'>
             <div className='distributor__content-sign'>
-              <div className='sign'><span><Image src={Ellipse} alt='sign'/></span><p className='sign-text'>Boost your energy with every sip, wherever you go.</p></div>
-              <div className='sign'><span><Image src={Ellipse} alt='sign'/></span><p className='sign-text'>Power through your busiest days with a refreshing.</p></div>
-              <div className='sign'><span><Image src={Ellipse} alt='sign'/></span><p className='sign-text'>Tropical flavors —stay energized, stay focused.</p></div>
+              <div className='sign'><span><Ellipse/></span><p className='sign-text'>Boost your energy with every sip, wherever you go.</p></div>
+              <div className='sign'><span><Ellipse/></span><p className='sign-text'>Power through your busiest days with a refreshing.</p></div>
+              <div className='sign'><span><Ellipse/></span><p className='sign-text'>Tropical flavors —stay energized, stay focused.</p></div>
             </div>
-            <a href='/' className='distributor__button'>
+            <a href='/distributor' className='distributor__button'>
               <p>LEARN MORE ABOUT CARABAO</p>
             </a>
           </div>

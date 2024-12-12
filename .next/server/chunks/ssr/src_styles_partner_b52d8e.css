@@ -1,8 +1,9 @@
 /* [project]/src/styles/partner.css [app-client] (css) */
 .partnership {
   position: relative;
-  height: 700px;
-  font-weight: 500;
+  height: 100%;
+  padding: 60px 40px;
+  font-weight: 480;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -26,8 +27,11 @@
 }
 
 .partnership__title {
-  color: #fff;
   margin-bottom: 100px;
+}
+
+.partnership__title_text {
+  color: #fff;
   font-size: 32px;
   font-weight: 600;
   line-height: 30px;
@@ -35,7 +39,7 @@
 
 .partnership__container {
   display: flex;
-  gap: 120px;
+  gap: 60px;
 }
 
 .partnership__container_main {
@@ -52,7 +56,6 @@
 }
 
 .partnership__container_text {
-  max-width: 537px;
   color: #fff;
   font-size: 18px;
   line-height: 28px;
@@ -61,13 +64,87 @@
   font-family: Montserrat Alternates, sans-serif;
 }
 
+.partnership__container_img {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
 .zoom-image {
-  object-fit: cover;
+  flex: 1;
+  max-width: 100%;
+  height: auto;
   transition: transform .5s;
 }
 
 .zoom-image:hover {
   transform: scale(1.2);
+}
+
+@media only screen and (width >= 769px) and (width <= 1024px) {
+  .partnership__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 60px;
+    align-items: center;
+  }
+}
+
+@media only screen and (width >= 481px) and (width <= 768px) {
+  .partnership__title_text {
+    font-size: 28px;
+  }
+
+  .partnership__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 60px;
+  }
+}
+
+@media (width <= 480px) {
+  .partnership {
+    height: 100%;
+    padding: 50px 30px;
+  }
+
+  .partnership__title_text {
+    margin-bottom: 0;
+    line-height: 30px;
+    gap: 12px;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .partnership__container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 60px;
+  }
+
+  .partnership__container_text_container {
+    max-width: 350px;
+  }
+
+  .partnership__container_img {
+    display: flex;
+    padding: 0;
+    width: 100%;
+  }
+
+  .partnership__container_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .partnership__container_text {
+    font-size: 16px;
+    margin-top: 0;
+  }
 }
 
 /*# sourceMappingURL=src_styles_partner_b52d8e.css.map*/

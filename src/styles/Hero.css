@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,480;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,480;1,600;1,700;1,800;1,900&display=swap');
 
 .hero {
     position: relative;
-    height: 1100px;
-    font-weight: 500;
+    height: 100%;
+    padding: 80px 40px;
+    font-weight: 480;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -28,7 +29,7 @@
 .hero__content {
     position: relative;
     color: #fff;
-    font-weight: 500;
+    font-weight: 480;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,67 +75,84 @@
 
 }
 
-@media (max-width: 768px){
-    .hero{
-        height: 900px;
-    }
-    .hero__title{
-        font-size: 2.5rem;
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .hero__content {
+        font-weight: 480;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
     }
     .hero__description{
-        font-size: 1rem;
+        text-align: center;
     }
-    .hero__cta{
-        top: 80%;
+    .hero__real__img{
+        width: 100%;
     }
+    /*  */
 }
-@media(max-width: 700px){
-    .hero__content{
-        width: 500px;
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    .hero__content {
+        font-weight: 480;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+    }
+    .hero__real__img{
+        max-width: 100%;
+    }
+    .hero__title{
+        font-size: 40px;
+        font-family: 'YourCustomFont';
+        text-transform: uppercase;
+    }
+    .hero__description{
+        font-size: 17px;
+        font-family: "Montserrat Alternates", sans-serif;
+        font-weight: 480;
+        font-style: normal;
+    }
+    .hero_content_text{
+        padding: 10px 30px;
+        text-align: center;
     }
 }
 
-@media (max-width: 479px){
+
+
+@media (max-width: 480px){
     .hero{
-        height: 500px;
+        height: 100%;
+        padding: 50px 20px;
     }
     .hero__title{
         font-size: 2rem;
+        font-family: 'YourCustomFont';
+        text-transform: uppercase;
     }
     .hero__description{
-        font-size: 1rem;
+        font-size: 16px;
+        font-family: "Montserrat Alternates", sans-serif;
+        font-weight: 480;
+        font-style: normal;
     }
-    .hero__cta{
-        visibility: hidden;
+    .hero__content {
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
     }
-    .hero__content{
-        width: 350px;
+    .hero__real__img{
+        max-width: 100%;
+        height: auto;
     }
-    .hero__title{
-        margin-left: 12px;
-    }
-}
-
-
-@media (max-width: 374px){
-    .hero{
-        height: 330px;
-    }
-    .hero__title{
-        font-size: 1.5rem;
-        margin-top: -10px;
-    }
-    .hero__description{
-        font-size: 0.85rem;
+    .hero_content_text{
         text-align: center;
-    }
-    .hero__content a{
-        display: none;
-    }
-    .hero__content{
-        width: 300px;
-    }
-    .hero__title{
-        margin-left: 12px;
-    }
+    }  
 }

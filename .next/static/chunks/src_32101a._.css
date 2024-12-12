@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,480;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,480;1,600;1,700;1,800;1,900&display=swap";
 /* [project]/src/app/geistsans_55aa1762.module.css [app-client] (css) */
 @font-face {
   font-family: geistSans;
@@ -134,7 +134,7 @@
   flex-direction: column;
   gap: 24px;
   max-width: 400px;
-  max-height: 500px;
+  max-height: 480px;
   color: #fff;
 }
 
@@ -177,7 +177,7 @@
 
 .product__description {
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 480;
   color: #555;
   font-family: Montserrat Alternates, sans-serif;
 }

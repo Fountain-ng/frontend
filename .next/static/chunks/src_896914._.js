@@ -80,7 +80,7 @@ const Menu = ({ size = 24, className = "" })=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                 d: "M1.5 1H29.5",
                 stroke: "white",
-                "stroke-width": "2",
+                "strokeWidth": "2",
                 "stroke-linecap": "round"
             }, void 0, false, {
                 fileName: "[project]/src/icons/menu.tsx",
@@ -90,7 +90,7 @@ const Menu = ({ size = 24, className = "" })=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                 d: "M1.5 7H29.5",
                 stroke: "white",
-                "stroke-width": "2",
+                "strokeWidth": "2",
                 "stroke-linecap": "round"
             }, void 0, false, {
                 fileName: "[project]/src/icons/menu.tsx",
@@ -100,7 +100,7 @@ const Menu = ({ size = 24, className = "" })=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                 d: "M1.5 13H29.5",
                 stroke: "white",
-                "stroke-width": "2",
+                "strokeWidth": "2",
                 "stroke-linecap": "round"
             }, void 0, false, {
                 fileName: "[project]/src/icons/menu.tsx",
@@ -145,7 +145,7 @@ const User = ({ size = 24, className = "" })=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                 d: "M12.5 12C15.2614 12 17.5 9.76142 17.5 7C17.5 4.23858 15.2614 2 12.5 2C9.73858 2 7.5 4.23858 7.5 7C7.5 9.76142 9.73858 12 12.5 12Z",
                 stroke: "white",
-                "stroke-width": "1.5",
+                "strokeWidth": "1.5",
                 "stroke-linecap": "round",
                 "stroke-linejoin": "round"
             }, void 0, false, {
@@ -156,7 +156,7 @@ const User = ({ size = 24, className = "" })=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                 d: "M21.09 22C21.09 18.13 17.24 15 12.5 15C7.76 15 3.91 18.13 3.91 22",
                 stroke: "white",
-                "stroke-width": "1.5",
+                "strokeWidth": "1.5",
                 "stroke-linecap": "round",
                 "stroke-linejoin": "round"
             }, void 0, false, {
@@ -1638,7 +1638,7 @@ const ArrowRight = ({ size = 30, className = "" })=>{
         xmlns: "http://www.w3.org/2000/svg",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                d: "M0.760134 17.6517C0.592783 17.7331 0.453796 17.8729 0.37385 18.0662C0.186552 18.5126 0.388573 19.0628 0.825249 19.2929C14.5008 26.5066 29.9748 28.9584 44.4055 26.2043C58.8362 23.4503 71.8825 15.5434 81.1401 3.95279C81.4351 3.58265 81.3748 3.00462 81.0028 2.66584C80.6309 2.32706 80.0869 2.35002 79.7919 2.72015C70.7696 14.0211 58.0512 21.7221 43.9883 24.4102C29.9234 27.0942 14.8378 24.7056 1.50922 17.673C1.2578 17.5432 0.984528 17.5424 0.763929 17.6498L0.760134 17.6517Z",
+                d: "M0.760134 17.6517C0.592783 17.7331 0.453796 17.8729 0.37385 18.0662C0.186552 18.5126 0.388573 19.0628 0.825249 19.2929C14.4808 26.5066 29.9748 28.9584 44.4055 26.2043C58.8362 23.4503 71.8825 15.5434 81.1401 3.95279C81.4351 3.58265 81.3748 3.00462 81.0028 2.66584C80.6309 2.32706 80.0869 2.34802 79.7919 2.72015C70.7696 14.0211 58.0512 21.7221 43.9883 24.4102C29.9234 27.0942 14.8378 24.7056 1.50922 17.673C1.2578 17.5432 0.984528 17.5424 0.763929 17.6498L0.760134 17.6517Z",
                 fill: "#40B44B"
             }, void 0, false, {
                 fileName: "[project]/src/icons/Arrowright.tsx",
@@ -1654,7 +1654,7 @@ const ArrowRight = ({ size = 30, className = "" })=>{
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                d: "M69.8511 0.925279C69.7218 0.988244 69.6086 1.0845 69.5272 1.21681C69.2735 1.62345 69.3952 2.19221 69.7951 2.49166C70.6848 3.14971 71.7248 3.34336 72.6267 3.47559C75.3401 3.86857 78.0806 3.96002 80.7696 3.75228C81.2401 3.71363 81.5664 3.28198 81.5002 2.77886C81.434 2.27575 80.9956 1.89723 80.5251 1.93587C77.9532 2.13291 75.3358 2.04325 72.7404 1.67009C72.0162 1.56459 71.2623 1.42719 70.7137 1.02516C70.4413 0.823214 70.1135 0.797496 69.8473 0.927133L69.8511 0.925279Z",
+                d: "M69.8511 0.925279C69.7218 0.988244 69.6086 1.0845 69.5272 1.21681C69.2735 1.62345 69.3952 2.19221 69.7951 2.49166C70.6848 3.14971 71.7248 3.34336 72.6267 3.47559C75.3401 3.86857 78.0806 3.96002 80.7696 3.75228C81.2401 3.71363 81.5664 3.28198 81.4802 2.77886C81.434 2.27575 80.9956 1.89723 80.5251 1.93587C77.9532 2.13291 75.3358 2.04325 72.7404 1.67009C72.0162 1.56459 71.2623 1.42719 70.7137 1.02516C70.4413 0.823214 70.1135 0.797496 69.8473 0.927133L69.8511 0.925279Z",
                 fill: "#40B44B"
             }, void 0, false, {
                 fileName: "[project]/src/icons/Arrowright.tsx",
@@ -1696,7 +1696,7 @@ const ArrowDown = ({ size = 30, className = "" })=>{
         xmlns: "http://www.w3.org/2000/svg",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                d: "M81.1754 10.1408C81.3428 10.0593 81.4818 9.9196 81.5617 9.72625C81.749 9.27987 81.547 8.72966 81.1103 8.49959C67.4347 1.28585 51.9608 -1.1659 37.53 1.58814C23.0993 4.34217 10.0531 12.2491 0.795408 23.8397C0.500402 24.2098 0.560725 24.7879 0.932705 25.1266C1.30469 25.4654 1.8487 25.4425 2.14369 25.0723C11.166 13.7713 23.8844 6.07041 37.9472 3.38224C52.0121 0.698238 67.0977 3.08685 80.4263 10.1195C80.6777 10.2493 80.951 10.2501 81.1716 10.1427L81.1754 10.1408Z",
+                d: "M81.1754 10.1408C81.3428 10.0593 81.4818 9.9196 81.5617 9.72625C81.749 9.27987 81.547 8.72966 81.1103 8.49959C67.4347 1.28585 51.9608 -1.1659 37.53 1.58814C23.0993 4.34217 10.0531 12.2491 0.795408 23.8397C0.480402 24.2098 0.560725 24.7879 0.932705 25.1266C1.30469 25.4654 1.8487 25.4425 2.14369 25.0723C11.166 13.7713 23.8844 6.07041 37.9472 3.38224C52.0121 0.698238 67.0977 3.08685 80.4263 10.1195C80.6777 10.2493 80.951 10.2501 81.1716 10.1427L81.1754 10.1408Z",
                 fill: "#40B44B"
             }, void 0, false, {
                 fileName: "[project]/src/icons/Arrowdown.tsx",
@@ -1754,7 +1754,7 @@ const ArrowLeft = ({ size = 30, className = "" })=>{
         xmlns: "http://www.w3.org/2000/svg",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                d: "M0.760134 10.1408C0.592783 10.0593 0.453796 9.9196 0.37385 9.72625C0.186552 9.27987 0.388573 8.72966 0.825249 8.49959C14.5008 1.28585 29.9748 -1.1659 44.4055 1.58814C58.8362 4.34217 71.8825 12.2491 81.1401 23.8397C81.4351 24.2098 81.3748 24.7879 81.0028 25.1266C80.6309 25.4654 80.0869 25.4425 79.7919 25.0723C70.7696 13.7713 58.0512 6.07041 43.9883 3.38224C29.9234 0.698238 14.8378 3.08685 1.50922 10.1195C1.2578 10.2493 0.984528 10.2501 0.763929 10.1427L0.760134 10.1408Z",
+                d: "M0.760134 10.1408C0.592783 10.0593 0.453796 9.9196 0.37385 9.72625C0.186552 9.27987 0.388573 8.72966 0.825249 8.49959C14.4808 1.28585 29.9748 -1.1659 44.4055 1.58814C58.8362 4.34217 71.8825 12.2491 81.1401 23.8397C81.4351 24.2098 81.3748 24.7879 81.0028 25.1266C80.6309 25.4654 80.0869 25.4425 79.7919 25.0723C70.7696 13.7713 58.0512 6.07041 43.9883 3.38224C29.9234 0.698238 14.8378 3.08685 1.50922 10.1195C1.2578 10.2493 0.984528 10.2501 0.763929 10.1427L0.760134 10.1408Z",
                 fill: "#40B44B"
             }, void 0, false, {
                 fileName: "[project]/src/icons/Arrowleft.tsx",
@@ -1770,7 +1770,7 @@ const ArrowLeft = ({ size = 30, className = "" })=>{
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                d: "M69.8511 26.8672C69.7218 26.8042 69.6086 26.708 69.5272 26.5757C69.2735 26.169 69.3952 25.6003 69.7951 25.3008C70.6848 24.6428 71.7248 24.4491 72.6267 24.3169C75.3401 23.9239 78.0806 23.8325 80.7696 24.0402C81.2401 24.0788 81.5664 24.5105 81.5002 25.0136C81.434 25.5167 80.9956 25.8953 80.5251 25.8566C77.9532 25.6596 75.3358 25.7492 72.7404 26.1224C72.0162 26.2279 71.2623 26.3653 70.7137 26.7673C70.4413 26.9693 70.1135 26.995 69.8473 26.8653L69.8511 26.8672Z",
+                d: "M69.8511 26.8672C69.7218 26.8042 69.6086 26.708 69.5272 26.5757C69.2735 26.169 69.3952 25.6003 69.7951 25.3008C70.6848 24.6428 71.7248 24.4491 72.6267 24.3169C75.3401 23.9239 78.0806 23.8325 80.7696 24.0402C81.2401 24.0788 81.5664 24.5105 81.4802 25.0136C81.434 25.5167 80.9956 25.8953 80.5251 25.8566C77.9532 25.6596 75.3358 25.7492 72.7404 26.1224C72.0162 26.2279 71.2623 26.3653 70.7137 26.7673C70.4413 26.9693 70.1135 26.995 69.8473 26.8653L69.8511 26.8672Z",
                 fill: "#40B44B"
             }, void 0, false, {
                 fileName: "[project]/src/icons/Arrowleft.tsx",
@@ -1813,7 +1813,7 @@ const ArrowUp = ({ size = 30, className = "" })=>{
         xmlns: "http://www.w3.org/2000/svg",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                d: "M81.1754 17.6517C81.3428 17.7331 81.4818 17.8729 81.5617 18.0662C81.749 18.5126 81.547 19.0628 81.1103 19.2929C67.4347 26.5066 51.9608 28.9584 37.53 26.2043C23.0993 23.4503 10.0531 15.5434 0.795408 3.95279C0.500402 3.58265 0.560725 3.00462 0.932705 2.66584C1.30469 2.32706 1.8487 2.35002 2.14369 2.72015C11.166 14.0211 23.8844 21.7221 37.9472 24.4102C52.0121 27.0942 67.0977 24.7056 80.4263 17.673C80.6777 17.5432 80.951 17.5424 81.1716 17.6498L81.1754 17.6517Z",
+                d: "M81.1754 17.6517C81.3428 17.7331 81.4818 17.8729 81.5617 18.0662C81.749 18.5126 81.547 19.0628 81.1103 19.2929C67.4347 26.5066 51.9608 28.9584 37.53 26.2043C23.0993 23.4503 10.0531 15.5434 0.795408 3.95279C0.480402 3.58265 0.560725 3.00462 0.932705 2.66584C1.30469 2.32706 1.8487 2.34802 2.14369 2.72015C11.166 14.0211 23.8844 21.7221 37.9472 24.4102C52.0121 27.0942 67.0977 24.7056 80.4263 17.673C80.6777 17.5432 80.951 17.5424 81.1716 17.6498L81.1754 17.6517Z",
                 fill: "#40B44B"
             }, void 0, false, {
                 fileName: "[project]/src/icons/Arrowup.tsx",
@@ -2201,7 +2201,7 @@ const Searchblack = ({ size = 40, className = "" })=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                 d: "M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z",
                 stroke: "#292D32",
-                "stroke-width": "1.5",
+                "strokeWidth": "1.5",
                 "stroke-linecap": "round",
                 "stroke-linejoin": "round"
             }, void 0, false, {
@@ -2212,7 +2212,7 @@ const Searchblack = ({ size = 40, className = "" })=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                 d: "M22 22L20 20",
                 stroke: "#292D32",
-                "stroke-width": "1.5",
+                "strokeWidth": "1.5",
                 "stroke-linecap": "round",
                 "stroke-linejoin": "round"
             }, void 0, false, {
@@ -2258,7 +2258,7 @@ const Locatoricon = ({ size = 60, className = "" })=>{
                 d: "M12 13.4304C13.7231 13.4304 15.12 12.0336 15.12 10.3104C15.12 8.5873 13.7231 7.19043 12 7.19043C10.2769 7.19043 8.88 8.5873 8.88 10.3104C8.88 12.0336 10.2769 13.4304 12 13.4304Z",
                 stroke: "#7F7F7F",
                 strokeOpacity: "0.5",
-                "stroke-width": "1.5",
+                "strokeWidth": "1.5",
                 style: {
                     mixBlendMode: 'luminosity'
                 }
@@ -2283,7 +2283,7 @@ const Locatoricon = ({ size = 60, className = "" })=>{
                 d: "M3.61995 8.49C5.58995 -0.169998 18.42 -0.159997 20.38 8.5C21.53 13.58 18.37 17.88 15.6 20.54C13.59 22.48 10.41 22.48 8.38995 20.54C5.62995 17.88 2.46995 13.57 3.61995 8.49Z",
                 stroke: "#7F7F7F",
                 strokeOpacity: "0.5",
-                "stroke-width": "1.5",
+                "strokeWidth": "1.5",
                 style: {
                     mixBlendMode: 'luminosity'
                 }

@@ -1,0 +1,346 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,480;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,480;1,600;1,700;1,800;1,900&display=swap";
+/* [project]/src/styles/Footer.css [app-client] (css) */
+.footer {
+  width: 100%;
+  height: 100%;
+  padding: 60px;
+  background-color: #1d3427;
+}
+
+.footer-container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 200px;
+  color: #fff;
+}
+
+.footer_container_content {
+  display: flex;
+  gap: 70px;
+}
+
+.footer-location {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.footer-location_content {
+  max-width: 200px;
+}
+
+.footer-brand, .footer-contact, .footer-help {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.footer-header {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.footer-location_content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.footer-location_content span {
+  font-family: Montserrat Alternates, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: .04em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.footer-bottom_content {
+  border-top: 1px solid #fff;
+  margin-top: 50px;
+}
+
+.footer-social_content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.footer-social_content p {
+  color: #6a6969;
+}
+
+.footer-socials {
+  display: flex;
+  align-items: center;
+}
+
+#special_social_icon_main {
+  margin-top: -5px;
+}
+
+@media only screen and (width >= 769px) and (width <= 1024px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 100px;
+    color: #fff;
+  }
+
+  .footer_container_content {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  .footer-location_content {
+    max-width: 150px;
+  }
+}
+
+@media only screen and (width >= 481px) and (width <= 768px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer_container_content {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  .footer-location_content {
+    max-width: 150px;
+  }
+}
+
+@media (width <= 480px) {
+  .footer {
+    width: 100%;
+    height: 100%;
+    padding: 60px 30px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 100px;
+    color: #fff;
+  }
+
+  .footer_container_content {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+  }
+
+  .footer-header {
+    font-size: 16px;
+  }
+
+  .footer-location_content {
+    max-width: 150px;
+  }
+
+  .footer-location_content span {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .footer-brand, .footer-contact, .footer-help {
+    max-width: 200px;
+  }
+
+  .footer-social_content p {
+    font-size: 12px;
+  }
+
+  #special_social_icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  #special_social_icon_main {
+    width: 30px;
+    height: 30px;
+    margin-top: -5px;
+  }
+}
+
+
+/* [project]/src/styles/store.css [app-client] (css) */
+.store_main {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  font-weight: 480;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.store_main:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("/_next/static/media/storeimage.e1eb82a1.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(20%);
+  z-index: -1;
+}
+
+.store__container {
+  width: 100%;
+}
+
+.store__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.store__content-title {
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 88px;
+  letter-spacing: .02em;
+  text-align: center;
+  color: #fff;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.store__content-text {
+  font-family: Montserrat Alternates, sans-serif;
+  font-size: 20px;
+  color: #fff;
+}
+
+.store-names-identity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.store-names-identity a {
+  font-size: 16px;
+  font-weight: 480;
+  line-height: 28px;
+  color: #fff;
+  letter-spacing: .02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.brand__about {
+  width: 100%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  border-bottom: 1px dotted #000;
+}
+
+.brand__about_title {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: .02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.brand__about_content {
+  max-width: 1182px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.brand__about_content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: Montserrat Alternates, sans-serif;
+  font-size: 20px;
+}
+
+.brand__about_content-text-span {
+  color: #d02227;
+}
+
+@media only screen and (width >= 481px) and (width <= 768px) {
+  .store__content-title {
+    font-size: 60px;
+  }
+
+  .store__content-text {
+    margin: 0 20px;
+    text-align: center;
+  }
+}
+
+@media (width <= 480px) {
+  .store__content-title {
+    font-size: 35px;
+  }
+
+  .store__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .store__content-text {
+    font-size: 16px;
+    margin: 0 20px;
+    text-align: center;
+  }
+
+  .store-names-identity a {
+    font-size: 14px;
+  }
+
+  .store-names-identity {
+    margin-left: 15px;
+  }
+}
+
+
+/*# sourceMappingURL=src_styles_4cd495._.css.map*/

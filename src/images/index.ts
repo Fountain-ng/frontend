@@ -36,21 +36,35 @@ import two from "./02.png"
 import three from "./03.png"
 import askamaya from "./askamaya logo 1.png"
 import ebeano from "./prince ebeano logo 1.png"
+import carabaoImage from "./manholdingcarabao.png"
 import secretPalace from "./secrets palace logo 1.png"
 import vodaBeach from "./voda beach logo 1.png"
 import movement_one from "./movement_1.jpeg"
 import movement_two from "./movement_2.jpeg"
+import coupleHoldingdrinks from "./Frame 1522851667.png"
 import four from "./04.png"
+import distributorBackgroundImage from "./distributorBackgroundImage.jpeg"
+import storeBackgroundImage from "./storeimage.jpeg"
+import carabaoInfluencerImage from "./Fountain hero copy 1.png"
 import star from "./Star 1.png"
+import serviceMobileImage from "./Rectangle 4395.png"
+import handshaking from "./handshaking.png"
 import teamImage from "./team_image.jpeg"
 
 export {
     blackLogo,
     whiteLogo,
+    carabaoImage,
+    distributorBackgroundImage,
     arrowUp,
+    serviceMobileImage,
+    coupleHoldingdrinks,
+    carabaoInfluencerImage,
     star,
+    handshaking,
     one,
     two,
+    storeBackgroundImage,
     three,
     askamaya,
     ebeano,

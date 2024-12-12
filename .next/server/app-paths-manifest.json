@@ -1,6 +1,8 @@
 {
   "/page": "app/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/Brand/page": "app/Brand/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/distributor/page": "app/distributor/page.js",
+  "/store/page": "app/store/page.js",
+  "/carabao/page": "app/carabao/page.js",
+  "/Brand/page": "app/Brand/page.js"
 }

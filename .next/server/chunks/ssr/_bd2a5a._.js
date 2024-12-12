@@ -1682,7 +1682,7 @@ const Internet = ({ size = 24, className = "" })=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                 d: "M1.99951 12.5C1.99951 18.023 6.47651 22.5 11.9995 22.5C17.5225 22.5 21.9995 18.023 21.9995 12.5C21.9995 6.977 17.5225 2.5 11.9995 2.5C6.47651 2.5 1.99951 6.977 1.99951 12.5Z",
                 stroke: "#ECF1F4",
-                "stroke-width": "1.35",
+                "strokeWidth": "1.35",
                 "stroke-linecap": "round",
                 "stroke-linejoin": "round"
             }, void 0, false, {
@@ -1693,7 +1693,7 @@ const Internet = ({ size = 24, className = "" })=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                 d: "M12.9994 2.5498C12.9994 2.5498 15.9994 6.4998 15.9994 12.4998C15.9994 18.4998 12.9994 22.4498 12.9994 22.4498M10.9994 22.4498C10.9994 22.4498 7.99939 18.4998 7.99939 12.4998C7.99939 6.4998 10.9994 2.5498 10.9994 2.5498M2.62939 15.9998H21.3694M2.62939 8.9998H21.3694",
                 stroke: "#ECF1F4",
-                "stroke-width": "1.35",
+                "strokeWidth": "1.35",
                 "stroke-linecap": "round",
                 "stroke-linejoin": "round"
             }, void 0, false, {
@@ -2178,7 +2178,7 @@ const NormalArrowRightt = ({ size = 24, className = "" })=>{
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
             d: "M6.68262 14.9401L11.5726 10.0501C12.1501 9.47256 12.1501 8.52756 11.5726 7.95006L6.68262 3.06006",
             stroke: "white",
-            "stroke-width": "1.5",
+            "strokeWidth": "1.5",
             "stroke-miterlimit": "10",
             "stroke-linecap": "round",
             "stroke-linejoin": "round"

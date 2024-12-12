@@ -82,7 +82,7 @@ const Menu = ({ size = 24, className = "" })=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                 d: "M1.5 1H29.5",
                 stroke: "white",
-                "stroke-width": "2",
+                "strokeWidth": "2",
                 "stroke-linecap": "round"
             }, void 0, false, {
                 fileName: "[project]/src/icons/menu.tsx",
@@ -92,7 +92,7 @@ const Menu = ({ size = 24, className = "" })=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                 d: "M1.5 7H29.5",
                 stroke: "white",
-                "stroke-width": "2",
+                "strokeWidth": "2",
                 "stroke-linecap": "round"
             }, void 0, false, {
                 fileName: "[project]/src/icons/menu.tsx",
@@ -102,7 +102,7 @@ const Menu = ({ size = 24, className = "" })=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                 d: "M1.5 13H29.5",
                 stroke: "white",
-                "stroke-width": "2",
+                "strokeWidth": "2",
                 "stroke-linecap": "round"
             }, void 0, false, {
                 fileName: "[project]/src/icons/menu.tsx",
@@ -141,7 +141,7 @@ const User = ({ size = 24, className = "" })=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                 d: "M12.5 12C15.2614 12 17.5 9.76142 17.5 7C17.5 4.23858 15.2614 2 12.5 2C9.73858 2 7.5 4.23858 7.5 7C7.5 9.76142 9.73858 12 12.5 12Z",
                 stroke: "white",
-                "stroke-width": "1.5",
+                "strokeWidth": "1.5",
                 "stroke-linecap": "round",
                 "stroke-linejoin": "round"
             }, void 0, false, {
@@ -152,7 +152,7 @@ const User = ({ size = 24, className = "" })=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                 d: "M21.09 22C21.09 18.13 17.24 15 12.5 15C7.76 15 3.91 18.13 3.91 22",
                 stroke: "white",
-                "stroke-width": "1.5",
+                "strokeWidth": "1.5",
                 "stroke-linecap": "round",
                 "stroke-linejoin": "round"
             }, void 0, false, {

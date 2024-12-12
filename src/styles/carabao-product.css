@@ -1,154 +1,255 @@
-header{
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,480;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,480;1,600;1,700;1,800;1,900&display=swap');
+
+
+.carabao{
     position: relative;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 5%;
-    background-color: #00945E;
-}
-.navbar__menu-logout{
-    display: flex;
-    align-items: center;
-    gap: 45px;
-}
-
-.navbar__link-logout{
-    text-decoration: none;
-    font-size: min(6vmin, calc(1rem + 0.23vmax));
-    font-family: 'Geo';
-    color: #ffffff;
-}
-.navbar__link:hover{
-    color: #000000;
-    background-color: #ffffff;
-}
-.navbar__cta-logout{
-    display: flex;
-    color: #fff;
-    align-items: center;
-}
-.navbar__cta-btn{
-    transition: all .42s ease;
-    color: #fff;
-    margin-right: 15px;
-}
-
-.navbar__cta-menu{
-    display: none;
-}
-.navbar__cta-btn-menu-logout{
-    display: none;
-
-}
-.navbar__cta-img-logout{
-    filter: brightness(0) invert(1);
-}
-.navbar__cta-img-normal-main{
-    filter: brightness(0) invert(1);
-}
-.navbar__cta-img:hover {
-    transform: scale(1.1);
-}
-
-.carabao-real__container{
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 80px 5%;
-}
-
-.carabao-real__content{
+    width: 100%;
+    height: 700px;
+    font-weight: 480;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    max-width: 400px;
-    gap: 15px;
+    justify-content: space-between;
+  }
+  
+.carabao::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('./../images/manholdingcarabao.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(50%);
+    z-index: -1;
 }
-.carabao-real__title{
-    font-size: 40px;
-    font-family: 'Geo', sans-serif;
-    color: #00945E;
+.carabao__container{
+    width: 100%;
 }
-.carabao-real__price, .carabao-real__size{
-    font-size: 17px;
-    color: #000000;
-    font-family: 'sora', sans-serif;
+.carabao__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
-.price-span{
-    text-decoration: line-through;
-    padding-right: 10px;
-    font-family: 'sora', sans-serif;
+.carabao__content-title{
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 88px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 }
-.carabao-real__select{
+.carabao__content-text{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+.carabao-names-identity{
     display: flex;
     align-items: center;
     gap: 15px;
-    font-size: 17px;
-    font-family: 'sora', sans-serif;
-    border: none;
-    outline: none;
-    border-bottom: 2px solid #000000;
-    padding-bottom:7px;
+    margin-left: 30px;
+    margin-bottom: 30px;
 }
-.carabao-real__cta{
+.carabao-names-identity a{
+    font-size: 16px;
+    font-weight: 480;
+    line-height: 28px;
+    color: #fff;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+
+
+
+
+/* CARABAO ABOUT */
+.carabao_about{
     width: 100%;
-    font-family: 'sora', sans-serif;
+    height: 100%;
+    padding: 60px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    /* padding: 50px 0; */
 }
-.carabao-real__cta-btn{
+.carabao_about_container{
+    max-width: 1182px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.carabao_about_container_text{
+    max-width: 526px;
+}
+.carabao_about_container_text p{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 18px;
+    color: #000;
+    line-height: 28px;
+}
+
+
+.carabao_influencers{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0;
+}
+.carabao_influencer_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+.carabao_influencer_container_text{
+    max-width: 955px;
+}
+.carabao_influencer_container_text p{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 18px;
+    color: #000;
+    line-height: 28px;
+    text-align: center;
+}
+
+/* BRAND SPONSORS */
+.brand__sponsor{
+    width: 100%;
+    height: 100%;
+    padding: 60px 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'sora', sans-serif;
-    /* width: 100%; */
-    padding: 15px 30px;
-    font-size: 18px;
-    font-weight: 700;
-    color: #fff;
-    border-radius: 5px;
-    margin-top: 20px;
-    background-color: #00945E;
-    border: none;
 }
-.carabao-real__cta-btn:hover{
-    transition: all .42s ease;
-    background-color: #00603d;
-}
-.quantity-real{
-    border: none;
-    outline: none;
-    font-family: 'sora', sans-serif;
-    border-bottom: 2px solid #000000;
-    font-size: 17px;
-}
-.carabao-real-details{
-    width: 100%;
-    min-height: 600px;
-}
-.carabao-real-details__container{
+.brand__sponsor_container{
+    max-width: 1106px;
+    height: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 30px;
-    padding: 80px 13%;
+    flex-wrap: wrap;
+    gap: 80px;
 }
-.carabao-real-details__content{
-    border-bottom: 2px solid #000000;
-    padding-bottom: 15px;
-    width: 100%;
+
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .carabao__content-title{
+      font-size: 60px;
+    }
+    .carabao__content-text{
+        margin: 0 20px;
+        text-align: center;
+    }
+    .carabao_influencers{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 60px 40px;
+    }
+    .brand__sponsor{
+        width: 100%;
+        height: 100%;
+        padding: 60px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .brand__sponsor_container{
+        max-width: 1106px;
+        height: 100%;
+        padding: 20px 20px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 80px;
+    }
+    .carabao_about_container{
+        width: 100%;
+        max-width: 1182px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+    .carabao-names-identity_special{
+        display: none;
+    }
+    #coupleHoldingdrink{
+        width: 100%;
+        height: auto;
+    }
 }
-.carabao-real-details__content-header{
-    display: flex;
-    justify-content: space-between;
-}
-.carabao-real-details__content-desc{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin-top: 18px;
-}
-.carabao-real-details__content-header-desc, .carabao-real-details__content-desc-p{
-    font-size: 19px;
-    font-family: 'Opinion Pro', sans-serif;
+@media (max-width: 480px){
+    .carabao__content-title{
+        font-size: 35px;
+      }
+      
+      .brand__sponsor_container{
+        width: 100%;
+        max-width: 1106px;
+        height: 100%;
+        padding: 20px 20px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 80px;
+    }
+      .carabao_about_container{
+        width: 100%;
+        max-width: 1182px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+      .carabao__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    #coupleHoldingdrink{
+        width: 100%;
+        height: auto;
+    }
+      .carabao__content-text{
+        font-size: 16px;
+          margin: 0 20px;
+          text-align: center;
+      }
+      .carabao-names-identity_special{
+        display: none;
+    }
+      .carabao-names-identity a{
+            font-size: 14px;
+      }
+      .carabao-names-identity{
+        margin-left: 15px;
+    }
+    .carabao_influencers{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        padding: 60px 30px;
+    }
+
 }

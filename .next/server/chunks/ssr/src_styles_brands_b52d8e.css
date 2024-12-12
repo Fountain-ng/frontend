@@ -205,7 +205,7 @@
   }
 }
 
-@media (width <= 479px) {
+@media (width <= 500px) {
   .brands {
     padding: 4% 0%;
     position: relative;

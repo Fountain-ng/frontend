@@ -68,5 +68,42 @@
   filter: brightness(0) contrast();
 }
 
+@media only screen and (width >= 481px) and (width <= 768px) {
+  .navbar__cta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #user_icon {
+    display: none;
+  }
+
+  .land-navbar-img {
+    width: 150px;
+    height: 35px;
+  }
+}
+
+@media (width <= 480px) {
+  .land-navbar-img {
+    width: 132px;
+    height: 28.64px;
+  }
+
+  .normal-navbar {
+    padding: 10px 15px;
+  }
+
+  #user_icon {
+    display: none;
+  }
+
+  .navbar__cta {
+    display: flex;
+    align-items: center;
+  }
+}
+
 
 /*# sourceMappingURL=src_styles_Green-Navbar_bd8df0.css.map*/

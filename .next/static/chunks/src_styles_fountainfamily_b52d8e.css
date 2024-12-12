@@ -1,12 +1,13 @@
 /* [project]/src/styles/fountainfamily.css [app-client] (css) */
 .family {
   width: 100%;
-  height: 650px;
+  height: 100%;
+  padding: 60px 40px;
 }
 
 .family-container {
   height: 80%;
-  margin: 5%;
+  padding: 5%;
   position: relative;
   display: flex;
   color: #fff;
@@ -64,6 +65,10 @@
   font-family: Montserrat Alternates, sans-serif;
 }
 
+.overall-main-content_backup {
+  display: none;
+}
+
 .family_content_button {
   width: 307px;
   display: flex;
@@ -79,6 +84,100 @@
   line-height: 19.5px;
   color: #fff;
   font-family: Montserrat Alternates, sans-serif;
+}
+
+@media only screen and (width >= 769px) and (width <= 1024px) {
+  .overall-main-content {
+    display: none;
+  }
+
+  .family-container {
+    height: 80%;
+    margin: 0;
+    padding: 60px 30px;
+  }
+
+  .overall-main-content_backup {
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    gap: 20px;
+    font-family: Montserrat Alternates, sans-serif;
+  }
+}
+
+@media only screen and (width >= 481px) and (width <= 768px) {
+  .overall-main-content {
+    display: none;
+  }
+
+  .family {
+    padding: 0;
+  }
+
+  .family-container_overall_header {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .family-container {
+    height: 80%;
+    margin: 0;
+    padding: 60px 30px;
+  }
+
+  .overall-main-content_backup {
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    gap: 20px;
+    font-family: Montserrat Alternates, sans-serif;
+  }
+
+  .family-container-overall-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (width <= 480px) {
+  .family {
+    padding: 0;
+  }
+
+  .family-container {
+    height: 80%;
+    margin: 0;
+    padding: 60px 30px;
+  }
+
+  .family-container_overall_header {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .family-container-overall-text {
+    font-size: 16px;
+  }
+
+  .overall-main-content {
+    display: none;
+  }
+
+  .overall-main-content_backup {
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    gap: 20px;
+    font-family: Montserrat Alternates, sans-serif;
+  }
+
+  .family_content_button {
+    max-width: 307px;
+  }
 }
 
 /*# sourceMappingURL=src_styles_fountainfamily_b52d8e.css.map*/

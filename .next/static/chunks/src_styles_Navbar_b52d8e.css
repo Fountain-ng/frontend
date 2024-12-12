@@ -1,5 +1,6 @@
 /* [project]/src/styles/Navbar.css [app-client] (css) */
 .land-navbar {
+  width: 100%;
   position: relative;
   top: 0;
   left: 0;
@@ -12,21 +13,13 @@
   justify-content: space-between;
 }
 
-.navbar__menu-normal {
-  display: flex;
-  align-items: center;
-  gap: 45px;
+.land-navbar-img {
+  width: 184px;
+  height: 40px;
 }
 
 .navbar__item {
   list-style-type: none;
-}
-
-.navbar__link-normal {
-  text-decoration: none;
-  font-size: min(6vmin, 1rem + .23vmax);
-  font-family: Geo;
-  color: #000;
 }
 
 .navbar__link-normal:hover {
@@ -40,12 +33,12 @@
 .navbar__cta {
   display: flex;
   align-items: center;
+  gap: 15px;
 }
 
 .navbar__cta-btn {
   transition: all .42s;
   color: #fff;
-  margin-right: 15px;
 }
 
 .navbar__cta-menu {
@@ -67,6 +60,39 @@
 .navbar__cta-img-normal:hover {
   transform: scale(1.1);
   filter: brightness(0) contrast();
+}
+
+@media only screen and (width >= 481px) and (width <= 768px) {
+  .navbar__cta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #user_icon {
+    display: none;
+  }
+
+  .land-navbar-img {
+    width: 150px;
+    height: 35px;
+  }
+}
+
+@media (width <= 480px) {
+  .land-navbar {
+    padding: 10px 15px;
+  }
+
+  #user_icon {
+    display: none;
+  }
+
+  .navbar__cta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
 }
 
 /*# sourceMappingURL=src_styles_Navbar_b52d8e.css.map*/

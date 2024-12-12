@@ -21,8 +21,8 @@ const HomePage = () => {
       <Learn />
       <Locator />
       <Partner />
-      <FountainFamily />
       <Testimonies />
+      <FountainFamily />
       <Sponsors />
       <Footer />
     </>

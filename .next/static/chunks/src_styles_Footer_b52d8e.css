@@ -1,24 +1,33 @@
 /* [project]/src/styles/Footer.css [app-client] (css) */
 .footer {
   width: 100%;
-  height: 480px;
+  height: 100%;
+  padding: 60px;
   background-color: #1d3427;
-  padding: 100px;
 }
 
 .footer-container {
+  width: 100%;
   display: flex;
   align-items: flex-start;
-  gap: 100px;
+  gap: 200px;
   color: #fff;
 }
 
+.footer_container_content {
+  display: flex;
+  gap: 70px;
+}
+
 .footer-location {
-  max-width: 200px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
+}
+
+.footer-location_content {
+  max-width: 200px;
 }
 
 .footer-brand, .footer-contact, .footer-help {
@@ -54,7 +63,6 @@
 .footer-bottom_content {
   border-top: 1px solid #fff;
   margin-top: 50px;
-  margin-bottom: 20px;
 }
 
 .footer-social_content {
@@ -71,6 +79,109 @@
 .footer-socials {
   display: flex;
   align-items: center;
+}
+
+#special_social_icon_main {
+  margin-top: -5px;
+}
+
+@media only screen and (width >= 769px) and (width <= 1024px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 100px;
+    color: #fff;
+  }
+
+  .footer_container_content {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  .footer-location_content {
+    max-width: 150px;
+  }
+}
+
+@media only screen and (width >= 481px) and (width <= 768px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer_container_content {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  .footer-location_content {
+    max-width: 150px;
+  }
+}
+
+@media (width <= 480px) {
+  .footer {
+    width: 100%;
+    height: 100%;
+    padding: 60px 30px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 100px;
+    color: #fff;
+  }
+
+  .footer_container_content {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+  }
+
+  .footer-header {
+    font-size: 16px;
+  }
+
+  .footer-location_content {
+    max-width: 150px;
+  }
+
+  .footer-location_content span {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .footer-brand, .footer-contact, .footer-help {
+    max-width: 200px;
+  }
+
+  .footer-social_content p {
+    font-size: 12px;
+  }
+
+  #special_social_icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  #special_social_icon_main {
+    width: 30px;
+    height: 30px;
+    margin-top: -5px;
+  }
 }
 
 /*# sourceMappingURL=src_styles_Footer_b52d8e.css.map*/

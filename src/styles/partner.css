@@ -1,7 +1,8 @@
 .partnership {
     position: relative;
-    height: 700px;
-    font-weight: 500;
+    height: 100%;
+    padding: 60px 40px;
+    font-weight: 480;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -24,15 +25,17 @@
     z-index: -1;
 }
 .partnership__title{
-    color: #fff;
     margin-bottom: 100px;
+}
+.partnership__title_text{
+    color: #fff;
     font-size: 32px;
     font-weight: 600;
     line-height: 30px;
 }
 .partnership__container{
     display: flex;
-    gap: 120px;
+    gap: 60px;
 }
 .partnership__container_main{
     display: flex;
@@ -46,7 +49,7 @@
     gap: 10px;
 }
 .partnership__container_text{
-    max-width: 537px;
+    /* max-width: 537px; */
     color: #fff;
     font-size: 18px;
     line-height: 28px;
@@ -54,11 +57,80 @@
     margin-top: -5px;
     font-family: "Montserrat Alternates", sans-serif;
 }
+.partnership__container_img{
+    display: flex;
+    align-items: center;           /* Align images vertically if needed */
+    width: 100%;
+}
 .zoom-image{
-    object-fit: cover; /* Ensures the image fills the container proportionally */
-    transition: transform 0.5s ease; 
+    flex: 1;
+    max-width: 100%;               /* Prevent images from exceeding their container */
+    height: auto;
+    transition: transform 0.5s ease;
 }
 
 .zoom-image:hover {
     transform: scale(1.2); /* Scale up the image slightly */
-  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .partnership__container {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 60px;
+        align-items: center;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .partnership__title_text{
+        font-size: 28px;
+    }
+    .partnership__container{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 60px;
+    }
+
+
+
+}
+@media (max-width: 480px){
+    .partnership {
+        height: 100%;
+        padding: 50px 30px;
+    }
+    .partnership__title_text{
+        margin-bottom: 0px;
+        line-height: 30px;
+        gap: 12px;
+        font-size: 24px;
+        text-align: center;
+    }
+    .partnership__container{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 60px;
+    }
+    .partnership__container_text_container{
+        max-width: 350px;
+    }
+
+    .partnership__container_img{
+        display: flex;
+        padding: 0;
+        width: 100%;
+    }
+    .partnership__container_main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        
+    }
+    .partnership__container_text{
+        font-size: 16px;
+        margin-top: 0px;
+    }
+
+}

@@ -60,7 +60,7 @@
     justify-content: center;
 }
 .SignUp-Form{
-    width: 500px;
+    width: 480px;
 }
 .signUp-btn{
     font-family: "Nanum Gothic", sans-serif;
@@ -125,7 +125,7 @@
     }
 }
 
-@media (max-width: 479px){
+@media (max-width: 480px){
     .fountain-logo{
         width: 150px;
         height: 30px;

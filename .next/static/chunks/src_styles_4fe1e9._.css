@@ -1,0 +1,192 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,480;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,480;1,600;1,700;1,800;1,900&display=swap";
+/* [project]/src/styles/Green-Navbar.css [app-client] (css) */
+.normal-navbar {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 90px;
+  z-index: 1000;
+  display: flex;
+  padding: 20px 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__menu-normal {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.navbar__item {
+  list-style-type: none;
+}
+
+.navbar__link-normal {
+  text-decoration: none;
+  font-size: min(6vmin, 1rem + .23vmax);
+  font-family: Geo;
+  color: #000;
+}
+
+.navbar__link-normal:hover {
+  border-bottom: 2px solid #40b44b;
+}
+
+.cart-nav {
+  display: none;
+}
+
+.navbar__cta {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__cta-btn {
+  transition: all .42s;
+  color: #fff;
+  margin-right: 15px;
+}
+
+.navbar__cta-menu {
+  display: none;
+}
+
+.navbar__cta-btn-menu {
+  display: none;
+}
+
+.log-in {
+  display: none;
+}
+
+.navbar__cta-img-normal {
+  filter: brightness(0) contrast();
+}
+
+.navbar__cta-img-normal:hover {
+  transform: scale(1.1);
+  filter: brightness(0) contrast();
+}
+
+
+/* [project]/src/styles/store.css [app-client] (css) */
+.store_main {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  font-weight: 480;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.store_main:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("../media/storeimage.e1eb82a1.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: brightness(20%);
+  z-index: -1;
+}
+
+.store__container {
+  width: 100%;
+}
+
+.store__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.store__content-title {
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 88px;
+  letter-spacing: .02em;
+  text-align: center;
+  color: #fff;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.store__content-text {
+  font-family: Montserrat Alternates, sans-serif;
+  font-size: 20px;
+  color: #fff;
+}
+
+.store-names-identity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.store-names-identity a {
+  font-size: 16px;
+  font-weight: 480;
+  line-height: 28px;
+  color: #fff;
+  letter-spacing: .02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.brand__about {
+  width: 100%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  border-bottom: 1px dotted #000;
+}
+
+.brand__about_title {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: .02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.brand__about_content {
+  max-width: 1182px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.brand__about_content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: Montserrat Alternates, sans-serif;
+  font-size: 20px;
+}
+
+.brand__about_content-text-span {
+  color: #d02227;
+}
+
+
+/*# sourceMappingURL=src_styles_4fe1e9._.css.map*/

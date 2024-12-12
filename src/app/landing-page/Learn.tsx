@@ -2,7 +2,8 @@ import Ellipse from "@/icons/dot";
 import "../../styles/learnfountain.css";
 import Image from "next/image";
 import Link from "next/link";
-import { largeDrink } from "@/images";
+import { largeDrink, mediumDrink, smallDrink } from "@/images";
+import { small } from "framer-motion/client";
 
 const Learn = () => {
     return (
@@ -28,19 +29,45 @@ const Learn = () => {
                         <p className="learn__content-text-1">Tropical flavors —stay energized, stay focused.</p>
                     </div>
                 </div>
-                <a className="learn_content_button">LEARN MORE ABOUT CARABAO </a>
             </div>
-            <div className="learn__content-images">
-                <div className="learn__content-image">
-                    <Image
-                        src={largeDrink}
-                        alt="Learn1"
-                        width={300}
-                        height={350}
-                    />
+            <div className="learn__content-images_container">
+                <div className="learn__content-images">
+                    <div className="learn__content-image">
+                        <Image
+                            className="learn__content-image learn_image_zero"
+                            src={largeDrink}
+                            alt="Learn1"
+                            width={260}
+                            height={300}
+                        />
+                    </div>
+                    <div className="learn__content-image">
+                        <Image
+                            className="learn__content-image learn_image_one"
+                            src={smallDrink}
+                            alt="Learn1"
+                            width={178}
+                            height={208}
+                        />
+                    </div>
+                    <div className="learn__content-image">
+                        <Image
+                            className="learn__content-image learn_image_two"
+                            src={mediumDrink}
+                            alt="Learn1"
+                            width={178}
+                            height={208}
+                        />
+                    </div>
+                </div>
+                <div className="learn__content_sliders">
+                    <a href="" className="learn__content_sliders_btn" aria-disabled>&lt;</a>
+                    <a href="" className="learn__content_sliders_btn">&gt;</a>
                 </div>
             </div>
         </div>
+        <a href="/carabao" className="learn_content_button">LEARN MORE ABOUT CARABAO </a>
+
         </div>
     </section>
 

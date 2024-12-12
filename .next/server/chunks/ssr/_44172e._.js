@@ -1484,7 +1484,7 @@ const NormalArrowLeft = ({ size = 24, className = "" })=>{
                     x2: "1.00711",
                     y2: "17.2565",
                     stroke: "#31453A",
-                    "stroke-width": "2"
+                    "strokeWidth": "2"
                 }, void 0, false, {
                     fileName: "[project]/src/icons/NormalArrowLeft.tsx",
                     lineNumber: 11,
@@ -1493,7 +1493,7 @@ const NormalArrowLeft = ({ size = 24, className = "" })=>{
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                     d: "M10.9922 1.30561L10.7041 3.40619C9.93034 9.04841 6.73379 14.0724 1.95078 17.1637L0.742957 17.9443",
                     stroke: "#31453A",
-                    "stroke-width": "1.95421"
+                    "strokeWidth": "1.95421"
                 }, void 0, false, {
                     fileName: "[project]/src/icons/NormalArrowLeft.tsx",
                     lineNumber: 12,
@@ -1502,7 +1502,7 @@ const NormalArrowLeft = ({ size = 24, className = "" })=>{
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                     d: "M0.89957 16.7968L2.66128 17.9766C7.39328 21.1454 10.5075 26.2208 11.1892 31.8749L11.3614 33.3027",
                     stroke: "#31453A",
-                    "stroke-width": "1.95421"
+                    "strokeWidth": "1.95421"
                 }, void 0, false, {
                     fileName: "[project]/src/icons/NormalArrowLeft.tsx",
                     lineNumber: 13,
@@ -1547,7 +1547,7 @@ const NormalArrowRight = ({ size = 24, className = "" })=>{
                 x2: "40.9925",
                 y2: "17.0003",
                 stroke: "#31453A",
-                "stroke-width": "2"
+                "strokeWidth": "2"
             }, void 0, false, {
                 fileName: "[project]/src/icons/NormalArrowRight.tsx",
                 lineNumber: 10,
@@ -1556,7 +1556,7 @@ const NormalArrowRight = ({ size = 24, className = "" })=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                 d: "M32.0064 32.6944L32.2944 30.5938C33.0682 24.9516 36.2647 19.9276 41.0478 16.8363L42.2556 16.0557",
                 stroke: "#31453A",
-                "stroke-width": "1.95421"
+                "strokeWidth": "1.95421"
             }, void 0, false, {
                 fileName: "[project]/src/icons/NormalArrowRight.tsx",
                 lineNumber: 11,
@@ -1565,7 +1565,7 @@ const NormalArrowRight = ({ size = 24, className = "" })=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                 d: "M42.099 17.2032L40.3373 16.0234C35.6053 12.8546 32.491 7.77917 31.8093 2.12509L31.6372 0.697312",
                 stroke: "#31453A",
-                "stroke-width": "1.95421"
+                "strokeWidth": "1.95421"
             }, void 0, false, {
                 fileName: "[project]/src/icons/NormalArrowRight.tsx",
                 lineNumber: 12,

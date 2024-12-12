@@ -37,10 +37,10 @@ const Locator = () => {
                     </div>
                 </div>
                 <div className='map-container'>
-                    <Image src={map} alt='map' />
+                    <Image src={map} className='map-container_img' alt='map' />
                 </div>
             </div>
-            <a className="map_content_button">VISIT OUR STORES</a>
+            <a href="/store" className="map_content_button">VISIT OUR STORES</a>
         </section>
     )
 }

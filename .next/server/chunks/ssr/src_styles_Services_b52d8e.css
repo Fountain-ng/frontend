@@ -38,7 +38,7 @@
   align-items: flex-start;
   gap: 80px;
   font-family: Montserrat Alternates, sans-serif;
-  font-weight: 500;
+  font-weight: 480;
   font-style: normal;
 }
 
@@ -46,13 +46,13 @@
   font-size: 16px;
   font-weight: 300;
   max-width: 480px;
-  font-weight: 500;
+  font-weight: 480;
   font-style: normal;
   line-height: 27px;
   color: #000;
 }
 
-.about-description-story {
+.about-description-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,13 +60,86 @@
   height: 60px;
   border-top: 1px solid #d02227;
   border-bottom: 1px solid #d02227;
-}
-
-.about__description-story-text {
   font-family: Montserrat Alternates, sans-serif;
   font-weight: 600;
   font-size: 16px;
   color: #d02227;
+}
+
+@media only screen and (width >= 769px) and (width <= 1024px) {
+  .about__title-1, .about__title-2, .about__title-3, .about__title-4 {
+    font-size: 38px;
+    text-align: center;
+  }
+}
+
+@media only screen and (width >= 481px) and (width <= 768px) {
+  .about__title-1, .about__title-2, .about__title-3 {
+    font-size: 30px;
+  }
+
+  .about__title-4 {
+    font-size: 30px;
+  }
+
+  .about__container {
+    text-align: center;
+  }
+
+  .about-image-1 {
+    width: 70px;
+    height: 38px;
+  }
+
+  .about-image-2 {
+    width: 70px;
+    height: 48px;
+  }
+
+  .about-image-3, .about-image-4 {
+    width: 55px;
+    height: 55px;
+  }
+}
+
+@media (width <= 480px) {
+  .about__container {
+    max-width: 364px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .about-description {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .about__title-1, .about__title-2, .about__title-3, .about__title-4 {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 30px;
+  }
+
+  .about-image-1 {
+    width: 64px;
+    height: 32px;
+  }
+
+  .about-image-2 {
+    width: 64px;
+    height: 40px;
+  }
+
+  .about-image-3, .about-image-4 {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 /*# sourceMappingURL=src_styles_Services_b52d8e.css.map*/

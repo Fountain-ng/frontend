@@ -4,7 +4,7 @@ import ArrowDown from "@/icons/Arrowdown";
 import ArrowLeft from "@/icons/Arrowleft";
 import ArrowUp from "@/icons/Arrowup";
 import "../../styles/Product.css"
-import { drinkPack } from "@/images";
+import { drinkPack, serviceMobileImage } from "@/images";
 import Image from "next/image";
 
 const Products = () => {
@@ -12,7 +12,34 @@ const Products = () => {
   return (
     <section className="product">
       <div className="product__title">
-        <h1 className="product__title_text">CHOOSE QUALITY, CHOOSE FOUNTAIN</h1>
+        <h1 className="product__title_text">CHOOSE <span className="color">QUALITY,</span></h1>
+        <h1 className="product__title_text main_title_text">CHOOSE <span className="color">FOUNTAIN</span></h1>
+      </div>
+      <div className="product_main_container">
+        <div className="product_main_content">
+          <div className="product_main_content-text">
+            <h1 className="product_main_heading">Nationwide Delivery</h1>
+            <p className="product_main_description">01</p>
+          </div>
+          <div className="product_main_content-text product_special">
+            <div >
+              <h1 className="product_main_heading">Wholesale Distribution</h1>
+              <p className="product_main_description">Partner with us for wholesale order and bulk supplies.</p>
+            </div>
+            <div className="product_main_content-text_special">
+              <Image src={serviceMobileImage} width={60} height={64} id="product_main_content-text_special_image" alt=""></Image>
+              <p className="product_main_description">02</p>
+            </div>
+          </div>
+          <div className="product_main_content-text">
+            <h1 className="product_main_heading">Store Locators</h1>
+            <p className="product_main_description">03</p>
+          </div>
+          <div className="product_main_content-text">
+            <h1 className="product_main_heading">Happy Customers</h1>
+            <p className="product_main_description">04</p>
+          </div>
+        </div>
       </div>
       <div className="product__container">
         <div className="product__content-1">
