@@ -1,8 +1,8 @@
 {
   "/page": "app/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/distributor/page": "app/distributor/page.js",
-  "/store/page": "app/store/page.js",
   "/carabao/page": "app/carabao/page.js",
-  "/Brand/page": "app/Brand/page.js"
+  "/Brand/page": "app/Brand/page.js",
+  "/store/page": "app/store/page.js",
+  "/distributor/page": "app/distributor/page.js"
 }

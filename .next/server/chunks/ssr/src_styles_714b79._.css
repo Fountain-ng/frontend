@@ -205,7 +205,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("/_next/static/media/Brand Background Image.b9c25261.jpeg");
+  background-image: url("/_next/static/media/brandBackgroundImage.b9c25261.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -267,7 +267,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
+  gap: 100px;
   border-bottom: 1px dotted #000;
 }
 
@@ -277,8 +277,6 @@
 }
 
 .brand__about_title {
-  margin-top: 50px;
-  margin-bottom: 30px;
   font-size: 32px;
   font-weight: 600;
   display: flex;
@@ -287,10 +285,11 @@
 }
 
 .brand__about_content {
-  max-width: 1182px;
+  padding: 0 40px;
   display: flex;
   align-items: center;
-  gap: 50px;
+  justify-content: space-between;
+  gap: 150px;
 }
 
 .brand__about_content-text {
@@ -312,15 +311,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
+  gap: 100px;
   border-bottom: 1px dotted #000;
 }
 
 .brand__journey_content {
-  max-width: 1182px;
+  padding: 0 40px;
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 150px;
 }
 
 .brand__journey_content-text {
@@ -921,7 +920,7 @@
   .brand__journey {
     width: 100%;
     height: 100%;
-    padding: 0 30px;
+    padding: 30px;
     padding-bottom: 60px;
     display: flex;
     flex-direction: column;

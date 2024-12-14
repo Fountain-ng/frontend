@@ -25,8 +25,8 @@ const Carabao = () => {
             <a href="/">HOME</a>
             <p> <NormalArrowLeftt/></p>
             <a href="/Brand" >OUR BRAND</a>
-            <p className="carabao-names-identity_special"> <NormalArrowRightt/></p>
-            <a href="/" className="carabao-names-identity_special">EXPLORE OUR PARTNERS</a>
+            {/* <p className="carabao-names-identity_special"> <NormalArrowRightt/></p>
+            <a href="/" className="carabao-names-identity_special">EXPLORE OUR PARTNERS</a> */}
             <p className="carabao-names-identity_special"> <NormalArrowRightt/></p>
             <a href="/carabao" className="carabao-names-identity_special">CARABAO</a>
             

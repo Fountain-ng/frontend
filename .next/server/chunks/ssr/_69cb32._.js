@@ -734,30 +734,25 @@ const __TURBOPACK__default__export__ = {
     blurHeight: 8
 };
 }}),
-"[project]/src/images/Brand Background Image.jpeg [app-rsc] (static)": ((__turbopack_context__) => {
+"[project]/src/images/Brand Background Image.jpeg [app-rsc] (static)": (() => {{
 
-var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, t: require } = __turbopack_context__;
-{
-__turbopack_export_value__("/_next/static/media/Brand Background Image.b9c25261.jpeg");}}),
-"[project]/src/images/Brand Background Image.jpeg.mjs { IMAGE => \"[project]/src/images/Brand Background Image.jpeg [app-rsc] (static)\" } [app-rsc] (structured image object, ecmascript)": ((__turbopack_context__) => {
-"use strict";
+throw new Error("An error occurred while generating the chunk item [project]/src/images/Brand Background Image.jpeg [app-rsc] (static)\n\nCaused by:\n- StaticAsset::path: not found\n\nDebug info:\n- An error occurred while generating the chunk item [project]/src/images/Brand Background Image.jpeg [app-rsc] (static)\n- Execution of *EcmascriptChunkItemContent::module_factory failed\n- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content failed\n- Execution of *<NodeJsChunkingContext as ChunkingContext>::asset_url failed\n- Execution of <StaticAsset as OutputAsset>::ident failed\n- StaticAsset::path: not found");
 
-var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, z: require } = __turbopack_context__;
-{
-__turbopack_esm__({
-    "default": (()=>__TURBOPACK__default__export__)
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$Brand__Background__Image$2e$jpeg__$5b$app$2d$rsc$5d$__$28$static$29$__ = __turbopack_import__("[project]/src/images/Brand Background Image.jpeg [app-rsc] (static)");
-;
-const __TURBOPACK__default__export__ = {
-    src: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$Brand__Background__Image$2e$jpeg__$5b$app$2d$rsc$5d$__$28$static$29$__["default"],
-    width: 2880,
-    height: 1920,
-    blurDataURL: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAgAAAQABAAD/wAARCAAFAAgDAREAAhEBAxEB/9sAQwAKBwcIBwYKCAgICwoKCw4YEA4NDQ4dFRYRGCMfJSQiHyIhJis3LyYpNCkhIjBBMTQ5Oz4+PiUuRElDPEg3PT47/9sAQwEKCwsODQ4cEBAcOygiKDs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDlbfxhNbxiOKxgCDoOtKy7EqL7s//Z",
-    blurWidth: 8,
-    blurHeight: 5
-};
 }}),
+"[project]/src/images/Brand Background Image.jpeg.mjs { IMAGE => \"[project]/src/images/Brand Background Image.jpeg [app-rsc] (static)\" } [app-rsc] (structured image object, ecmascript)": (function(__turbopack_context__) {
+
+var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__, m: module, e: exports, t: require } = __turbopack_context__;
+{
+const e = new Error(`Could not parse module '[project]/src/images/Brand Background Image.jpeg.mjs'
+
+Input image not found
+
+Debug info:
+- Execution of <StructuredImageFileSource as Asset>::content failed
+- Execution of get_meta_data failed
+- Input image not found`);
+e.code = 'MODULE_UNPARSEABLE';
+throw e;}}),
 "[project]/src/images/shoprite.png [app-rsc] (static)": ((__turbopack_context__) => {
 
 var { r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, b: __turbopack_worker_blob_url__, g: global, __dirname, t: require } = __turbopack_context__;
@@ -1381,7 +1376,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$club__logo$
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$de__chandever__logo$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$de__chandever__logo$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/images/de chandever logo.png.mjs { IMAGE => "[project]/src/images/de chandever logo.png [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$founder$2e$jpeg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$founder$2e$jpeg__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/images/founder.jpeg.mjs { IMAGE => "[project]/src/images/founder.jpeg [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$the__library__logo$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$the__library__logo$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/images/the library logo.png.mjs { IMAGE => "[project]/src/images/the library logo.png [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript)');
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$Brand__Background__Image$2e$jpeg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$Brand__Background__Image$2e$jpeg__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/images/Brand Background Image.jpeg.mjs { IMAGE => "[project]/src/images/Brand Background Image.jpeg [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$brandBackgroundImage$2e$jpeg$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$brandBackgroundImage$2e$jpeg__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/images/brandBackgroundImage.jpeg.mjs { IMAGE => "[project]/src/images/brandBackgroundImage.jpeg [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$shoprite$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$shoprite$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/images/shoprite.png.mjs { IMAGE => "[project]/src/images/shoprite.png [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$journey$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$journey$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/images/journey.png.mjs { IMAGE => "[project]/src/images/journey.png [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$images$2f$passion$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$src$2f$images$2f$passion$2e$png__$5b$app$2d$rsc$5d$__$28$static$2922$__$7d$__$5b$app$2d$rsc$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/src/images/passion.png.mjs { IMAGE => "[project]/src/images/passion.png [app-rsc] (static)" } [app-rsc] (structured image object, ecmascript)');
@@ -1449,10 +1444,10 @@ const Twitter = ({ size = 24, className = "" })=>{
                     width: "40",
                     height: "40",
                     filterUnits: "userSpaceOnUse",
-                    "color-interpolation-filters": "sRGB",
+                    colorInterpolationFilters: "sRGB",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("feFlood", {
-                            "flood-opacity": "0",
+                            floodOpacity: "0",
                             result: "BackgroundImageFix"
                         }, void 0, false, {
                             fileName: "[project]/src/icons/twitter.tsx",
@@ -1560,7 +1555,7 @@ const LinkedIn = ({ size = 24, className = "" })=>{
         xmlns: "http://www.w3.org/2000/svg",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("g", {
-                "clip-path": "url(#clip0_288_545)",
+                clipPath: "url(#clip0_288_545)",
                 filter: "url(#filter0_d_288_545)",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                     d: "M26.2234 4.5H5.77187C4.79219 4.5 4 5.27344 4 6.22969V26.7656C4 27.7219 4.79219 28.5 5.77187 28.5H26.2234C27.2031 28.5 28 27.7219 28 26.7703V6.22969C28 5.27344 27.2031 4.5 26.2234 4.5ZM11.1203 24.9516H7.55781V13.4953H11.1203V24.9516ZM9.33906 11.9344C8.19531 11.9344 7.27188 11.0109 7.27188 9.87187C7.27188 8.73281 8.19531 7.80937 9.33906 7.80937C10.4781 7.80937 11.4016 8.73281 11.4016 9.87187C11.4016 11.0062 10.4781 11.9344 9.33906 11.9344ZM24.4516 24.9516H20.8937V19.3828C20.8937 18.0562 20.8703 16.3453 19.0422 16.3453C17.1906 16.3453 16.9094 17.7937 16.9094 19.2891V24.9516H13.3563V13.4953H16.7687V15.0609H16.8156C17.2891 14.1609 18.4516 13.2094 20.1813 13.2094C23.7859 13.2094 24.4516 15.5813 24.4516 18.6656V24.9516Z",
@@ -1584,10 +1579,10 @@ const LinkedIn = ({ size = 24, className = "" })=>{
                         width: "40",
                         height: "40",
                         filterUnits: "userSpaceOnUse",
-                        "color-interpolation-filters": "sRGB",
+                        colorInterpolationFilters: "sRGB",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("feFlood", {
-                                "flood-opacity": "0",
+                                floodOpacity: "0",
                                 result: "BackgroundImageFix"
                             }, void 0, false, {
                                 fileName: "[project]/src/icons/LinkedIn.tsx",
@@ -1713,7 +1708,7 @@ const Instagram = ({ size = 24, className = "" })=>{
         xmlns: "http://www.w3.org/2000/svg",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("g", {
-                "clip-path": "url(#clip0_288_546)",
+                clipPath: "url(#clip0_288_546)",
                 filter: "url(#filter0_d_288_546)",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                     d: "M11.0301 4.58393C9.7533 4.64417 8.88138 4.84803 8.11914 5.14745C7.33026 5.45489 6.66162 5.86745 5.99634 6.53513C5.33106 7.20281 4.92138 7.87193 4.6161 8.66201C4.32066 9.42593 4.1205 10.2986 4.0641 11.5761C4.0077 12.8536 3.99522 13.2642 4.00146 16.523C4.0077 19.7817 4.0221 20.1902 4.08402 21.4703C4.14498 22.7469 4.34802 23.6186 4.64754 24.381C4.95546 25.1699 5.36754 25.8383 6.03546 26.5038C6.70338 27.1694 7.37202 27.5781 8.16402 27.8838C8.92722 28.1788 9.8001 28.3799 11.0774 28.4358C12.3547 28.4918 12.7658 28.5047 16.0235 28.4985C19.2813 28.4922 19.6915 28.4778 20.9714 28.4171C22.2513 28.3564 23.1184 28.1519 23.8811 27.8538C24.67 27.5452 25.3389 27.1338 26.0039 26.4657C26.669 25.7975 27.0784 25.1279 27.3835 24.3374C27.6791 23.5742 27.88 22.7013 27.9355 21.425C27.9914 20.1441 28.0046 19.7351 27.9983 16.4769C27.9921 13.2186 27.9775 12.8102 27.9167 11.5305C27.856 10.2508 27.6527 9.38177 27.3535 8.61881C27.0451 7.82993 26.6335 7.16201 25.9658 6.49601C25.2981 5.83001 24.628 5.42081 23.8377 5.11649C23.074 4.82105 22.2016 4.61969 20.9243 4.56449C19.6471 4.50929 19.2359 4.49513 15.977 4.50137C12.718 4.50761 12.31 4.52153 11.0301 4.58393ZM11.1703 26.277C10.0003 26.2262 9.36498 26.0318 8.94162 25.869C8.38098 25.653 7.98162 25.3919 7.5597 24.9741C7.13778 24.5562 6.87858 24.1554 6.6597 23.596C6.4953 23.1726 6.2973 22.5381 6.24258 21.3681C6.18306 20.1035 6.17058 19.7238 6.16362 16.5201C6.15666 13.3163 6.1689 12.9371 6.22434 11.6721C6.27426 10.503 6.46986 9.86705 6.63234 9.44393C6.84834 8.88257 7.1085 8.48393 7.5273 8.06225C7.9461 7.64057 8.3457 7.38089 8.90562 7.16201C9.3285 6.99689 9.96306 6.80057 11.1326 6.74489C12.3981 6.68489 12.7773 6.67289 15.9806 6.66593C19.1839 6.65897 19.564 6.67097 20.83 6.72664C21.9991 6.77753 22.6353 6.9712 23.0579 7.13464C23.6188 7.35065 24.0179 7.61009 24.4396 8.02961C24.8613 8.44913 25.1212 8.84729 25.3401 9.40841C25.5055 9.83009 25.7018 10.4644 25.757 11.6346C25.8172 12.9002 25.8309 13.2796 25.8367 16.4826C25.8424 19.6857 25.8311 20.0661 25.7757 21.3306C25.7246 22.4806 25.5307 23.1362 25.3677 23.56C25.1517 24.1204 24.8913 24.52 24.4723 24.9414C24.0532 25.3629 23.6541 25.6226 23.0939 25.8414C22.6715 26.0063 22.0363 26.2031 20.8677 26.2588C19.6022 26.3183 19.223 26.3308 16.0185 26.3378C12.814 26.3447 12.436 26.3318 11.1705 26.277M20.9529 10.0864C20.9534 10.3712 21.0383 10.6495 21.1969 10.8861C21.3556 11.1226 21.5808 11.3068 21.8442 11.4154C22.1075 11.5239 22.3971 11.5519 22.6764 11.4958C22.9556 11.4398 23.212 11.3021 23.413 11.1004C23.614 10.8986 23.7507 10.6417 23.8058 10.3623C23.8608 10.0828 23.8317 9.79333 23.7222 9.53039C23.6127 9.26746 23.4277 9.0429 23.1906 8.88512C22.9534 8.72735 22.6748 8.64344 22.39 8.64401C22.0082 8.64477 21.6423 8.79715 21.3728 9.06764C21.1033 9.33813 20.9523 9.70458 20.9529 10.0864ZM9.8385 16.5119C9.84522 19.9151 12.6091 22.6677 16.0115 22.6612C19.414 22.6547 22.1685 19.8911 22.162 16.4879C22.1555 13.0847 19.391 10.3314 15.988 10.3382C12.5851 10.3449 9.83202 13.1092 9.8385 16.5119ZM11.9999 16.5076C11.9984 15.7165 12.2314 14.9426 12.6697 14.284C13.1079 13.6253 13.7316 13.1113 14.4619 12.8071C15.1923 12.5029 15.9964 12.4221 16.7726 12.5749C17.5489 12.7277 18.2624 13.1073 18.8229 13.6656C19.3834 14.2239 19.7658 14.9359 19.9217 15.7115C20.0776 16.4872 19.9999 17.2916 19.6986 18.0231C19.3973 18.7547 18.8859 19.3804 18.2289 19.8212C17.572 20.2621 16.7991 20.4982 16.0079 20.4998C15.4826 20.4809 14.9622 20.3985 14.4765 20.1984C13.9908 19.9984 13.5492 19.7046 13.177 19.3339C12.8048 18.9632 12.5093 18.5228 12.3073 18.0378C12.1054 17.5529 12.0009 17.0329 11.9999 16.5076Z",
@@ -1737,10 +1732,10 @@ const Instagram = ({ size = 24, className = "" })=>{
                         width: "40",
                         height: "40",
                         filterUnits: "userSpaceOnUse",
-                        "color-interpolation-filters": "sRGB",
+                        colorInterpolationFilters: "sRGB",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("feFlood", {
-                                "flood-opacity": "0",
+                                floodOpacity: "0",
                                 result: "BackgroundImageFix"
                             }, void 0, false, {
                                 fileName: "[project]/src/icons/Instagram.tsx",
@@ -1868,9 +1863,9 @@ const Internet = ({ size = 24, className = "" })=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                 d: "M1.99951 12.5C1.99951 18.023 6.47651 22.5 11.9995 22.5C17.5225 22.5 21.9995 18.023 21.9995 12.5C21.9995 6.977 17.5225 2.5 11.9995 2.5C6.47651 2.5 1.99951 6.977 1.99951 12.5Z",
                 stroke: "#ECF1F4",
-                "strokeWidth": "1.35",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round"
+                strokeWidth: "1.35",
+                strokeLinecap: "round",
+                strokeLinejoin: "round"
             }, void 0, false, {
                 fileName: "[project]/src/icons/Internet.tsx",
                 lineNumber: 11,
@@ -1879,9 +1874,9 @@ const Internet = ({ size = 24, className = "" })=>{
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                 d: "M12.9994 2.5498C12.9994 2.5498 15.9994 6.4998 15.9994 12.4998C15.9994 18.4998 12.9994 22.4498 12.9994 22.4498M10.9994 22.4498C10.9994 22.4498 7.99939 18.4998 7.99939 12.4998C7.99939 6.4998 10.9994 2.5498 10.9994 2.5498M2.62939 15.9998H21.3694M2.62939 8.9998H21.3694",
                 stroke: "#ECF1F4",
-                "strokeWidth": "1.35",
-                "stroke-linecap": "round",
-                "stroke-linejoin": "round"
+                strokeWidth: "1.35",
+                strokeLinecap: "round",
+                strokeLinejoin: "round"
             }, void 0, false, {
                 fileName: "[project]/src/icons/Internet.tsx",
                 lineNumber: 12,
@@ -2256,13 +2251,13 @@ const Footer = ()=>{
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        href: "",
+                                        href: "#",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$icons$2f$twitter$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                             className: "special_social_icon"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/landing-page/Footer.tsx",
                                             lineNumber: 58,
-                                            columnNumber: 38
+                                            columnNumber: 39
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/landing-page/Footer.tsx",
@@ -2276,13 +2271,13 @@ const Footer = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        href: "",
+                                        href: "#",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$icons$2f$LinkedIn$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                             className: "special_social_icon"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/landing-page/Footer.tsx",
                                             lineNumber: 59,
-                                            columnNumber: 38
+                                            columnNumber: 39
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/landing-page/Footer.tsx",
@@ -2316,13 +2311,13 @@ const Footer = ()=>{
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        href: "",
+                                        href: "#",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$icons$2f$Internet$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                             className: "special_social_icon"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/landing-page/Footer.tsx",
                                             lineNumber: 61,
-                                            columnNumber: 38
+                                            columnNumber: 39
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/landing-page/Footer.tsx",
@@ -2381,10 +2376,10 @@ const NormalArrowRightt = ({ size = 24, className = "" })=>{
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
             d: "M6.68262 14.9401L11.5726 10.0501C12.1501 9.47256 12.1501 8.52756 11.5726 7.94806L6.68262 3.06006",
             stroke: "white",
-            "strokeWidth": "1.5",
-            "stroke-miterlimit": "10",
-            "stroke-linecap": "round",
-            "stroke-linejoin": "round"
+            strokeWidth: "1.5",
+            strokeMiterlimit: "10",
+            strokeLinecap: "round",
+            strokeLinejoin: "round"
         }, void 0, false, {
             fileName: "[project]/src/icons/NormalArrowRight2.tsx",
             lineNumber: 10,
@@ -2419,10 +2414,10 @@ const NormalArrowLeftt = ({ size = 30, className = "" })=>{
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
             d: "M8.80249 11.6199L4.99916 7.81655C4.54999 7.36738 4.54999 6.63238 4.99916 6.18322L8.80249 2.37988",
             stroke: "white",
-            "strokeWidth": "1.5",
-            "stroke-miterlimit": "10",
-            "stroke-linecap": "round",
-            "stroke-linejoin": "round"
+            strokeWidth: "1.5",
+            strokeMiterlimit: "10",
+            strokeLinecap: "round",
+            strokeLinejoin: "round"
         }, void 0, false, {
             fileName: "[project]/src/icons/NormalArrowLeftt.tsx",
             lineNumber: 10,

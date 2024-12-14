@@ -55,10 +55,10 @@ const Footer = () => {
             <div className="footer-social_content">
                 <p>©Copyright 2024 Fountain, Inc.</p>
                 <div className="footer-socials">
-                    <span><a href=""><Twitter className="special_social_icon"/></a></span>
-                    <span><a href=""><LinkedIn className="special_social_icon"/></a></span>
+                    <span><a href="#"><Twitter className="special_social_icon"/></a></span>
+                    <span><a href="#"><LinkedIn className="special_social_icon"/></a></span>
                     <span><a href=""><Instagram className="special_social_icon"/></a></span>
-                    <span><a href=""><Internet className="special_social_icon"/></a></span>
+                    <span><a href="#"><Internet className="special_social_icon"/></a></span>
                 </div>
             </div>
         </div>
