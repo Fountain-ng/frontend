@@ -2,7 +2,10 @@ import React from "react";
 import Image from "next/image";
 import Normalnavbar from "../Nav-menu/Navbar-Green";
 import Footer from "../landing-page/Footer";
+import imgfirst from "../../images/movement_1.jpeg";
+import imgsecond from "../../images/movement_2.jpeg";
 import '../../styles/all-brands.css';
+import img from "../../images/brandBackgroundImage.jpeg";
 import NormalArrowRightt from "@/icons/NormalArrowRight2";
 import { askamaya, blenco, chandever, chopilos, clubLogo, drinkPack, ebeano, founder, four, journey, libraryLogo, one, passion, ritz, secretPalace, shoprite, star, teamImage, three, two, vodaBeach } from "@/images";
 import NormalArrowLeftt from "@/icons/NormalArrowLeftt";
@@ -12,6 +15,21 @@ const Brand = () => {
   return (
     <section>
       <div className="brand">
+      <div
+        style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          backgroundImage: `url(${img.src})`, // Correct way to reference the imported image
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          filter: 'brightness(50%)',
+          zIndex: -1, // Ensures it's behind content
+        }}
+      ></div>
         <Normalnavbar />
         <div className="brand__container">
           <div className="brand__content">
@@ -33,9 +51,9 @@ const Brand = () => {
         <div className="brand__about_content">
           <Image src={founder} width={576} height={400} id="brand__about_content_image" alt="founder image" />
           <div className="brand__about_content-text">
-            <p><span className="brand__about_content-text-span">Fountain Impex Ltd.</span> is more than just a distributor — we’re a trusted partner in energizing and refreshing lives across Nigeria. </p>
+            <p className="brand__about_content-text_1"><span className="brand__about_content-text-span">Fountain Impex Ltd.</span> is more than just a distributor — we’re a trusted partner in energizing and refreshing lives across Nigeria. </p>
             <p>As the exclusive distributor of Carabao Energy Drink, we proudly bring a world-class product known for its exceptional taste, quality, and balanced energy. </p>
-            <p><span className="brand__about_content-text-span">Our goal is simple:</span> to provide Nigerians with premium beverages that keep them energized, empowered, and ready to take on life.</p>
+            <p className="brand__about_content-text_1"><span className="brand__about_content-text-span">Our goal is simple:</span> to provide Nigerians with premium beverages that keep them energized, empowered, and ready to take on life.</p>
           </div>
         </div>
       </div>
@@ -47,14 +65,13 @@ const Brand = () => {
       <div className="brand__journey">
         <div className="brand__about_title_overall">
           <h1 className="brand__journey_title">
-            OUR JOURNEY <Image src={passion} className="passion_image" alt=""/>
+            OUR JOURNEY & COMMITMENT
             </h1>
-          <h1 className="brand__journey_title title_brand">& COMMITMENT <Image src={journey} className="journey_image" alt=""/></h1>
         </div>
 
         <div className="brand__journey_content">
           <div className="brand__journey_content-text">
-            <p>
+            <p className="brand__journey_content-text_1">
               Since partnering with Carabao, <span className="brand__about_content-text-span">Fountain Impex Ltd.</span> has achieved remarkable milestones, distributing over a million cans within the first four months. This success reflects our dedication to offering a premium product that resonates with consumers’ lifestyles, whether for athletes, students, professionals, or anyone needing a boost of vitality.
             </p>
           </div>
@@ -92,7 +109,6 @@ const Brand = () => {
             <h1 className="brand__services_title">
               OUR SERVICES
               </h1>
-              <Image src={star} alt=""/>
           </div>
           <div className="brand__services_title_p">
             <p>We don’t just deliver products — we build relationships. </p>
@@ -143,19 +159,22 @@ const Brand = () => {
 
                                         {/* BRAND MOVEMENT */}
       <div className="brand__movement">
-        <div className="brand__movement_first">
-          <div className="brand__movement_first_container">
-            <div className="brand__movement_first_container_header">
-              <span className="line"></span>
-              <h1>OUR IMPACT</h1>
-            </div>
-            <div className="brand__movement_first_container_text">
-              <h1>Trusted by thousands</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            </div>
-          </div>
-        </div>
         <div className="brand__movement_second">
+          <div
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            backgroundImage: `url(${imgsecond.src})`, // Correct way to reference the imported image
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+            filter: 'brightness(50%)',
+            zIndex: -1, // Ensures it's behind content
+          }}
+        ></div>
           <div className="brand__movement_second_container">
             <div className="brand__movement_second_container_header">
               <span className="line"></span>

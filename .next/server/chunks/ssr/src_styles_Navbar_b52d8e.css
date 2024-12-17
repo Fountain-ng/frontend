@@ -33,7 +33,7 @@
 .navbar__cta {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
 }
 
 .navbar__cta-btn {

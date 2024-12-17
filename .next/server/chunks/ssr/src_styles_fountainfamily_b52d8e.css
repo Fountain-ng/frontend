@@ -16,23 +16,10 @@
   justify-content: center;
 }
 
-.family-container:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url("/_next/static/media/Fountainfamily.5c6957c2.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(30%);
-  z-index: -1;
-}
-
 .family-container_overall_header {
   font-size: 32px;
+  font-family: ClashDisplay;
+  font-weight: 700;
 }
 
 .family-container-overall-text {

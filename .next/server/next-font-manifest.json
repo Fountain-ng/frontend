@@ -1,27 +1,15 @@
 {
   "app": {
-    "[project]/src/app/page": [
-      "static/media/GeistVF-s.p.7fe29570.woff",
-      "static/media/GeistMonoVF-s.p.a9159d35.woff"
-    ],
-    "[project]/src/app/carabao/page": [
-      "static/media/GeistVF-s.p.7fe29570.woff",
-      "static/media/GeistMonoVF-s.p.a9159d35.woff"
-    ],
-    "[project]/src/app/Brand/page": [
-      "static/media/GeistVF-s.p.7fe29570.woff",
-      "static/media/GeistMonoVF-s.p.a9159d35.woff"
-    ],
-    "[project]/src/app/store/page": [
-      "static/media/GeistVF-s.p.7fe29570.woff",
-      "static/media/GeistMonoVF-s.p.a9159d35.woff"
-    ],
-    "[project]/src/app/distributor/page": [
-      "static/media/GeistVF-s.p.7fe29570.woff",
-      "static/media/GeistMonoVF-s.p.a9159d35.woff"
-    ]
+    "[project]/src/app/page": [],
+    "[project]/src/app/store/page": [],
+    "[project]/src/app/distributor/page": [],
+    "[project]/src/app/carabao/page": [],
+    "[project]/src/app/_not-found/page": [],
+    "[project]/src/app/shop/page": [],
+    "[project]/src/app/Brand/page": [],
+    "[project]/src/app/cart/page": []
   },
-  "appUsingSizeAdjust": true,
+  "appUsingSizeAdjust": false,
   "pages": {},
   "pagesUsingSizeAdjust": false
 }

@@ -1,0 +1,132 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,480;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,480;1,600;1,700;1,800;1,900&display=swap";
+/* [project]/src/styles/cart.modules.css [app-client] (css) */
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 80px 30px;
+}
+
+.cart_container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.cart-names-identity {
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.cart-names-identity a {
+  font-family: Montserrat Alternates, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.cart_container h1 {
+  font-family: ClashDisplay;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+  font-size: 32px;
+  line-height: 39.36px;
+  letter-spacing: .12em;
+  text-align: center;
+}
+
+.cart_container p {
+  font-family: Montserrat Alternates, sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.cart_container a {
+  font-family: Montserrat Alternates, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 20px 15px;
+  color: #d02227;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.cart_container a:hover {
+  background-color: #d02227;
+  color: #fff;
+}
+
+.shop-names-identity {
+  display: flex;
+  align-items: center;
+}
+
+.land-navbar-img {
+  width: 184px;
+  height: 40px;
+}
+
+#user_icon {
+  fill: #000;
+}
+
+.normal_navbar {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 90px;
+  z-index: 1000;
+  display: flex;
+  border-bottom: 1px solid #000;
+  padding: 20px 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.land-navbar-img {
+  width: 184px;
+  height: 40px;
+}
+
+.navbar_btn {
+  display: flex;
+  gap: 10px;
+}
+
+.menu_btn {
+  display: flex;
+  gap: 10px;
+}
+
+.menu_btn p {
+  font-family: Montserrat Alternates, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media (width <= 480px) {
+  .land-navbar-img {
+    width: 132px;
+    height: 28.64px;
+  }
+
+  .navbar_btn_a {
+    display: none;
+  }
+
+  .cart_container h1 {
+    font-size: 25px;
+  }
+}
+
+
+/*# sourceMappingURL=src_styles_cart_modules_99a693.css.map*/

@@ -2,26 +2,11 @@
 .learn {
   position: relative;
   height: 100%;
-  padding: 60px 40px;
+  padding: 60px 0;
   font-weight: 480;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-}
-
-.learn:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url("../media/manHoldingDrink.273a0221.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(50%);
-  z-index: -1;
 }
 
 .learn__container_overall {
@@ -39,7 +24,10 @@
   font-weight: 600;
   line-height: 30px;
   color: #fff;
+  text-transform: uppercase;
   text-align: center;
+  font-family: ClashDisplay;
+  font-weight: 700;
 }
 
 .learn__container {
@@ -47,8 +35,8 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  gap: 40px;
+  justify-content: flex-end;
+  gap: 200px;
 }
 
 .learn__content {
@@ -87,6 +75,7 @@
   border-bottom: 1px solid #fff;
   margin-top: 80px;
   padding: 20px;
+  text-align: left;
   font-size: 16px;
   font-weight: 600;
   line-height: 19.5px;
@@ -103,7 +92,7 @@
 }
 
 .learn__content_sliders {
-  width: 100%;
+  width: 95%;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -113,13 +102,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
   color: #fff;
   border-radius: 8px;
   width: 24px;
   height: 24px;
-  pointer-events: none;
-  cursor: not-allowed;
+  cursor: pointer;
   color: gray;
 }
 
@@ -257,6 +245,10 @@
   .learn_image_one {
     width: 118.86px;
     height: 138.67px;
+  }
+
+  .learn__content_sliders {
+    width: 100%;
   }
 
   .learn_image_two {

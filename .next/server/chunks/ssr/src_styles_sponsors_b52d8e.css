@@ -5,6 +5,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #fff;
+  overflow: hidden;
 }
 
 .sponsors-container {
@@ -16,13 +18,41 @@
 
 .sponsors-container_overall {
   display: flex;
-  gap: 80px;
+  gap: 50px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.sponsors-container_overall::-webkit-scrollbar {
+  display: none;
+}
+
+.sponsors-container_overall > div {
+  min-width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform .5s ease-in-out;
+}
+
+.sponsors-container_overall > div:hover {
+  transform: scale(1.1);
+}
+
+.scroll-btn {
+  background-color: #0000;
+  border: none;
+  cursor: pointer;
 }
 
 .sponsors-btns {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  margin-top: -20px;
 }
 
 /*# sourceMappingURL=src_styles_sponsors_b52d8e.css.map*/

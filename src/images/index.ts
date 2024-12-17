@@ -42,6 +42,7 @@ import vodaBeach from "./voda beach logo 1.png"
 import movement_one from "./movement_1.jpeg"
 import movement_two from "./movement_2.jpeg"
 import coupleHoldingdrinks from "./Frame 1522851667.png"
+import singleCarabaoDrink from "./singleCarabaoDrink.png"
 import four from "./04.png"
 import distributorBackgroundImage from "./distributorBackgroundImage.jpeg"
 import storeBackgroundImage from "./storeimage.jpeg"
@@ -69,6 +70,7 @@ export {
     askamaya,
     ebeano,
     secretPalace,
+    singleCarabaoDrink,
     vodaBeach,
     movement_one,
     movement_two,

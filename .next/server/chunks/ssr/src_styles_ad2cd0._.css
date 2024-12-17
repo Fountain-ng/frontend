@@ -198,21 +198,6 @@
   justify-content: space-between;
 }
 
-.carabao:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url("/_next/static/media/manholdingcarabao.89455a57.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(50%);
-  z-index: -1;
-}
-
 .carabao__container {
   width: 100%;
 }
@@ -264,6 +249,8 @@
   width: 100%;
   height: 100%;
   padding: 60px 30px;
+  background-color: #fff;
+  background: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -291,6 +278,8 @@
 
 .carabao_influencers {
   width: 100%;
+  background-color: #fff;
+  background: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -319,9 +308,11 @@
 }
 
 .brand__sponsor {
+  background-color: #fff;
+  background: #fff;
   width: 100%;
   height: 100%;
-  padding: 60px 30px;
+  padding: 100px 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -398,6 +389,15 @@
     font-size: 35px;
   }
 
+  .brand__sponsor {
+    width: 100%;
+    height: 100%;
+    padding: 50px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .brand__sponsor_container {
     width: 100%;
     max-width: 1106px;
@@ -446,6 +446,9 @@
 
   .carabao-names-identity {
     margin-left: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
   }
 
   .carabao_influencers {

@@ -4,30 +4,52 @@
     padding: 80px 20px;
     border-top: 1px dotted #000;
     border-bottom: 1px dotted #000;
+    background-color: #fff;
     display: flex;
     justify-content: center;
 }
+.testimony {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    position: relative;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    width: 80%;
+}
 .testimonies-container{
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  overflow: hidden;
 }
 .testimony_text{
+    color: #000;
     font-size: 24px;
     font-family: "Montserrat Alternates", sans-serif;
 }
 .testimony_name{
+    color: #000;
     display: flex;
     justify-content: flex-end;
     font-size: 16px;
     font-family: "Montserrat Alternates", sans-serif;
 }
-.testimony{
+.arrow-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #000;
     display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
+    align-items: center;
+  }
+  
+  .arrow-button:hover {
+    color: #666;
+  }
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     .testimonies-container {

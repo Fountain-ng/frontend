@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../styles/fountainfamily.css';
 import Pin from '@/icons/pin';
+import img from "../../images/Fountainfamily.png"
 import Ellipse from '@/icons/dot';
 
 
@@ -9,6 +10,21 @@ const FountainFamily = () => {
         <div>
             <section className='family'>
                 <div className='family-container'>
+                <div
+                    style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    bottom: 0,
+                    backgroundImage: `url(${img.src})`, // Correct way to reference the imported image
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    backgroundRepeat: 'no-repeat',
+                    filter: 'brightness(50%)',
+                    zIndex: -1, // Ensures it's behind content
+                    }}
+                ></div>
                     <div className='family-container_overall'>
                         <h1 className='family-container_overall_header'>JOIN THE FOUNTAIN FAMILY</h1>
                         <div>

@@ -17,15 +17,16 @@
     line-height: 30px;
     letter-spacing: 1.5px;
     color: #041D0FCC;
-    font-family: 'CustomFont';
+    font-family: 'ClashDisplay';
+    font-weight: 800;
 }
 .about__title-4{
     font-size: 48px;
-    font-weight: 800;
     line-height: 30px;
     letter-spacing: 1.5px;
     color: #041D0FCC;
-    font-family: 'CustomFont';
+    font-family: 'ClashDisplay';
+    font-weight: 800;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -52,15 +53,93 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 360px;
+    max-width: 360px;
     height: 60px;
+    margin-top: 30px;
+    padding: 10px 20px;
     border-top: 1px solid #D02227;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
     border-bottom: 1px solid #D02227;
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 600;
     font-size: 16px;
     color: #D02227;
 }
+.about-description-btn:hover{
+    background-color: #D02227;
+    color: #ffffff;
+}
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes zoomIn {
+    from {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .fade-in-up {
+    opacity: 0;
+    animation: fadeInUp 1s ease-out forwards;
+  }
+  
+  .zoom-in {
+    opacity: 0;
+    animation: zoomIn 1s ease-out forwards;
+  }
+  
+  .slide-in-left {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slideInLeft 1s ease-out forwards;
+  }
+  
+  .slide-in-right {
+    opacity: 0;
+    transform: translateX(100%);
+    animation: slideInRight 1s ease-out forwards;
+  }
+  
+  @keyframes slideInLeft {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInRight {
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .bounce-hover:hover {
+    animation: bounce 0.5s ease-in-out;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+  }
+  
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     .about__title-1, .about__title-2, .about__title-3, .about__title-4{
         font-size: 38px;

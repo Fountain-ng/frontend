@@ -109,21 +109,6 @@
   justify-content: center;
 }
 
-.hero:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: url("/_next/static/media/herobackgroundImg.f22f7da3.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: brightness(10%);
-  z-index: -1;
-}
-
 .hero__content {
   position: relative;
   color: #fff;
@@ -143,7 +128,8 @@
 
 .hero__title {
   font-size: 4rem;
-  font-family: YourCustomFont;
+  font-family: ClashDisplay;
+  font-weight: 800;
   text-transform: uppercase;
 }
 
@@ -235,6 +221,7 @@
   .hero {
     height: 100%;
     padding: 50px 20px;
+    margin-bottom: 50px;
   }
 
   .hero__title {
@@ -289,16 +276,17 @@
   line-height: 30px;
   letter-spacing: 1.5px;
   color: #041d0fcc;
-  font-family: CustomFont;
+  font-family: ClashDisplay;
+  font-weight: 800;
 }
 
 .about__title-4 {
   font-size: 48px;
-  font-weight: 800;
   line-height: 30px;
   letter-spacing: 1.5px;
   color: #041d0fcc;
-  font-family: CustomFont;
+  font-family: ClashDisplay;
+  font-weight: 800;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -327,14 +315,96 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 360px;
+  max-width: 360px;
   height: 60px;
+  margin-top: 30px;
+  padding: 10px 20px;
   border-top: 1px solid #d02227;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
   border-bottom: 1px solid #d02227;
   font-family: Montserrat Alternates, sans-serif;
   font-weight: 600;
   font-size: 16px;
   color: #d02227;
+}
+
+.about-description-btn:hover {
+  background-color: #d02227;
+  color: #fff;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(.5);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.fade-in-up {
+  opacity: 0;
+  animation: 1s ease-out forwards fadeInUp;
+}
+
+.zoom-in {
+  opacity: 0;
+  animation: 1s ease-out forwards zoomIn;
+}
+
+.slide-in-left {
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: 1s ease-out forwards slideInLeft;
+}
+
+.slide-in-right {
+  opacity: 0;
+  transform: translateX(100%);
+  animation: 1s ease-out forwards slideInRight;
+}
+
+@keyframes slideInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.bounce-hover:hover {
+  animation: .5s ease-in-out bounce;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
 }
 
 @media only screen and (width >= 769px) and (width <= 1024px) {
@@ -417,6 +487,7 @@
 /* [project]/src/styles/Product.css [app-client] (css) */
 .product {
   border-top: 1px dashed #000;
+  background-color: #fff;
   height: 100%;
   padding: 60px 30px;
 }
@@ -430,7 +501,8 @@
 }
 
 .product__title_text {
-  font-weight: 700;
+  font-family: ClashDisplay;
+  font-weight: 800;
   font-size: 30px;
 }
 
@@ -449,6 +521,12 @@
   max-width: 400px;
   max-height: 480px;
   color: #fff;
+}
+
+.product_main_heading {
+  color: #000;
+  font-family: ClashDisplay;
+  font-weight: 700;
 }
 
 .product__content-1 {
@@ -802,8 +880,7 @@
 /* [project]/src/styles/storeLocator.css [app-client] (css) */
 .store {
   width: 100%;
-  height: 100%;
-  padding: 100px 0;
+  height: 900px;
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -817,6 +894,8 @@
   margin-bottom: 50px;
   font-size: 32px;
   font-weight: 600;
+  font-family: ClashDisplay;
+  font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -849,6 +928,7 @@
 .search_field_input {
   border: none;
   outline: none;
+  background: none;
   font-size: 18px;
   font-family: Montserrat Alternates, sans-serif;
 }
@@ -903,6 +983,7 @@
   justify-content: center;
   border-top: 1px solid #d02227;
   border-bottom: 1px solid #d02227;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
   margin-top: 80px;
   padding: 20px;
   font-size: 16px;
@@ -914,8 +995,8 @@
 }
 
 .map_content_button:hover {
-  border-left: 1px solid #d02227;
-  border-right: 1px solid #d02227;
+  background-color: #d02227;
+  color: #fff;
 }
 
 @media only screen and (width >= 481px) and (width <= 768px) {

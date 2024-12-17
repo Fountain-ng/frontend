@@ -1,0 +1,241 @@
+/* [project]/src/styles/shop.css [app-client] (css) */
+.shop {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  font-weight: 480;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.shop__container {
+  width: 100%;
+}
+
+.shop__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.shop__content-title {
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 88px;
+  letter-spacing: .02em;
+  text-align: center;
+  color: #fff;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.shop__content-text {
+  font-family: Montserrat Alternates, sans-serif;
+  font-size: 20px;
+  color: #fff;
+}
+
+.shop-names-identity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.shop-names-identity a {
+  font-size: 16px;
+  font-weight: 480;
+  line-height: 28px;
+  color: #fff;
+  letter-spacing: .02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.shop__store_selection {
+  width: 100%;
+  height: 100%;
+  padding: 80px 30px;
+}
+
+.shop__store_selection__container {
+  display: flex;
+  align-items: flex-start;
+  gap: 250px;
+}
+
+.shop__store_selection__content_product {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.shop__store_selection__content-title {
+  padding: 10px 12px;
+}
+
+.shop_special {
+  font-family: Montserrat Alternates, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #d02227;
+  background-color: #c7c7cc;
+  border-top: 1px solid #000;
+  padding: 16px 12px;
+}
+
+.shop__store_selection__content-text {
+  border-top: 1px solid #000;
+  padding: 16px 12px;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 1px solid #000;
+}
+
+.shop__store_selection__content_product__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.shop__store_selection__content_product__text h1 {
+  font-family: Montserrat Alternates, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.01px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.shop__store_selection__content_product__text p {
+  font-family: Montserrat Alternates, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.shop__store_selection__content_product__container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.shop__store_selection__content_product__container_price {
+  color: #146b38;
+  font-size: 24px;
+  font-family: Montserrat Alternates, sans-serif;
+  font-weight: 600;
+}
+
+.shop__store_selection__content_product__counter {
+  border: 1px solid #146b38;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+.shop__store_selection__content_product__counter__btn {
+  border: none;
+  background-color: #0000;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.shop_btn {
+  max-width: 230px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  font-family: Montserrat Alternates, sans-serif;
+  border-top: 1px solid #d02227;
+  border-bottom: 1px solid #d02227;
+  color: #d02227;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 30px;
+  transition: background-color .3s ease-in-out, color .3s ease-in-out;
+}
+
+.shop_btn:hover {
+  background-color: #d02227;
+  color: #fff;
+}
+
+@media only screen and (width >= 481px) and (width <= 768px) {
+  .shop__content-title {
+    font-size: 60px;
+  }
+
+  .shop__content-text {
+    margin: 0 20px;
+    text-align: center;
+  }
+}
+
+@media (width <= 480px) {
+  .shop__content-title {
+    font-size: 35px;
+  }
+
+  .shop__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .shop__content-text {
+    font-size: 16px;
+    margin: 0 20px;
+    text-align: center;
+  }
+
+  .shop-names-identity a {
+    font-size: 14px;
+  }
+
+  .shop-names-identity {
+    margin-left: 15px;
+  }
+
+  .shop__store_selection__content {
+    display: flex;
+    gap: 20px;
+  }
+
+  .shop__store_selection__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .shop__store_selection__content_product {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .shop__store_selection__content-title {
+    display: none;
+  }
+
+  .shop__store_selection__content_product_image {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/*# sourceMappingURL=src_styles_shop_b52d8e.css.map*/
