@@ -45,7 +45,7 @@ const Learn = () => {
                         <Ellipse />
                         <p className="learn__content-text-1">Tropical flavors —stay energized, stay focused.</p>
                     </div>
-                    <a href="/carabao" className="learn_content_button">LEARN MORE ABOUT CARABAO </a>
+                    <a href="/brand/carabao" className="learn_content_button">LEARN MORE ABOUT CARABAO </a>
                 </div>
             </div>
             <div className="learn__content-images_container">

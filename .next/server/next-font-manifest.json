@@ -1,13 +1,13 @@
 {
   "app": {
     "[project]/src/app/page": [],
-    "[project]/src/app/store/page": [],
-    "[project]/src/app/distributor/page": [],
     "[project]/src/app/carabao/page": [],
-    "[project]/src/app/_not-found/page": [],
-    "[project]/src/app/shop/page": [],
     "[project]/src/app/Brand/page": [],
-    "[project]/src/app/cart/page": []
+    "[project]/src/app/_not-found/page": [],
+    "[project]/src/app/brand/page": [],
+    "[project]/src/app/brand/carabao/page": [],
+    "[project]/src/app/store/page": [],
+    "[project]/src/app/shop/page": []
   },
   "appUsingSizeAdjust": false,
   "pages": {},

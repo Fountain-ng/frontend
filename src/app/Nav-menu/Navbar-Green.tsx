@@ -1,6 +1,6 @@
-'use client';
+"use client";
 import React from "react";
-import "../../styles/Green-Navbar.css"
+import "../../styles/Green-Navbar.css";
 import Image from "next/image";
 import Link from "next/link";
 import Search from "@/icons/search";
@@ -10,7 +10,6 @@ import { whiteLogo } from "@/images";
 import Cart from "@/icons/shoppingcart";
 
 const Normalnavbar = () => {
-
   return (
     <header className="normal-navbar">
       <Link href="/">
@@ -24,7 +23,7 @@ const Normalnavbar = () => {
       </Link>
 
       <div className="navbar__cta">
-        <Link href="#" className="navbar__cta-btn">
+        {/* <Link href="#" className="navbar__cta-btn">
           <Search/>
         </Link>
         <Link href="/cart" className="navbar__cta-btn">
@@ -32,9 +31,9 @@ const Normalnavbar = () => {
         </Link>
         <Link href="#" className="navbar__cta-btn">
           <User/>
-        </Link>
-        <Link href="/Brand" className="navbar__cta-btn">
-          <Menu/>
+        </Link> */}
+        <Link href="" className="navbar__cta-btn">
+          <Menu />
         </Link>
       </div>
     </header>
